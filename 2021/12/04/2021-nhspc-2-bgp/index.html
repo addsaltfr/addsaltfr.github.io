@@ -17,30 +17,30 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"mtmatt.one","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.17.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"mtmattone.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.17.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="前言我發現，全國能力競賽的難度似乎與我預期的有落差，這一題也是我唯一一個完全解開的題目。真的好難！ 題目敘述 :「BGP 劫持（BGP Hijacking）」是⼀種透過「邊界閘道器協定（Border Gateway Protocol,BGP）」 的性質進⾏攻擊的⼿段。簡單來說，每個伺服器會宣稱⾃⼰擁有⼀段 IP，並將這個訊息傳遞給周遭的伺服器，來更新他們的路由表。周遭的伺服器也會將這個更新繼續往外">
 <meta property="og:type" content="article">
 <meta property="og:title" content="2021 全國學科能力競賽模擬賽 2.BGP">
-<meta property="og:url" content="http://mtmatt.one/2021/12/04/2021-nhspc-2-bgp/index.html">
+<meta property="og:url" content="http://mtmattone.github.io/2021/12/04/2021-nhspc-2-bgp/index.html">
 <meta property="og:site_name" content="mtMatt.One">
 <meta property="og:description" content="前言我發現，全國能力競賽的難度似乎與我預期的有落差，這一題也是我唯一一個完全解開的題目。真的好難！ 題目敘述 :「BGP 劫持（BGP Hijacking）」是⼀種透過「邊界閘道器協定（Border Gateway Protocol,BGP）」 的性質進⾏攻擊的⼿段。簡單來說，每個伺服器會宣稱⾃⼰擁有⼀段 IP，並將這個訊息傳遞給周遭的伺服器，來更新他們的路由表。周遭的伺服器也會將這個更新繼續往外">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51722846052_b2fde783ca_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51723904893_dce9ea825e_o.png">
 <meta property="article:published_time" content="2021-12-04T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-07-28T05:21:48.094Z">
+<meta property="article:modified_time" content="2023-07-28T10:31:51.445Z">
 <meta property="article:author" content="mtMatt">
 <meta property="article:tag" content="competition">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://live.staticflickr.com/65535/51722846052_b2fde783ca_o.png">
 
 
-<link rel="canonical" href="http://mtmatt.one/2021/12/04/2021-nhspc-2-bgp/">
+<link rel="canonical" href="http://mtmattone.github.io/2021/12/04/2021-nhspc-2-bgp/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://mtmatt.one/2021/12/04/2021-nhspc-2-bgp/","path":"2021/12/04/2021-nhspc-2-bgp/","title":"2021 全國學科能力競賽模擬賽 2.BGP"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://mtmattone.github.io/2021/12/04/2021-nhspc-2-bgp/","path":"2021/12/04/2021-nhspc-2-bgp/","title":"2021 全國學科能力競賽模擬賽 2.BGP"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
 <title>2021 全國學科能力競賽模擬賽 2.BGP | mtMatt.One</title>
@@ -158,7 +158,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://mtmatt.one/2021/12/04/2021-nhspc-2-bgp/">
+    <link itemprop="mainEntityOfPage" href="http://mtmattone.github.io/2021/12/04/2021-nhspc-2-bgp/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -194,7 +194,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -255,8 +255,8 @@
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/12/11/atcoder-abc-215-a-your-first-judge/" rel="next" title="AtCoder ABC 215 A">
-                  AtCoder ABC 215 A <i class="fa fa-chevron-right"></i>
+                <a href="/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/" rel="next" title="AtCoder ABC 215 C">
+                  AtCoder ABC 215 C <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
