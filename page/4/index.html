@@ -836,92 +836,6 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://mtmatt.one/2021/07/13/hacker-rank-set-and-map-1-ransom-note/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mtMatt">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/07/13/hacker-rank-set-and-map-1-ransom-note/" class="post-title-link" itemprop="url">HackerRank Set And Map 1.Ransom Note</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-07-13 08:00:00" itemprop="dateCreated datePublished" datetime="2021-07-13T08:00:00+08:00">2021-07-13</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:19:30" itemprop="dateModified" datetime="2023-07-28T13:19:30+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="題目連結：Hash-Tables-Ransom-Note-HackerRank"><a href="#題目連結：Hash-Tables-Ransom-Note-HackerRank" class="headerlink" title="題目連結：Hash Tables: Ransom Note | HackerRank"></a>題目連結：<a target="_blank" rel="noopener" href="https://www.hackerrank.com/challenges/ctci-ransom-note/">Hash Tables: Ransom Note | HackerRank</a></h3><p>這APCS應該不會考吧？</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">checkMagazine</span><span class="params">(vector&lt;string&gt; magazine, vector&lt;string&gt; note)</span> </span>&#123;</span><br><span class="line">    unordered_map&lt;string,<span class="type">int</span>&gt; m,n;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> a:magazine)&#123;</span><br><span class="line">        m[a]++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> a:note)&#123;</span><br><span class="line">        n[a]++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> a:n)&#123;</span><br><span class="line">        <span class="keyword">if</span>(m[a.first]&lt;n[a.first])&#123;</span><br><span class="line">            cout&lt;&lt;<span class="string">&quot;No\n&quot;</span>;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;Yes\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://mtmatt.one/2021/07/13/hacker-rank-array-5-array-manipulation/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -982,6 +896,91 @@
     <div class="post-body" itemprop="articleBody">
           <h3 id="題目連結：Array-Manipulation-HackerRank"><a href="#題目連結：Array-Manipulation-HackerRank" class="headerlink" title="題目連結：Array Manipulation | HackerRank"></a>題目連結：<a target="_blank" rel="noopener" href="https://www.hackerrank.com/challenges/crush/">Array Manipulation | HackerRank</a></h3><p>只要算開始與結束即可</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">edge</span>&#123;</span><br><span class="line">    <span class="type">int</span> s,e,c;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">long</span> <span class="title">arrayManipulation</span><span class="params">(<span class="type">int</span> n, vector&lt;edge&gt; q)</span> </span>&#123;</span><br><span class="line">    <span class="type">long</span> mx=<span class="number">0</span>,now=<span class="number">0</span>;</span><br><span class="line">    <span class="built_in">sort</span>(q.<span class="built_in">begin</span>(),q.<span class="built_in">end</span>(),[](edge a,edge b)&#123;</span><br><span class="line">        <span class="keyword">return</span> a.s&lt;b.s;</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="function">vector&lt;edge&gt; <span class="title">bk</span><span class="params">(q)</span></span>;</span><br><span class="line">    <span class="built_in">sort</span>(bk.<span class="built_in">begin</span>(),bk.<span class="built_in">end</span>(),[](edge a,edge b)&#123;</span><br><span class="line">        <span class="keyword">return</span> a.e&lt;b.e;</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> i=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> a:q)&#123;</span><br><span class="line">        now+=a.c;</span><br><span class="line">        <span class="keyword">while</span>(i&lt;q.<span class="built_in">size</span>() &amp;&amp; a.s&gt;bk[i].e)&#123;</span><br><span class="line">            now-=bk[i].c;</span><br><span class="line">            i++;</span><br><span class="line">        &#125;</span><br><span class="line">        mx=<span class="built_in">max</span>(mx,now);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> mx;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://mtmatt.one/2021/07/13/hacker-rank-array-3-new-year-chaos/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mtMatt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="mtMatt.One">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | mtMatt.One">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/07/13/hacker-rank-array-3-new-year-chaos/" class="post-title-link" itemprop="url">HackerRank Array 3.New Year Chaos</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-07-13 08:00:00" itemprop="dateCreated datePublished" datetime="2021-07-13T08:00:00+08:00">2021-07-13</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-07-28 13:19:30" itemprop="dateModified" datetime="2023-07-28T13:19:30+08:00">2023-07-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="題目連結：New-Year-Chaos-HackerRank"><a href="#題目連結：New-Year-Chaos-HackerRank" class="headerlink" title="題目連結：New Year Chaos | HackerRank"></a>題目連結：<a target="_blank" rel="noopener" href="https://www.hackerrank.com/challenges/new-year-chaos/">New Year Chaos | HackerRank</a></h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">minimumBribes</span><span class="params">(vector&lt;<span class="type">int</span>&gt; q)</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> ans=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=q.<span class="built_in">size</span>()<span class="number">-1</span>;i&gt;=<span class="number">0</span>;i--) &#123;</span><br><span class="line">        <span class="keyword">if</span>(q[i]-(i+<span class="number">1</span>)&gt;<span class="number">2</span>)&#123;</span><br><span class="line">            cout&lt;&lt;<span class="string">&quot;Too chaotic\n&quot;</span>;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=<span class="built_in">max</span>(<span class="number">0</span>,q[i]<span class="number">-2</span>);j&lt;i;j++)</span><br><span class="line">            <span class="keyword">if</span>(q[j]&gt;q[i])ans++;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;ans&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
