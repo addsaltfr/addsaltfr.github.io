@@ -184,7 +184,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:31" itemprop="dateModified" datetime="2023-07-28T13:19:31+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -285,7 +285,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:31" itemprop="dateModified" datetime="2023-07-28T13:19:31+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -376,7 +376,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:31" itemprop="dateModified" datetime="2023-07-28T13:19:31+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -466,7 +466,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:31" itemprop="dateModified" datetime="2023-07-28T13:19:31+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -495,102 +495,6 @@
 
 <h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>用埃氏篩法在log(n)的時間內做質因數分解，接著將所有數字的質因數聯集存在bitset中，最後判斷1~m的所有數字的質因數之中有無存於bitset中。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> ll=<span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"><span class="type">const</span> ll N=<span class="number">100010</span>;</span><br><span class="line"><span class="meta">#<span class="keyword">define</span> IO_SPEEDUP ios::sync_with_stdio(0);cin.tie(0);</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> IO_INIT cout&lt;&lt;fixed&lt;&lt;setprecision(6);</span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n,m;</span><br><span class="line"><span class="type">int</span> pri[N];</span><br><span class="line">bitset&lt;N&gt; bt;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">init</span><span class="params">()</span></span>&#123;</span><br><span class="line">    pri[<span class="number">1</span>]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">2</span>;i&lt;N;++i)&#123;</span><br><span class="line">        <span class="keyword">if</span>(pri[i]==<span class="number">0</span>)&#123;</span><br><span class="line">            pri[i]=i;</span><br><span class="line">            <span class="keyword">for</span>(ll k=(ll)i*i;k&lt;N;k+=i)</span><br><span class="line">                pri[k]=i;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">div</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(pri[n]&gt;<span class="number">0</span>)&#123;</span><br><span class="line">        bt[pri[n]]=<span class="literal">true</span>;</span><br><span class="line">        n/=pri[n];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">check</span><span class="params">(<span class="type">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">while</span>(pri[n]&gt;<span class="number">0</span>)&#123;</span><br><span class="line">        <span class="keyword">if</span>(bt[pri[n]])&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        n/=pri[n];</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    IO_SPEEDUP; IO_INIT;</span><br><span class="line"></span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="built_in">init</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n;++i)&#123;</span><br><span class="line">        <span class="type">int</span> a;</span><br><span class="line">        cin&gt;&gt;a;</span><br><span class="line">        <span class="built_in">div</span>(a);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    vector&lt;<span class="type">int</span>&gt; ans;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=m;++i)&#123;</span><br><span class="line">        <span class="keyword">if</span>(<span class="built_in">check</span>(i))&#123;</span><br><span class="line">            ans.<span class="built_in">emplace_back</span>(i);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    cout&lt;&lt;ans.<span class="built_in">size</span>()&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i:ans)&#123;</span><br><span class="line">        cout&lt;&lt;i&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://mtmatt.one/2021/12/11/atcoder-abc-215-a-your-first-judge/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mtMatt">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/12/11/atcoder-abc-215-a-your-first-judge/" class="post-title-link" itemprop="url">AtCoder ABC 215 A</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="題目連結：AtCoder-Beginner-Contest-215-A-Your-First-Judge"><a href="#題目連結：AtCoder-Beginner-Contest-215-A-Your-First-Judge" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: A - Your First Judge"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_a" title="題目連結">AtCoder Beginner Contest 215: A - Your First Judge</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>給定一個字串 S, 輸出 AC 若 S&#x3D;&#x3D;”Hello,World!” 否則輸出 WA.</p>
-<h4 id="輸入說明"><a href="#輸入說明" class="headerlink" title="輸入說明 :"></a>輸入說明 :</h4><p>輸⼊一行字串</p>
-<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,World!</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AC</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸入-2"><a href="#範例輸入-2" class="headerlink" title="範例輸入 2 :"></a>範例輸入 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,world!</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WA</span><br></pre></td></tr></table></figure>
-
-<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>直接判斷即可(s &#x3D;&#x3D; “Hello,World!”)</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    string ipt;</span><br><span class="line">    cin&gt;&gt;ipt;</span><br><span class="line">    <span class="keyword">if</span>(ipt==<span class="string">&quot;Hello,World!&quot;</span>)&#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;AC&quot;</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;WA&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -653,7 +557,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:31" itemprop="dateModified" datetime="2023-07-28T13:19:31+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -688,7 +592,103 @@
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> ct=<span class="number">0</span>;</span><br><span class="line">    <span class="type">long</span> <span class="type">long</span> ans=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(ans*<span class="number">2</span>&lt;=n)&#123;</span><br><span class="line">        ans&lt;&lt;=<span class="number">1</span>;</span><br><span class="line">        ct++;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;ct;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h3 id="注意"><a href="#注意" class="headerlink" title="注意!"></a>注意!</h3><p>用內建函式<code>log2(n)</code>式不會過的喔！</p>
-<p><img src="https://live.staticflickr.com/65535/51738037522_32a924e525_o.png"></p>
+<p><img src="/images/51738037522_32a924e525_o.png"></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://mtmatt.one/2021/12/11/atcoder-abc-215-a-your-first-judge/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mtMatt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="mtMatt.One">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | mtMatt.One">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/12/11/atcoder-abc-215-a-your-first-judge/" class="post-title-link" itemprop="url">AtCoder ABC 215 A</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-07-28 13:19:31" itemprop="dateModified" datetime="2023-07-28T13:19:31+08:00">2023-07-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="題目連結：AtCoder-Beginner-Contest-215-A-Your-First-Judge"><a href="#題目連結：AtCoder-Beginner-Contest-215-A-Your-First-Judge" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: A - Your First Judge"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_a" title="題目連結">AtCoder Beginner Contest 215: A - Your First Judge</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>給定一個字串 S, 輸出 AC 若 S&#x3D;&#x3D;”Hello,World!” 否則輸出 WA.</p>
+<h4 id="輸入說明"><a href="#輸入說明" class="headerlink" title="輸入說明 :"></a>輸入說明 :</h4><p>輸⼊一行字串</p>
+<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,World!</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AC</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸入-2"><a href="#範例輸入-2" class="headerlink" title="範例輸入 2 :"></a>範例輸入 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,world!</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WA</span><br></pre></td></tr></table></figure>
+
+<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>直接判斷即可(s &#x3D;&#x3D; “Hello,World!”)</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    string ipt;</span><br><span class="line">    cin&gt;&gt;ipt;</span><br><span class="line">    <span class="keyword">if</span>(ipt==<span class="string">&quot;Hello,World!&quot;</span>)&#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;AC&quot;</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;WA&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -751,7 +751,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:31" itemprop="dateModified" datetime="2023-07-28T13:19:31+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -846,7 +846,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:31" itemprop="dateModified" datetime="2023-07-28T13:19:31+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -883,8 +883,8 @@
 <h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-1</span><br></pre></td></tr></table></figure>
 
 <h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>剛看到題目可能會以為是漢米頓路徑。然而實際上仔細閱讀後應該會發現，他保證圖是一個DAG，也因此可以主張一個貪婪法性質，必須由入度為0的點開始。並且，因為入度為0的點沒有進入的邊，所以兩個或以上的點入度為0時保證沒有路徑。如下圖</p>
-<p><img src="https://live.staticflickr.com/65535/51722846052_b2fde783ca_o.png" alt="BGP_1">必定是依照 1 -&gt; 2 -&gt; 3 的順序拔點，而下圖是一個沒有路徑的範例</p>
-<p><img src="https://live.staticflickr.com/65535/51723904893_dce9ea825e_o.png" alt="BGP_2">因為拔完1之後有兩個點入度為0，所以無解。</p>
+<p><img src="/images/51722846052_b2fde783ca_o.png" alt="BGP_1">必定是依照 1 -&gt; 2 -&gt; 3 的順序拔點，而下圖是一個沒有路徑的範例</p>
+<p><img src="/images/51723904893_dce9ea825e_o.png" alt="BGP_2">因為拔完1之後有兩個點入度為0，所以無解。</p>
 <p>實作程式碼如下(因為比賽所以含有比較多巨集和一些其他的簡化技巧，我會在使用時加上註解)</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//縮短long long變數宣告以及常用常數</span></span><br><span class="line"><span class="keyword">using</span> ll=<span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"><span class="type">const</span> ll MOD=<span class="number">1e9</span>+<span class="number">7</span>;</span><br><span class="line"><span class="type">const</span> ll INF=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="type">const</span> ll LINF=<span class="number">0x3f3f3f3f3f3f3f3f</span>;</span><br><span class="line"><span class="type">const</span> ll N=<span class="number">1000010</span>;</span><br><span class="line"><span class="type">const</span> ll M=<span class="number">1010</span>;</span><br><span class="line"><span class="type">const</span> <span class="type">long</span> <span class="type">double</span> PI=<span class="number">3.14159265358979</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//巨集(競賽縮短程式碼技巧)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> ALL(v) v.begin(),v.end();</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> siz(v) ((int)v.size())</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> F first</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> S second</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> EB emplace_back</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PB pop_back</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> EF emplace_front</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PF pop_front</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> EE emplace</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> rs resize</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MP make_pair</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> prior=priority_queue&lt;T&gt;;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> Prior=priority_queue&lt;T,vector&lt;T&gt;,greater&lt;T&gt;&gt;;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="keyword">typename</span> T&gt; <span class="keyword">using</span> Stack=stack&lt;T,vector&lt;T&gt;&gt;;</span><br><span class="line"><span class="keyword">using</span> pii=pair&lt;<span class="type">int</span>,<span class="type">int</span>&gt;;</span><br><span class="line"><span class="keyword">using</span> pll=pair&lt;ll,ll&gt;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//N=1000010</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; g[N];</span><br><span class="line"><span class="comment">//ind存入度</span></span><br><span class="line"><span class="type">int</span> ind[N];</span><br><span class="line"><span class="type">int</span> n,m;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;++i)&#123;</span><br><span class="line">        <span class="type">int</span> f,t;</span><br><span class="line">        cin&gt;&gt;f&gt;&gt;t;</span><br><span class="line"><span class="comment">//      EB -&gt; emplace_back</span></span><br><span class="line">        g[f].<span class="built_in">EB</span>(t);</span><br><span class="line">        ind[t]++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    queue&lt;<span class="type">int</span>&gt; bfs;</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> ctind=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;++i)&#123;</span><br><span class="line">        <span class="keyword">if</span>(ind[i]==<span class="number">0</span>)&#123;</span><br><span class="line">            ctind++;</span><br><span class="line"><span class="comment">//          EE -&gt; emplace</span></span><br><span class="line">            bfs.<span class="built_in">EE</span>(i);</span><br><span class="line"><span class="comment">//          兩個或以上的點入度為0</span></span><br><span class="line">            <span class="keyword">if</span>(ctind&gt;<span class="number">1</span>)&#123;</span><br><span class="line">                cout&lt;&lt;<span class="number">-1</span>;</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    vector&lt;<span class="type">int</span>&gt; ans;</span><br><span class="line">    <span class="keyword">while</span>(!bfs.<span class="built_in">empty</span>())&#123;</span><br><span class="line">        <span class="type">int</span> n=bfs.<span class="built_in">front</span>();</span><br><span class="line">        bfs.<span class="built_in">pop</span>();</span><br><span class="line"><span class="comment">//      EB -&gt; emplace_back</span></span><br><span class="line">        ans.<span class="built_in">EB</span>(n);</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> ctind=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> i:g[n])&#123;</span><br><span class="line">            ind[i]--;</span><br><span class="line">            <span class="keyword">if</span>(ind[i]==<span class="number">0</span>)&#123;</span><br><span class="line">                ctind++;</span><br><span class="line"><span class="comment">//              EE -&gt; emplace</span></span><br><span class="line">                bfs.<span class="built_in">EE</span>(i);</span><br><span class="line"><span class="comment">//              兩個或以上的點入度為0</span></span><br><span class="line">                <span class="keyword">if</span>(ctind&gt;<span class="number">1</span>)&#123;</span><br><span class="line">                    cout&lt;&lt;<span class="number">-1</span>;</span><br><span class="line">                    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i:ans)&#123;</span><br><span class="line">        cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -949,7 +949,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:30" itemprop="dateModified" datetime="2023-07-28T13:19:30+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -972,7 +972,7 @@
     
     <div class="post-body" itemprop="articleBody">
           <h3 id="題目連結：1143-4-靈犬尋寶-TIOJ-INFOR-Online-Judge"><a href="#題目連結：1143-4-靈犬尋寶-TIOJ-INFOR-Online-Judge" class="headerlink" title="題目連結：1143 - 4.靈犬尋寶 | TIOJ INFOR Online Judge"></a>題目連結：<a target="_blank" rel="noopener" href="https://tioj.ck.tp.edu.tw/problems/1143">1143 - 4.靈犬尋寶 | TIOJ INFOR Online Judge</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>正方形(左下角座標為(0,0)，右上角座標為(99,99))的格網上，有一隻靈犬要尋找一個寶物，格網上除了靈犬與寶物之外，還有一些障礙物。一般情況下，只要不超出格網的邊界，靈犬的每一步最多有8個方向可供選擇，如圖一；但是必須注意，只有在A點沒有障礙物時才可以選擇方向1或方向2，只有在B點沒有障礙物時才可以選擇方向3或方向4，只有在C點沒有障礙物時才可以選擇方向5或方向6，只有在D點沒有障礙物時才可以選擇方向7或方向8。如果靈犬可以從出發的位置走到寶物的位置，其總共使用的步數，理論上應有一個最小值；但是靈犬也有可能無法走到寶物的位置。過程中，靈犬不可以走到障礙物的位置上。</p>
-<p><img src="https://tioj.ck.tp.edu.tw/pimgs/1143.jpg"></p>
+<p><img src="/images/1143.jpg"></p>
 <p>以圖二為例，有多達4個障礙物介於靈犬與寶物之間，但是靈犬最快只要2步就可以到達寶物的位置。圖三是另一個例子，靈犬的位置靠近角落，雖然只有2個障礙物，靈犬卻無法到達寶物的位置。</p>
 <p>請撰寫一個程式，若靈犬可以從最初位置走到寶物的位置時，請列印出其使用之最少步數；若靈犬無法到達寶物的位置，請列印出單字『impossible』。</p>
 <h4 id="輸入說明"><a href="#輸入說明" class="headerlink" title="輸入說明 :"></a>輸入說明 :</h4><p>第一行為一個整數n，代表障礙物的個數，0 ≤ n ≤ 1000。接下來的n行，每行表示一個障礙物的座標，其橫座標值與縱座標值間以一個空白隔開。 再下來的一行，表示靈犬的最初位置，其橫座標值與縱座標值間以一個空白隔開。 最後一行，代表寶物的位置，其橫座標值與縱座標值間以一個空白隔開。 注意：輸入之障礙物、靈犬、寶物皆在不同位置。所有橫、縱座標值均為介於0(含)至99(含)之間的整數。</p>
@@ -1051,7 +1051,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+      <time title="Modified: 2023-07-28 13:19:30" itemprop="dateModified" datetime="2023-07-28T13:19:30+08:00">2023-07-28</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1081,9 +1081,9 @@
 <h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
 
 <h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>很明顯，題目是要最長的路徑，因為最後一個完成的才會是關鍵邏輯閘，並且圖是有向無環圖，我的想法是先做出反圖( f-&gt;t 存成 t-&gt;f )，接著將所有終點接到虛擬點0，並用一次DFS算出所有點的最長路徑。以範測為例。</p>
-<p><img src="https://tioj.ck.tp.edu.tw/pimgs/1142_2.jpg"></p>
+<p><img src="/images/1142_2.jpg"></p>
 <p>原圖的邊有 1-&gt;2, 3-&gt;2, 3-&gt;5, 和 4-&gt;5。我將它存為下圖</p>
-<p><img src="https://live.staticflickr.com/65535/51706596679_dc6f022266.jpg" alt="TIOJ1142_p1"></p>
+<p><img src="/images/51706596679_dc6f022266.jpg" alt="TIOJ1142_p1"></p>
 <p>可以聲稱一個性質”對於每個點而言，只有反圖上累積路徑最長的那幾條，後面的點才會有可能是關鍵邏輯閘”，最後再做一次DFS，知道那些點是關鍵就可以間接算出數量了。</p>
 <p>實作程式碼如下</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> ll=<span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"><span class="type">const</span> ll N=<span class="number">10010</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n,m;</span><br><span class="line"><span class="comment">//dis存運算時間，dp存到這個點的最長距離</span></span><br><span class="line"><span class="type">int</span> dis[N],dp[N];</span><br><span class="line"><span class="comment">//ind表示indegree，ind[i]為零的都是終點</span></span><br><span class="line"><span class="type">int</span> ind[N];</span><br><span class="line"><span class="comment">//圖的鄰接串列表示法</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; g[N];</span><br><span class="line"><span class="comment">//哪些是關鍵</span></span><br><span class="line">bitset&lt;N&gt; ans;</span><br><span class="line"></span><br><span class="line"><span class="comment">//第一次DFS</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">init</span><span class="params">(<span class="type">int</span> node)</span></span>&#123;</span><br><span class="line">    dp[node]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i:g[node])&#123;</span><br><span class="line">        <span class="built_in">init</span>(i);</span><br><span class="line">        dp[node]=<span class="built_in">max</span>(dp[node],dp[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    dp[node]+=dis[node];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//第二次DFS</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> node)</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> mx=<span class="number">0</span>;</span><br><span class="line">    bitset&lt;N&gt; tp;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i:g[node])&#123;</span><br><span class="line">        <span class="keyword">if</span>(dp[i]&gt;mx)&#123;</span><br><span class="line">            tp.<span class="built_in">reset</span>();</span><br><span class="line">            mx=dp[i];</span><br><span class="line">            tp[i]=<span class="literal">true</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span> <span class="keyword">if</span>(dp[i]==mx)&#123;</span><br><span class="line">            tp[i]=<span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i:g[node])&#123;</span><br><span class="line">        <span class="keyword">if</span>(tp[i])&#123;</span><br><span class="line">            <span class="built_in">dfs</span>(i);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    ans|=tp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;++i)&#123;</span><br><span class="line">        cin&gt;&gt;dis[i];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;++i)&#123;</span><br><span class="line">        <span class="type">int</span> f,t;</span><br><span class="line">        cin&gt;&gt;f&gt;&gt;t;</span><br><span class="line">        g[t].<span class="built_in">emplace_back</span>(f);</span><br><span class="line">        ind[f]++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//  將所有終點用點0連接</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;++i)&#123;</span><br><span class="line">        <span class="keyword">if</span>(ind[i]==<span class="number">0</span>)&#123;</span><br><span class="line">            g[<span class="number">0</span>].<span class="built_in">emplace_back</span>(i);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//  最後各跑一次就可以求出答案了</span></span><br><span class="line">    <span class="built_in">init</span>(<span class="number">0</span>);</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    cout&lt;&lt;ans.<span class="built_in">count</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
