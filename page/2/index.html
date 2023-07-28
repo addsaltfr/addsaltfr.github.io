@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
-
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -13,13 +13,14 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"cpp.mtmatt.one","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"cpp.mtmatt.one","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.17.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
-
-    <meta property="og:type" content="website">
+  <meta property="og:type" content="website">
 <meta property="og:title" content="cpp.mtMatt.One">
 <meta property="og:url" content="http://cpp.mtmatt.one/page/2/index.html">
 <meta property="og:site_name" content="cpp.mtMatt.One">
@@ -27,18 +28,21 @@
 <meta property="article:author" content="mtMatt">
 <meta name="twitter:card" content="summary">
 
-
 <link rel="canonical" href="http://cpp.mtmatt.one/page/2/">
 
 
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"page/2/index.html","title":""}</script>
-
-<script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>cpp.mtMatt.One</title>
+  <title>cpp.mtMatt.One</title>
   
-
-
 
 
 
@@ -46,33 +50,56 @@
 
 
   <noscript>
-    <link rel="stylesheet" href="/css/noscript.css">
-  </noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
-  <div class="headband"></div>
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
 
-  <main class="main">
-    <div class="column">
-      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
     </div>
   </div>
 
   <div class="site-meta">
 
     <a href="/" class="brand" rel="start">
-      <i class="logo-line"></i>
+      <span class="logo-line-before"><i></i></span>
       <h1 class="site-title">cpp.mtMatt.One</h1>
-      <i class="logo-line"></i>
+      <span class="logo-line-after"><i></i></span>
     </a>
       <p class="site-subtitle" itemprop="description">backup for mtMatt.one</p>
   </div>
 
   <div class="site-nav-right">
-    <div class="toggle popup-trigger" aria-label="Search" role="button">
+    <div class="toggle popup-trigger">
     </div>
   </div>
 </div>
@@ -80,124 +107,89 @@
 
 
 
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+
+  </li>
+  </ul>
+</nav>
 
 
 
-</header>
-        
-  
-  <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-toc">
-          Table of Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
-
-      <div class="sidebar-panel-container">
-        <!--noindex-->
-        <div class="post-toc-wrap sidebar-panel">
-        </div>
-        <!--/noindex-->
-
-        <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">mtMatt</p>
-  <div class="site-description" itemprop="description"></div>
 </div>
-<div class="site-state-wrap animated">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-        <a href="/archives/">
-          <span class="site-state-item-count">88</span>
-          <span class="site-state-item-name">posts</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">8</span>
-        <span class="site-state-item-name">categories</span>
-      </div>
-      <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">18</span>
-        <span class="site-state-item-name">tags</span>
-      </div>
-  </nav>
-</div>
-
-        </div>
-      </div>
-    </div>
+    </header>
 
     
-  </aside>
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
 
-    </div>
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
 
-    <div class="main-inner index posts-expand">
-
-    
-
-
-<div class="post-block">
+          <div class="content index posts-expand">
+            
+      
   
   
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2022/01/10/apcs-2022-1-9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/01/10/apcs-2022-1-9/" class="post-title-link" itemprop="url">APCS 2022/1/9</a>
+          
+            <a href="/2022/01/10/apcs-2022-1-9/" class="post-title-link" itemprop="url">APCS 2022/1/9</a>
         </h2>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2022-01-10 08:00:00" itemprop="dateCreated datePublished" datetime="2022-01-10T08:00:00+08:00">2022-01-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/apcspracticaltest/" itemprop="url" rel="index"><span itemprop="name">apcspracticaltest</span></a>
-        </span>
-    </span>
+              <time title="Created: 2022-01-10 08:00:00" itemprop="dateCreated datePublished" datetime="2022-01-10T08:00:00+08:00">2022-01-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/apcspracticaltest/" itemprop="url" rel="index"><span itemprop="name">apcspracticaltest</span></a>
+                </span>
+            </span>
 
-  
-</div>
+          
 
         </div>
       </header>
@@ -206,6 +198,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
           <h2 id="Q1-程式交易"><a href="#Q1-程式交易" class="headerlink" title="Q1. 程式交易"></a>Q1. 程式交易</h2><h3 id="題目連結：h081-1-程式交易-高中生程式解題系統"><a href="#題目連結：h081-1-程式交易-高中生程式解題系統" class="headerlink" title="題目連結：h081: 1. 程式交易 - 高中生程式解題系統"></a>題目連結：<a target="_blank" rel="noopener" href="https://zerojudge.tw/ShowProblem?problemid=h081">h081: 1. 程式交易 - 高中生程式解題系統</a></h3><h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>第一天先買，維護一個 bool 變數，分為有持股與無持股兩種情況。</p>
 <ol>
 <li>有持股-&gt;若當前價格&gt;&#x3D;當初買的價格(tp)+D，賣掉，tp 改為當前股價</li>
@@ -230,75 +224,62 @@
     
     
     
-
-    <footer class="post-footer">
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
+  
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2022/01/01/optimize/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/01/01/optimize/" class="post-title-link" itemprop="url">一個非常暴力的常數優化</a>
+          
+            <a href="/2022/01/01/optimize/" class="post-title-link" itemprop="url">一個非常暴力的常數優化</a>
         </h2>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2022-01-01 08:00:00" itemprop="dateCreated datePublished" datetime="2022-01-01T08:00:00+08:00">2022-01-01</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:36:12" itemprop="dateModified" datetime="2023-07-28T18:36:12+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/cppreview/" itemprop="url" rel="index"><span itemprop="name">cppreview</span></a>
-        </span>
-    </span>
+              <time title="Created: 2022-01-01 08:00:00" itemprop="dateCreated datePublished" datetime="2022-01-01T08:00:00+08:00">2022-01-01</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:36:12" itemprop="dateModified" datetime="2023-07-28T18:36:12+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/cppreview/" itemprop="url" rel="index"><span itemprop="name">cppreview</span></a>
+                </span>
+            </span>
 
-  
-</div>
+          
 
         </div>
       </header>
@@ -307,6 +288,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
           <p>就是下面這一行</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">pragma</span> GCC optimize (<span class="string">&quot;O3,unroll-loops&quot;</span>)</span></span><br></pre></td></tr></table></figure>
 
@@ -321,75 +304,62 @@
     
     
     
-
-    <footer class="post-footer">
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
+  
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/26/mersenne-twister-algorithm/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/12/26/mersenne-twister-algorithm/" class="post-title-link" itemprop="url">以 C++ 內建隨機演算法討論在規模為 K 之下的隨機次數之機率準確度</a>
+          
+            <a href="/2021/12/26/mersenne-twister-algorithm/" class="post-title-link" itemprop="url">以 C++ 內建隨機演算法討論在規模為 K 之下的隨機次數之機率準確度</a>
         </h2>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-12-26 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-26T08:00:00+08:00">2021-12-26</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:36:12" itemprop="dateModified" datetime="2023-07-28T18:36:12+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/cppreview/" itemprop="url" rel="index"><span itemprop="name">cppreview</span></a>
-        </span>
-    </span>
+              <time title="Created: 2021-12-26 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-26T08:00:00+08:00">2021-12-26</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:36:12" itemprop="dateModified" datetime="2023-07-28T18:36:12+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/cppreview/" itemprop="url" rel="index"><span itemprop="name">cppreview</span></a>
+                </span>
+            </span>
 
-  
-</div>
+          
 
         </div>
       </header>
@@ -398,6 +368,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
           <p>最近好像有關於遊戲抽獎機率問題的爭議。</p>
 <p>雖然知道隨機有時是不準的，但我仍想用 C++ (僅梅克森旋轉演算法)親自嘗試。</p>
 <p>以下為測試用程式碼。</p>
@@ -411,75 +383,62 @@
     
     
     
-
-    <footer class="post-footer">
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
+  
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/19/atcoder-abc-215-d-d-coprime-2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/12/19/atcoder-abc-215-d-d-coprime-2/" class="post-title-link" itemprop="url">AtCoder ABC 215 D</a>
+          
+            <a href="/2021/12/19/atcoder-abc-215-d-d-coprime-2/" class="post-title-link" itemprop="url">AtCoder ABC 215 D</a>
         </h2>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-12-19 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-19T08:00:00+08:00">2021-12-19</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-        </span>
-    </span>
+              <time title="Created: 2021-12-19 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-19T08:00:00+08:00">2021-12-19</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+                </span>
+            </span>
 
-  
-</div>
+          
 
         </div>
       </header>
@@ -488,6 +447,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
           <h3 id="題目連結：AtCoder-Beginner-Contest-215-D-Coprime-2"><a href="#題目連結：AtCoder-Beginner-Contest-215-D-Coprime-2" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: D - Coprime 2"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_d">AtCoder Beginner Contest 215: D - Coprime 2</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>給定 n, m 下一行會有 n 個數字，輸出所有k in 1~m，k是與所有數字皆互質的數。</p>
 <h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">3 12</span><br><span class="line">6 1 5</span><br></pre></td></tr></table></figure>
 
@@ -502,266 +463,62 @@
     
     
     
-
-    <footer class="post-footer">
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
   
   
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/11/atcoder-abc-215-a-your-first-judge/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mtMatt">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/12/11/atcoder-abc-215-a-your-first-judge/" class="post-title-link" itemprop="url">AtCoder ABC 215 A</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-        </span>
-    </span>
-
   
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="題目連結：AtCoder-Beginner-Contest-215-A-Your-First-Judge"><a href="#題目連結：AtCoder-Beginner-Contest-215-A-Your-First-Judge" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: A - Your First Judge"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_a" title="題目連結">AtCoder Beginner Contest 215: A - Your First Judge</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>給定一個字串 S, 輸出 AC 若 S&#x3D;&#x3D;”Hello,World!” 否則輸出 WA.</p>
-<h4 id="輸入說明"><a href="#輸入說明" class="headerlink" title="輸入說明 :"></a>輸入說明 :</h4><p>輸⼊一行字串</p>
-<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,World!</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AC</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸入-2"><a href="#範例輸入-2" class="headerlink" title="範例輸入 2 :"></a>範例輸入 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,world!</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WA</span><br></pre></td></tr></table></figure>
-
-<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>直接判斷即可(s &#x3D;&#x3D; “Hello,World!”)</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    string ipt;</span><br><span class="line">    cin&gt;&gt;ipt;</span><br><span class="line">    <span class="keyword">if</span>(ipt==<span class="string">&quot;Hello,World!&quot;</span>)&#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;AC&quot;</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;WA&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
   
   
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mtMatt">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/" class="post-title-link" itemprop="url">AtCoder ABC 215 C</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="題目連結：AtCoder-Beginner-Contest-215-C-One-More-aab-aba-baa"><a href="#題目連結：AtCoder-Beginner-Contest-215-C-One-More-aab-aba-baa" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: C - One More aab aba baa"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_c">AtCoder Beginner Contest 215: C - One More aab aba baa</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>輸出 S 中字典順序第 K 大的排列.</p>
-<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aab 2</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aba</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸入-2"><a href="#範例輸入-2" class="headerlink" title="範例輸入 2 :"></a>範例輸入 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ydxwacbz 40320</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zyxwdcba</span><br></pre></td></tr></table></figure>
-
-<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>用內建函式next_permutation()可以生成字典序大一點的排列。</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    string str;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line">    cin&gt;&gt;str&gt;&gt;n;</span><br><span class="line"></span><br><span class="line"><span class="comment">//  因為沒有說輸入的會是字典序最小的，因此要先排序</span></span><br><span class="line">    <span class="built_in">sort</span>(str.<span class="built_in">begin</span>(),str.<span class="built_in">end</span>());</span><br><span class="line"><span class="comment">//  會是n-1是因為還沒進行前就是最小(第k=1小)</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n<span class="number">-1</span>;++i)&#123;</span><br><span class="line">        <span class="built_in">next_permutation</span>(str.<span class="built_in">begin</span>(),str.<span class="built_in">end</span>());</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;str;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/11/atcoder-abc-215-b-log2n/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/12/11/atcoder-abc-215-b-log2n/" class="post-title-link" itemprop="url">AtCoder ABC 215 B</a>
+          
+            <a href="/2021/12/11/atcoder-abc-215-b-log2n/" class="post-title-link" itemprop="url">AtCoder ABC 215 B</a>
         </h2>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-        </span>
-    </span>
+              <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+                </span>
+            </span>
 
-  
-</div>
+          
 
         </div>
       </header>
@@ -770,6 +527,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
           <h3 id="題目連結：AtCoder-Beginner-Contest-215-B-log2-N"><a href="#題目連結：AtCoder-Beginner-Contest-215-B-log2-N" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: B - log2(N)"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_b" title="題目連結">AtCoder Beginner Contest 215: B - log2(N)</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>輸入正整數 N, 輸出最大整數 k 使 2^k≤N.</p>
 <h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1000000000000000000</span><br></pre></td></tr></table></figure>
 
@@ -791,75 +550,62 @@
     
     
     
-
-    <footer class="post-footer">
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
+  
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/04/2021-nhspc-2-bgp/">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/12/04/2021-nhspc-2-bgp/" class="post-title-link" itemprop="url">2021 全國學科能力競賽模擬賽 2.BGP</a>
+          
+            <a href="/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/" class="post-title-link" itemprop="url">AtCoder ABC 215 C</a>
         </h2>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-12-04 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-04T08:00:00+08:00">2021-12-04</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-        </span>
-    </span>
+              <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+                </span>
+            </span>
 
-  
-</div>
+          
 
         </div>
       </header>
@@ -868,6 +614,177 @@
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="題目連結：AtCoder-Beginner-Contest-215-C-One-More-aab-aba-baa"><a href="#題目連結：AtCoder-Beginner-Contest-215-C-One-More-aab-aba-baa" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: C - One More aab aba baa"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_c">AtCoder Beginner Contest 215: C - One More aab aba baa</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>輸出 S 中字典順序第 K 大的排列.</p>
+<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aab 2</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aba</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸入-2"><a href="#範例輸入-2" class="headerlink" title="範例輸入 2 :"></a>範例輸入 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ydxwacbz 40320</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zyxwdcba</span><br></pre></td></tr></table></figure>
+
+<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>用內建函式next_permutation()可以生成字典序大一點的排列。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    string str;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line">    cin&gt;&gt;str&gt;&gt;n;</span><br><span class="line"></span><br><span class="line"><span class="comment">//  因為沒有說輸入的會是字典序最小的，因此要先排序</span></span><br><span class="line">    <span class="built_in">sort</span>(str.<span class="built_in">begin</span>(),str.<span class="built_in">end</span>());</span><br><span class="line"><span class="comment">//  會是n-1是因為還沒進行前就是最小(第k=1小)</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n<span class="number">-1</span>;++i)&#123;</span><br><span class="line">        <span class="built_in">next_permutation</span>(str.<span class="built_in">begin</span>(),str.<span class="built_in">end</span>());</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;str;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/11/atcoder-abc-215-a-your-first-judge/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="cpp.mtMatt.One">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/12/11/atcoder-abc-215-a-your-first-judge/" class="post-title-link" itemprop="url">AtCoder ABC 215 A</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="題目連結：AtCoder-Beginner-Contest-215-A-Your-First-Judge"><a href="#題目連結：AtCoder-Beginner-Contest-215-A-Your-First-Judge" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: A - Your First Judge"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_a" title="題目連結">AtCoder Beginner Contest 215: A - Your First Judge</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>給定一個字串 S, 輸出 AC 若 S&#x3D;&#x3D;”Hello,World!” 否則輸出 WA.</p>
+<h4 id="輸入說明"><a href="#輸入說明" class="headerlink" title="輸入說明 :"></a>輸入說明 :</h4><p>輸⼊一行字串</p>
+<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,World!</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AC</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸入-2"><a href="#範例輸入-2" class="headerlink" title="範例輸入 2 :"></a>範例輸入 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hello,world!</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WA</span><br></pre></td></tr></table></figure>
+
+<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>直接判斷即可(s &#x3D;&#x3D; “Hello,World!”)</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    string ipt;</span><br><span class="line">    cin&gt;&gt;ipt;</span><br><span class="line">    <span class="keyword">if</span>(ipt==<span class="string">&quot;Hello,World!&quot;</span>)&#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;AC&quot;</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;WA&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/12/04/2021-nhspc-2-bgp/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="cpp.mtMatt.One">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/12/04/2021-nhspc-2-bgp/" class="post-title-link" itemprop="url">2021 全國學科能力競賽模擬賽 2.BGP</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-12-04 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-04T08:00:00+08:00">2021-12-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
           <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我發現，全國能力競賽的難度似乎與我預期的有落差，這一題也是我唯一一個完全解開的題目。真的好難！</p>
 <h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>「BGP 劫持（BGP Hijacking）」是⼀種透過「邊界閘道器協定（Border Gateway Protocol,BGP）」 的性質進⾏攻擊的⼿段。簡單來說，每個伺服器會宣稱⾃⼰擁有⼀段 IP，並將這個訊息傳遞給周遭的伺服器，來更新他們的路由表。周遭的伺服器也會將這個更新繼續往外傳遞，使伺服器知道要如何將封包傳遞到指定的IP。而 BGP 劫持這個攻擊⼿法，就是透過錯誤地宣稱⾃⼰擁有某⼀段 IP，或者是⾃⼰通往擁有該 IP 的伺服器路徑更短，來使得其他路由器將 IP 往他傳遞。並透過 BGP 更新路由表的特性進⾏⼤規模的流量轉移，使得使⽤者無法存取特定的服務，或者是拿到封包之後拆解其中的內容以獲得敏感資訊。</p>
 <p>現在，全國資訊安全能⼒競賽模擬賽要進⾏⼀場 BGP 劫持的攻防⼤賽。這場⽐賽⼀共有 N ⽀隊伍參加，每⽀隊伍會維護⼀台伺服器，之後主辦⽅每次會把⼀個封包丟給⼀個伺服器，並指定他要傳向哪個伺服器。接著每台伺服器會根據他的路由表，選擇⼀個伺服器傳遞封包，而參賽者要做的就是盡可能讓不相關的封包經過⾃⼰，從而破解其中的資訊，而封包的傳遞⽅和接收⽅則要負責保護傳遞的路徑不要被攻擊。作為全國資安第⼀把交椅，翔哥也有關注全國資訊安全能⼒競賽模擬賽，但是翔哥真的太強了，這種⽐賽的勝敗他並不放在⼼上，他關⼼的是有沒有可能⼤家都享受到⽐賽的過程。雖然傳遞的路徑會根據路由表以及接收者而異，可是這對翔哥來說是 a piece of cake。他已經預測出了 M 個封包潛在被劫持的⽅式。根據封包傳遞的性質，這些路徑必定不會讓封包在數個隊伍之間循環傳遞。</p>
@@ -894,75 +811,62 @@
     
     
     
-
-    <footer class="post-footer">
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
+  
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/11/28/tioj-1143-95_4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/11/28/tioj-1143-95_4/" class="post-title-link" itemprop="url">TIOJ 1143 95_4.靈犬尋寶</a>
+          
+            <a href="/2021/11/28/tioj-1143-95_4/" class="post-title-link" itemprop="url">TIOJ 1143 95_4.靈犬尋寶</a>
         </h2>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-11-28 08:00:00" itemprop="dateCreated datePublished" datetime="2021-11-28T08:00:00+08:00">2021-11-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:36:12" itemprop="dateModified" datetime="2023-07-28T18:36:12+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/contest/" itemprop="url" rel="index"><span itemprop="name">contest</span></a>
-        </span>
-    </span>
+              <time title="Created: 2021-11-28 08:00:00" itemprop="dateCreated datePublished" datetime="2021-11-28T08:00:00+08:00">2021-11-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:36:12" itemprop="dateModified" datetime="2023-07-28T18:36:12+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/contest/" itemprop="url" rel="index"><span itemprop="name">contest</span></a>
+                </span>
+            </span>
 
-  
-</div>
+          
 
         </div>
       </header>
@@ -971,6 +875,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
           <h3 id="題目連結：1143-4-靈犬尋寶-TIOJ-INFOR-Online-Judge"><a href="#題目連結：1143-4-靈犬尋寶-TIOJ-INFOR-Online-Judge" class="headerlink" title="題目連結：1143 - 4.靈犬尋寶 | TIOJ INFOR Online Judge"></a>題目連結：<a target="_blank" rel="noopener" href="https://tioj.ck.tp.edu.tw/problems/1143">1143 - 4.靈犬尋寶 | TIOJ INFOR Online Judge</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>正方形(左下角座標為(0,0)，右上角座標為(99,99))的格網上，有一隻靈犬要尋找一個寶物，格網上除了靈犬與寶物之外，還有一些障礙物。一般情況下，只要不超出格網的邊界，靈犬的每一步最多有8個方向可供選擇，如圖一；但是必須注意，只有在A點沒有障礙物時才可以選擇方向1或方向2，只有在B點沒有障礙物時才可以選擇方向3或方向4，只有在C點沒有障礙物時才可以選擇方向5或方向6，只有在D點沒有障礙物時才可以選擇方向7或方向8。如果靈犬可以從出發的位置走到寶物的位置，其總共使用的步數，理論上應有一個最小值；但是靈犬也有可能無法走到寶物的位置。過程中，靈犬不可以走到障礙物的位置上。</p>
 <p><img src="https://tioj.ck.tp.edu.tw/pimgs/1143.jpg"></p>
 <p>以圖二為例，有多達4個障礙物介於靈犬與寶物之間，但是靈犬最快只要2步就可以到達寶物的位置。圖三是另一個例子，靈犬的位置靠近角落，雖然只有2個障礙物，靈犬卻無法到達寶物的位置。</p>
@@ -996,75 +902,62 @@
     
     
     
-
-    <footer class="post-footer">
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
+  
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://cpp.mtmatt.one/2021/11/26/tioj-1142-95_3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="cpp.mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | cpp.mtMatt.One">
-      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/11/26/tioj-1142-95_3/" class="post-title-link" itemprop="url">TIOJ 1142 95_3.關鍵邏輯閘</a>
+          
+            <a href="/2021/11/26/tioj-1142-95_3/" class="post-title-link" itemprop="url">TIOJ 1142 95_3.關鍵邏輯閘</a>
         </h2>
 
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-11-26 08:00:00" itemprop="dateCreated datePublished" datetime="2021-11-26T08:00:00+08:00">2021-11-26</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:36:12" itemprop="dateModified" datetime="2023-07-28T18:36:12+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/contest/" itemprop="url" rel="index"><span itemprop="name">contest</span></a>
-        </span>
-    </span>
+              <time title="Created: 2021-11-26 08:00:00" itemprop="dateCreated datePublished" datetime="2021-11-26T08:00:00+08:00">2021-11-26</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 18:36:12" itemprop="dateModified" datetime="2023-07-28T18:36:12+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/contest/" itemprop="url" rel="index"><span itemprop="name">contest</span></a>
+                </span>
+            </span>
 
-  
-</div>
+          
 
         </div>
       </header>
@@ -1073,6 +966,8 @@
     
     
     <div class="post-body" itemprop="articleBody">
+
+      
           <h3 id="題目連結：1142-3-關鍵邏輯閘-TIOJ-INFOR-Online-Judge"><a href="#題目連結：1142-3-關鍵邏輯閘-TIOJ-INFOR-Online-Judge" class="headerlink" title="題目連結：1142 - 3.關鍵邏輯閘 | TIOJ INFOR Online Judge"></a>題目連結：<a target="_blank" rel="noopener" href="https://tioj.ck.tp.edu.tw/problems/1142">1142 - 3.關鍵邏輯閘 | TIOJ INFOR Online Judge</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>一個組合電路(combinational circuit)由線路(wires)連接一組邏輯閘(logic gates)而成，並且不包含有向迴路(directed cycle)。一個組合電路的效能決定於最後一個主要輸出(primary output)被算出來的時間。假設每一個邏輯閘所需的運算時間都是固定並且是已知的，而線路的延遲(delay)是0。我們希望把一個組合電路所有的關鍵邏輯閘找出來。若一個邏輯閘的運算時間有任何延長，便會影響到整個電路的效能，它就被稱為關鍵邏輯閘。以圖一的組合電路為例，I1、I2、I3是主要輸入；O1、O2是主要輸出；圓圈代表邏輯閘，箭頭代表線路；每個邏輯閘有自己的編號以及固定的延遲時間。在圖一的例子當中，該組合電路中的O1會因為邏輯閘2、4、5的延遲，在時間400才會收到運算結果；而O2會因為邏輯閘2、4、6的延遲，在時間600才收到運算結果，因此O2是最後一個被算出來的主要輸出。關鍵邏輯閘分別是2、4以及6號邏輯閘，當其中一個關鍵邏輯閘的運算時間有任何延長，O2被算出來的時間也會再往後延遲。相反地，就算1號邏輯閘的運算時間從150延長到160，也不會影響到O2被算出來的時間，因此1號邏輯閘並不是關鍵邏輯閘。</p>
 <h4 id="輸入說明"><a href="#輸入說明" class="headerlink" title="輸入說明 :"></a>輸入說明 :</h4><p>第一行為一個整數 n (0 &lt; n &lt; 10000)，代表一個組合電路的邏輯閘總數，每個邏輯閘的編號都不同，且範圍是介於 1~n 之間的整數。第二行為一個整數 m (m &lt; 50000)，代表線路的總數。接下來的 n 行，依序列出每個邏輯閘的運算時間；每個運算時間的值是介於 0 到 600 之間(含)的整數。最後 m 行，分別列出每一條線路由某個邏輯閘的輸出接到另一個邏輯閘的輸入。 注意：為簡化輸入，我們把主要輸入(primary inputs)與邏輯閘之間的線路，以及邏輯閘與主要輸出(primary outputs)之間的線路省略。(每一個邏輯閘至少都含有一個線路輸出到另一個邏輯閘或主要輸出)</p>
 <h4 id="輸出說明"><a href="#輸出說明" class="headerlink" title="輸出說明 :"></a>輸出說明 :</h4><p>列出關鍵邏輯閘的個數。</p>
@@ -1094,74 +989,178 @@
     
     
     
-
-    <footer class="post-footer">
+      <footer class="post-footer">
         <div class="post-eof"></div>
-      
-    </footer>
+      </footer>
   </article>
-</div>
+  
+  
+  
 
 
-
-
+  
   <nav class="pagination">
-    <a class="extend prev" rel="prev" title="Previous page" aria-label="Previous page" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" title="Next page" aria-label="Next page" href="/page/3/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/3/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
 
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">mtMatt</p>
+  <div class="site-description" itemprop="description"></div>
 </div>
-  </main>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">88</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">categories</span>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-name">tags</span>
+      </div>
+  </nav>
+</div>
 
-  <footer class="footer">
-    <div class="footer-inner">
 
-  <div class="copyright">
-    &copy; 
-    <span itemprop="copyrightYear">2023</span>
-    <span class="with-love">
-      <i class="fa fa-heart"></i>
-    </span>
-    <span class="author" itemprop="copyrightHolder">mtMatt</span>
-  </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
-  </div>
+
+      </div>
 
     </div>
-  </footer>
+  </aside>
+  <div id="sidebar-dimmer"></div>
 
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
   
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">mtMatt</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
   </div>
-  <div class="sidebar-dimmer"></div>
-  <div class="back-to-top" role="button" aria-label="Back to top">
-    <i class="fa fa-arrow-up fa-lg"></i>
-    <span>0%</span>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
   </div>
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
 
 
   
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
-
-
-
-
-
   
-
-
-
-
 
 </body>
 </html>
