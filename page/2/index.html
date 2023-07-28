@@ -617,6 +617,101 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://mtmattone.github.io/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mtMatt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="mtMatt.One">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | mtMatt.One">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/" class="post-title-link" itemprop="url">AtCoder ABC 215 C</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="題目連結：AtCoder-Beginner-Contest-215-C-One-More-aab-aba-baa"><a href="#題目連結：AtCoder-Beginner-Contest-215-C-One-More-aab-aba-baa" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: C - One More aab aba baa"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_c">AtCoder Beginner Contest 215: C - One More aab aba baa</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>輸出 S 中字典順序第 K 大的排列.</p>
+<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aab 2</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aba</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸入-2"><a href="#範例輸入-2" class="headerlink" title="範例輸入 2 :"></a>範例輸入 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ydxwacbz 40320</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zyxwdcba</span><br></pre></td></tr></table></figure>
+
+<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>用內建函式next_permutation()可以生成字典序大一點的排列。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    string str;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line">    cin&gt;&gt;str&gt;&gt;n;</span><br><span class="line"></span><br><span class="line"><span class="comment">//  因為沒有說輸入的會是字典序最小的，因此要先排序</span></span><br><span class="line">    <span class="built_in">sort</span>(str.<span class="built_in">begin</span>(),str.<span class="built_in">end</span>());</span><br><span class="line"><span class="comment">//  會是n-1是因為還沒進行前就是最小(第k=1小)</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n<span class="number">-1</span>;++i)&#123;</span><br><span class="line">        <span class="built_in">next_permutation</span>(str.<span class="built_in">begin</span>(),str.<span class="built_in">end</span>());</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;str;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://mtmattone.github.io/2021/12/11/atcoder-abc-215-b-log2n/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -689,101 +784,6 @@
 
 <h3 id="注意"><a href="#注意" class="headerlink" title="注意!"></a>注意!</h3><p>用內建函式<code>log2(n)</code>式不會過的喔！</p>
 <p><img src="https://live.staticflickr.com/65535/51738037522_32a924e525_o.png"></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://mtmattone.github.io/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mtMatt">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | mtMatt.One">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/12/11/atcoder-abc-215-c-one-more-aab-aba-baa/" class="post-title-link" itemprop="url">AtCoder ABC 215 C</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2021-12-11 08:00:00" itemprop="dateCreated datePublished" datetime="2021-12-11T08:00:00+08:00">2021-12-11</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-28 18:31:51" itemprop="dateModified" datetime="2023-07-28T18:31:51+08:00">2023-07-28</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="題目連結：AtCoder-Beginner-Contest-215-C-One-More-aab-aba-baa"><a href="#題目連結：AtCoder-Beginner-Contest-215-C-One-More-aab-aba-baa" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: C - One More aab aba baa"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_c">AtCoder Beginner Contest 215: C - One More aab aba baa</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>輸出 S 中字典順序第 K 大的排列.</p>
-<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aab 2</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aba</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸入-2"><a href="#範例輸入-2" class="headerlink" title="範例輸入 2 :"></a>範例輸入 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ydxwacbz 40320</span><br></pre></td></tr></table></figure>
-
-<h4 id="範例輸出-2"><a href="#範例輸出-2" class="headerlink" title="範例輸出 2 :"></a>範例輸出 2 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">zyxwdcba</span><br></pre></td></tr></table></figure>
-
-<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>用內建函式next_permutation()可以生成字典序大一點的排列。</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    string str;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line"></span><br><span class="line">    cin&gt;&gt;str&gt;&gt;n;</span><br><span class="line"></span><br><span class="line"><span class="comment">//  因為沒有說輸入的會是字典序最小的，因此要先排序</span></span><br><span class="line">    <span class="built_in">sort</span>(str.<span class="built_in">begin</span>(),str.<span class="built_in">end</span>());</span><br><span class="line"><span class="comment">//  會是n-1是因為還沒進行前就是最小(第k=1小)</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n<span class="number">-1</span>;++i)&#123;</span><br><span class="line">        <span class="built_in">next_permutation</span>(str.<span class="built_in">begin</span>(),str.<span class="built_in">end</span>());</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;str;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
