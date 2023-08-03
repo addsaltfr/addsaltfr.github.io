@@ -22,15 +22,15 @@
     var CONFIG = {"hostname":"mtmatt.one","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="想法由題目可知，必須由甲開始，甲結束。因此，取的次數是奇數。我們可以將第一個甲獨立判斷，後面乙甲都綁定在一起。於是，可以得到。 \(dp_n &#x3D; dp_{n-2} + 2 \times dp_{n-3} + dp_{n-4}\) 其中，\(dp_{n-2}\) 是最後乙甲都取 1 個棋子；\(dp_{n-3}\) 是最後乙甲其中一個取 1 個棋子，\(dp_{n-4}\) 是最後乙甲都取 2">
+  <meta name="description" content="想法由題目可知，必須由甲開始，甲結束。因此，取的次數是奇數。我們可以將第一個甲獨立判斷，後面乙甲都綁定在一起。於是，可以得到。  dp_n &#x3D; dp_{n-2} + 2 \times dp_{n-3} + dp_{n-4}其中，\(dp_{n-2}\) 是最後乙甲都取 1 個棋子；\(dp_{n-3}\) 是最後乙甲其中一個取 1 個棋子，\(dp_{n-4}\) 是最後乙甲都取 2 個棋子的">
 <meta property="og:type" content="article">
 <meta property="og:title" content="[題解]動態規劃-圍棋遊戲">
 <meta property="og:url" content="http://mtmatt.one/2022/12/28/the-key-for-a-practical-test-of-dynamic-programming/index.html">
 <meta property="og:site_name" content="mtMatt.One">
-<meta property="og:description" content="想法由題目可知，必須由甲開始，甲結束。因此，取的次數是奇數。我們可以將第一個甲獨立判斷，後面乙甲都綁定在一起。於是，可以得到。 \(dp_n &#x3D; dp_{n-2} + 2 \times dp_{n-3} + dp_{n-4}\) 其中，\(dp_{n-2}\) 是最後乙甲都取 1 個棋子；\(dp_{n-3}\) 是最後乙甲其中一個取 1 個棋子，\(dp_{n-4}\) 是最後乙甲都取 2">
+<meta property="og:description" content="想法由題目可知，必須由甲開始，甲結束。因此，取的次數是奇數。我們可以將第一個甲獨立判斷，後面乙甲都綁定在一起。於是，可以得到。  dp_n &#x3D; dp_{n-2} + 2 \times dp_{n-3} + dp_{n-4}其中，\(dp_{n-2}\) 是最後乙甲都取 1 個棋子；\(dp_{n-3}\) 是最後乙甲其中一個取 1 個棋子，\(dp_{n-4}\) 是最後乙甲都取 2 個棋子的">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2022-12-28T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-08-03T06:08:28.164Z">
+<meta property="article:modified_time" content="2023-08-03T06:09:46.316Z">
 <meta property="article:author" content="mtMatt">
 <meta property="article:tag" content="cpp">
 <meta name="twitter:card" content="summary">
@@ -237,7 +237,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2023-08-03 14:08:28" itemprop="dateModified" datetime="2023-08-03T14:08:28+08:00">2023-08-03</time>
+                <time title="修改時間：2023-08-03 14:09:46" itemprop="dateModified" datetime="2023-08-03T14:09:46+08:00">2023-08-03</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -263,8 +263,8 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
 <h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>由題目可知，必須由甲開始，甲結束。因此，取的次數是奇數。我們可以將第一個甲獨立判斷，後面乙甲都綁定在一起。於是，可以得到。</p>
-<p>\(dp_n = dp_{n-2} + 2 \times dp_{n-3} + dp_{n-4}\)</p>
-<p>其中，\(dp_{n-2}\) 是最後乙甲都取 1 個棋子；\(dp_{n-3}\) 是最後乙甲其中一個取 1 個棋子，\(dp_{n-4}\) 是最後乙甲都取 2 個棋子的方法數。</p>
+<script type="math/tex; mode=display">
+dp_n = dp_{n-2} + 2 \times dp_{n-3} + dp_{n-4}</script><p>其中，\(dp_{n-2}\) 是最後乙甲都取 1 個棋子；\(dp_{n-3}\) 是最後乙甲其中一個取 1 個棋子，\(dp_{n-4}\) 是最後乙甲都取 2 個棋子的方法數。</p>
 <p>由於這是一個線性遞迴的轉移式，因此我們可以用矩陣乘法進一步優化。</p>
 <script type="math/tex; mode=display">
     \begin{pmatrix}dp_{n} \\ dp_{n-1} \\ dp_{n-2} \\ dp_{n-3} \end{pmatrix} = 
