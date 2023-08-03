@@ -218,7 +218,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2023/04/11/codeforces-round-826-pd/">
+    <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2023/07/28/codeforces-round-847-div-3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -232,7 +232,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2023/04/11/codeforces-round-826-pd/" class="post-title-link" itemprop="url">Codeforces Round 826 pD</a>
+            <a href="/2023/07/28/codeforces-round-847-div-3/" class="post-title-link" itemprop="url">Untitled</a>
         </h2>
 
         <div class="post-meta">
@@ -242,24 +242,15 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2023-04-11 08:00:00" itemprop="dateCreated datePublished" datetime="2023-04-11T08:00:00+08:00">2023-04-11</time>
+              <time title="Created: 2023-07-28 14:14:48" itemprop="dateCreated datePublished" datetime="2023-07-28T14:14:48+08:00">2023-07-28</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-08-03 08:57:16" itemprop="dateModified" datetime="2023-08-03T08:57:16+08:00">2023-08-03</time>
+                <time title="Modified: 2023-08-03 09:09:04" itemprop="dateModified" datetime="2023-08-03T09:09:04+08:00">2023-08-03</time>
               </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-                </span>
-            </span>
 
           
 
@@ -272,88 +263,16 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h3 id="題目連結"><a href="#題目連結" class="headerlink" title="題目連結"></a>題目連結</h3><p><a target="_blank" rel="noopener" href="https://codeforces.com/problemset/problem/1741/D">https://codeforces.com/problemset/problem/1741/D</a></p>
-<h3 id="題目概要"><a href="#題目概要" class="headerlink" title="題目概要"></a>題目概要</h3><p>給你一個 ‘$1\\; 2 …m$’ 但沒有排序的數列，其中 ‘$m=2^n, n \\in N$’。 這些數字要被放在一個完全二元樹的樹葉(葉節點)中。 定義此完全二元樹是 “‘$beautiful$’” 的若且唯若葉節點的數值剛好由左而右遞增。 我們可以做的操作是對任一節點，將他的左右子樹互換。 請問最少幾次操作可以讓樹變成 “‘$beautiful$’” 的，如果做不到輸出-1。</p>
-<p><img src="https://live.staticflickr.com/65535/52808706187_cd9f0fda95.jpg" alt="CF_1741D_1"></p>
-<h3 id="提示1"><a href="#提示1" class="headerlink" title="提示1"></a>提示1</h3><p>判斷做不做得到與怎麼做可以分開。</p>
-<h3 id="提示2"><a href="#提示2" class="headerlink" title="提示2"></a>提示2</h3><p>怎麼做可以快速分辨是否成功。想想線段樹。</p>
-<h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>仿造線段樹的作法，我們可以直接建立一顆完全二元樹，也可以用線段樹取代。我使用指標實作完全二元樹，在每個節點中增加一個數mn表示這棵子樹的所有節點的最小值。如果左子樹的最小值大於右子樹的最小值，則樹就需要旋轉(交換左右子樹)。</p>
-<p>而分辨能否成功則可以用左右子樹最小值的差，如果可以成功旋轉，則所有節點的左右子樹最小值差一定要是 ‘$2^{該節點的高度-1}$’。而顯然滿足這條件就可以成功藉由有限次操作使樹變得 “‘$beautiful$’”。</p>
-<h3 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> INF=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">binary_tree</span>&#123;</span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">node</span>&#123;</span><br><span class="line">        node *lch,*rch;</span><br><span class="line">        <span class="type">int</span> mn=INF,val=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">node</span>()&#123;</span><br><span class="line">            lch=rch=<span class="literal">nullptr</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">swap_subtree</span><span class="params">()</span></span>&#123;</span><br><span class="line">            <span class="built_in">swap</span>(lch,rch);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    node *rt=<span class="keyword">new</span> <span class="built_in">node</span>();</span><br><span class="line">    <span class="type">int</span> idx=<span class="number">0</span>,h=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">test</span><span class="params">(node *n,<span class="type">int</span> hi)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!n-&gt;lch)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(<span class="built_in">abs</span>(n-&gt;lch-&gt;mn - n-&gt;rch-&gt;mn)!=<span class="number">1</span>&lt;&lt;(hi<span class="number">-2</span>))&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> ret=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">if</span>(n-&gt;lch-&gt;mn &gt; n-&gt;rch-&gt;mn)&#123;</span><br><span class="line">            ret++;</span><br><span class="line">            n-&gt;<span class="built_in">swap_subtree</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> ls=<span class="built_in">test</span>(n-&gt;lch,hi<span class="number">-1</span>),rs=<span class="built_in">test</span>(n-&gt;rch,hi<span class="number">-1</span>);</span><br><span class="line">        <span class="keyword">if</span>(ls==<span class="number">-1</span> || rs==<span class="number">-1</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ret+=ls+rs;</span><br><span class="line">        <span class="keyword">return</span> ret;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">test</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">test</span>(rt,h);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">build</span><span class="params">(<span class="type">int</span> h,node *n,vector&lt;<span class="type">int</span>&gt; &amp;v)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(h&lt;=<span class="number">1</span>)&#123;</span><br><span class="line">            n-&gt;mn=n-&gt;val=v[idx];</span><br><span class="line">            idx++;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        n-&gt;lch=<span class="keyword">new</span> <span class="built_in">node</span>();</span><br><span class="line">        n-&gt;rch=<span class="keyword">new</span> <span class="built_in">node</span>();</span><br><span class="line">        <span class="built_in">build</span>(h<span class="number">-1</span>,n-&gt;lch,v);</span><br><span class="line">        <span class="built_in">build</span>(h<span class="number">-1</span>,n-&gt;rch,v);</span><br><span class="line">        <span class="keyword">if</span>(n-&gt;lch &amp;&amp; n-&gt;rch)&#123;</span><br><span class="line">            n-&gt;mn=<span class="built_in">min</span>(n-&gt;lch-&gt;mn,n-&gt;rch-&gt;mn);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">binary_tree</span>(vector&lt;<span class="type">int</span>&gt; v)&#123;</span><br><span class="line">        <span class="type">int</span> n=v.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">while</span>(n&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            h++; n&gt;&gt;=<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">build</span>(h,rt,v);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">delete_tree</span><span class="params">(node *n)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!n) <span class="keyword">return</span>;</span><br><span class="line">        <span class="keyword">if</span>(n-&gt;lch) <span class="built_in">delete_tree</span>(n-&gt;lch);</span><br><span class="line">        <span class="keyword">if</span>(n-&gt;rch) <span class="built_in">delete_tree</span>(n-&gt;rch);</span><br><span class="line">        <span class="built_in">delete</span>(n);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    ~<span class="built_in">binary_tree</span>()&#123;</span><br><span class="line">        <span class="built_in">delete_tree</span>(rt);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> m;</span><br><span class="line">    cin&gt;&gt;m;</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v</span><span class="params">(m)</span></span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> &amp;i:v) cin&gt;&gt;i;</span><br><span class="line"></span><br><span class="line">    <span class="function">binary_tree <span class="title">cbt</span><span class="params">(v)</span></span>;</span><br><span class="line">    cout&lt;&lt;cbt.<span class="built_in">test</span>()&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> t=<span class="number">1</span>;</span><br><span class="line">    cin&gt;&gt;t;</span><br><span class="line">    <span class="keyword">while</span>(t--)&#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2023/01/31/codeforces-round-847-div-3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mtMatt">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="mtMatt@GitHub">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2023/01/31/codeforces-round-847-div-3/" class="post-title-link" itemprop="url">Codeforces Round 847 (Div. 3)</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2023-01-31 08:00:00" itemprop="dateCreated datePublished" datetime="2023-01-31T08:00:00+08:00">2023-01-31</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-08-03 09:01:59" itemprop="dateModified" datetime="2023-08-03T09:01:59+08:00">2023-08-03</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>重回程式設計第一天…</p>
+<hr>
+<p>title: “Codeforces Round 847 (Div. 3)”<br>date: “2023-01-31”<br>categories: </p>
+<ul>
+<li>“ojques”<br>tags: </li>
+<li>“codeforces”</li>
+</ul>
+<hr>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>重回程式設計第一天…</p>
 <p>因為種種原因停更好久，直到最近，我決定重新開始寫題目。這次的題目選自 <a target="_blank" rel="noopener" href="https://codeforces.com/contest/1790">https://codeforces.com/contest/1790</a> ，剛回來想用 Div3 試個手感，沒想到也卡了許久。</p>
 <h3 id="本文"><a href="#本文" class="headerlink" title="本文"></a>本文</h3><p>言歸正傳，本質上這還是一個分享網站。那我今天用了三個小時總共寫出5題(共7題)。以下是提示、想法、與程式碼的分享。</p>
 <h4 id="pA-Polycarp-and-the-Day-of-Pi"><a href="#pA-Polycarp-and-the-Day-of-Pi" class="headerlink" title="pA Polycarp and the Day of Pi"></a>pA Polycarp and the Day of Pi</h4><p>簡單說就是求前30位的圓周率他寫對幾位，比較需要注意的是範例已經給一個完整的圓周率。</p>
@@ -389,6 +308,84 @@
 <h4 id="pE-Vlad-and-a-Pair-of-Numbers"><a href="#pE-Vlad-and-a-Pair-of-Numbers" class="headerlink" title="pE Vlad and a Pair of Numbers"></a>pE Vlad and a Pair of Numbers</h4><h5 id="題目概述-2"><a href="#題目概述-2" class="headerlink" title="題目概述"></a>題目概述</h5><p>給你一個x，找到a,b滿足 [latex]a \\oplus b=\\frac{a+b}{2}=x[/latex]，其中 [latex] \\oplus[/latex]是xor，也就是C++上的</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a^b;</span><br></pre></td></tr></table></figure>
 <p>第五題最後有偷看詳解，使用的做法請見-&gt; <a target="_blank" rel="noopener" href="https://codeforces.com/blog/entry/111948">https://codeforces.com/blog/entry/111948</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2023/07/28/codeforces-round-826-pd/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="mtMatt@GitHub">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2023/07/28/codeforces-round-826-pd/" class="post-title-link" itemprop="url">Untitled</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2023-07-28 14:14:48" itemprop="dateCreated datePublished" datetime="2023-07-28T14:14:48+08:00">2023-07-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-08-03 09:09:04" itemprop="dateModified" datetime="2023-08-03T09:09:04+08:00">2023-08-03</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id=""><a href="#" class="headerlink" title=""></a><script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script></h2><p>title: “Codeforces Round 826 pD”<br>date: “2023-04-11”<br>categories: </p>
+<ul>
+<li>“ojques”<br>tags: </li>
+<li>“codeforces”</li>
+</ul>
+<hr>
+<h3 id="題目連結"><a href="#題目連結" class="headerlink" title="題目連結"></a>題目連結</h3><p><a target="_blank" rel="noopener" href="https://codeforces.com/problemset/problem/1741/D">https://codeforces.com/problemset/problem/1741/D</a></p>
+<h3 id="題目概要"><a href="#題目概要" class="headerlink" title="題目概要"></a>題目概要</h3><p>給你一個 ‘$1\\; 2 …m$’ 但沒有排序的數列，其中 ‘$m=2^n, n \\in N$’。 這些數字要被放在一個完全二元樹的樹葉(葉節點)中。 定義此完全二元樹是 “‘$beautiful$’” 的若且唯若葉節點的數值剛好由左而右遞增。 我們可以做的操作是對任一節點，將他的左右子樹互換。 請問最少幾次操作可以讓樹變成 “‘$beautiful$’” 的，如果做不到輸出-1。</p>
+<p><img src="https://live.staticflickr.com/65535/52808706187_cd9f0fda95.jpg" alt="CF_1741D_1"></p>
+<h3 id="提示1"><a href="#提示1" class="headerlink" title="提示1"></a>提示1</h3><p>判斷做不做得到與怎麼做可以分開。</p>
+<h3 id="提示2"><a href="#提示2" class="headerlink" title="提示2"></a>提示2</h3><p>怎麼做可以快速分辨是否成功。想想線段樹。</p>
+<h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>仿造線段樹的作法，我們可以直接建立一顆完全二元樹，也可以用線段樹取代。我使用指標實作完全二元樹，在每個節點中增加一個數mn表示這棵子樹的所有節點的最小值。如果左子樹的最小值大於右子樹的最小值，則樹就需要旋轉(交換左右子樹)。</p>
+<p>而分辨能否成功則可以用左右子樹最小值的差，如果可以成功旋轉，則所有節點的左右子樹最小值差一定要是 ‘$2^{該節點的高度-1}$’。而顯然滿足這條件就可以成功藉由有限次操作使樹變得 “‘$beautiful$’”。</p>
+<h3 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼"></a>程式碼</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> INF=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">binary_tree</span>&#123;</span><br><span class="line">    <span class="keyword">struct</span> <span class="title class_">node</span>&#123;</span><br><span class="line">        node *lch,*rch;</span><br><span class="line">        <span class="type">int</span> mn=INF,val=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">        <span class="built_in">node</span>()&#123;</span><br><span class="line">            lch=rch=<span class="literal">nullptr</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function"><span class="type">void</span> <span class="title">swap_subtree</span><span class="params">()</span></span>&#123;</span><br><span class="line">            <span class="built_in">swap</span>(lch,rch);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    node *rt=<span class="keyword">new</span> <span class="built_in">node</span>();</span><br><span class="line">    <span class="type">int</span> idx=<span class="number">0</span>,h=<span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">test</span><span class="params">(node *n,<span class="type">int</span> hi)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!n-&gt;lch)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(<span class="built_in">abs</span>(n-&gt;lch-&gt;mn - n-&gt;rch-&gt;mn)!=<span class="number">1</span>&lt;&lt;(hi<span class="number">-2</span>))&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> ret=<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">if</span>(n-&gt;lch-&gt;mn &gt; n-&gt;rch-&gt;mn)&#123;</span><br><span class="line">            ret++;</span><br><span class="line">            n-&gt;<span class="built_in">swap_subtree</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> ls=<span class="built_in">test</span>(n-&gt;lch,hi<span class="number">-1</span>),rs=<span class="built_in">test</span>(n-&gt;rch,hi<span class="number">-1</span>);</span><br><span class="line">        <span class="keyword">if</span>(ls==<span class="number">-1</span> || rs==<span class="number">-1</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ret+=ls+rs;</span><br><span class="line">        <span class="keyword">return</span> ret;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">test</span><span class="params">()</span></span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">test</span>(rt,h);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">build</span><span class="params">(<span class="type">int</span> h,node *n,vector&lt;<span class="type">int</span>&gt; &amp;v)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(h&lt;=<span class="number">1</span>)&#123;</span><br><span class="line">            n-&gt;mn=n-&gt;val=v[idx];</span><br><span class="line">            idx++;</span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        n-&gt;lch=<span class="keyword">new</span> <span class="built_in">node</span>();</span><br><span class="line">        n-&gt;rch=<span class="keyword">new</span> <span class="built_in">node</span>();</span><br><span class="line">        <span class="built_in">build</span>(h<span class="number">-1</span>,n-&gt;lch,v);</span><br><span class="line">        <span class="built_in">build</span>(h<span class="number">-1</span>,n-&gt;rch,v);</span><br><span class="line">        <span class="keyword">if</span>(n-&gt;lch &amp;&amp; n-&gt;rch)&#123;</span><br><span class="line">            n-&gt;mn=<span class="built_in">min</span>(n-&gt;lch-&gt;mn,n-&gt;rch-&gt;mn);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">binary_tree</span>(vector&lt;<span class="type">int</span>&gt; v)&#123;</span><br><span class="line">        <span class="type">int</span> n=v.<span class="built_in">size</span>();</span><br><span class="line">        <span class="keyword">while</span>(n&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            h++; n&gt;&gt;=<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">build</span>(h,rt,v);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">delete_tree</span><span class="params">(node *n)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!n) <span class="keyword">return</span>;</span><br><span class="line">        <span class="keyword">if</span>(n-&gt;lch) <span class="built_in">delete_tree</span>(n-&gt;lch);</span><br><span class="line">        <span class="keyword">if</span>(n-&gt;rch) <span class="built_in">delete_tree</span>(n-&gt;rch);</span><br><span class="line">        <span class="built_in">delete</span>(n);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    ~<span class="built_in">binary_tree</span>()&#123;</span><br><span class="line">        <span class="built_in">delete_tree</span>(rt);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">solve</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> m;</span><br><span class="line">    cin&gt;&gt;m;</span><br><span class="line">    <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">v</span><span class="params">(m)</span></span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> &amp;i:v) cin&gt;&gt;i;</span><br><span class="line"></span><br><span class="line">    <span class="function">binary_tree <span class="title">cbt</span><span class="params">(v)</span></span>;</span><br><span class="line">    cout&lt;&lt;cbt.<span class="built_in">test</span>()&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    <span class="type">int</span> t=<span class="number">1</span>;</span><br><span class="line">    cin&gt;&gt;t;</span><br><span class="line">    <span class="keyword">while</span>(t--)&#123;</span><br><span class="line">        <span class="built_in">solve</span>();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -647,82 +644,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2022/06/05/leetcode-2-add-two-numbers/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mtMatt">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="mtMatt@GitHub">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/06/05/leetcode-2-add-two-numbers/" class="post-title-link" itemprop="url">LeetCode 2. Add Two Numbers</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2022-06-05 08:00:00" itemprop="dateCreated datePublished" datetime="2022-06-05T08:00:00+08:00">2022-06-05</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="題目連結：Add-Two-Numbers-LeetCode"><a href="#題目連結：Add-Two-Numbers-LeetCode" class="headerlink" title="題目連結：Add Two Numbers - LeetCode"></a>題目連結：<a target="_blank" rel="noopener" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers - LeetCode</a></h3><h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>我的作法可能沒有那麼好，我是用 vector 存數字，接著進行運算，最後再轉成 link-list。</p>
-<h3 id="code"><a href="#code" class="headerlink" title="code"></a>code</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Definition for singly-linked list.</span><br><span class="line"> * struct ListNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     ListNode *next;</span><br><span class="line"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span><br><span class="line"> * &#125;;</span><br><span class="line"> */</span><br></pre></td></tr></table></figure>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt; n1,n2;</span><br><span class="line">        n1.<span class="built_in">emplace_back</span>(l1-&gt;val);</span><br><span class="line">        <span class="keyword">while</span>(l1-&gt;next!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            l1=l1-&gt;next;</span><br><span class="line">            n1.<span class="built_in">emplace_back</span>(l1-&gt;val);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        n2.<span class="built_in">emplace_back</span>(l2-&gt;val);</span><br><span class="line">        <span class="keyword">while</span>(l2-&gt;next!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            l2=l2-&gt;next;</span><br><span class="line">            n2.<span class="built_in">emplace_back</span>(l2-&gt;val);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">ans</span><span class="params">(max(n1.size(),n2.size())+<span class="number">1</span>)</span></span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n1.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">            ans[i]+=n1[i];</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n2.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">            ans[i]+=n2[i];</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="built_in">max</span>(n1.<span class="built_in">size</span>(),n2.<span class="built_in">size</span>());++i)&#123;</span><br><span class="line">            <span class="keyword">if</span>(ans[i]&gt;=<span class="number">10</span>)&#123;</span><br><span class="line">                ans[i+<span class="number">1</span>]++;</span><br><span class="line">                ans[i]-=<span class="number">10</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(ans.<span class="built_in">back</span>()==<span class="number">0</span>)&#123;</span><br><span class="line">            ans.<span class="built_in">pop_back</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ListNode *ret=<span class="keyword">new</span> <span class="built_in">ListNode</span>(ans[<span class="number">0</span>]),*a=ret,*b=<span class="literal">nullptr</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;ans.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">            b=<span class="keyword">new</span> <span class="built_in">ListNode</span>(ans[i]);</span><br><span class="line">            a-&gt;next=b;</span><br><span class="line">            a=b;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ret;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2022/06/05/offline-judge-system/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -944,6 +865,82 @@
 <h2 id="競賽中不會出現的-C-功能"><a href="#競賽中不會出現的-C-功能" class="headerlink" title="競賽中不會出現的 C++ 功能"></a>競賽中不會出現的 C++ 功能</h2><p>多執行續 thread 函式庫</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 開新的執行續處理函式 RunCode</span></span><br><span class="line">thread run&#123;RunCode,timeLimit&#125;;</span><br><span class="line"><span class="comment">// 讓此執行續等待一段時間 chrono 格式</span></span><br><span class="line">this_thread::<span class="built_in">sleep_for</span>(chrono::<span class="built_in">milliseconds</span>(timeLimit+<span class="number">20</span>))</span><br><span class="line"><span class="comment">// 放空該執行續(與物件 run 取消綁定，但會繼續執行)</span></span><br><span class="line">run.<span class="built_in">detach</span>();</span><br><span class="line"><span class="comment">// 合併執行續，意味著它會等待到 run 那個執行序完成(return)後再合併</span></span><br><span class="line">run.<span class="built_in">join</span>();</span><br></pre></td></tr></table></figure>
 <h2 id="其它題目"><a href="#其它題目" class="headerlink" title="其它題目"></a>其它題目</h2><p>可以去雲端硬碟下載。這裡有一些題目。<a target="_blank" rel="noopener" href="https://mega.nz/folder/HgdU3J4A#NjDnWXqIS6Ov_hDGnrbtkA">Mega</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2022/06/05/leetcode-2-add-two-numbers/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="mtMatt@GitHub">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/06/05/leetcode-2-add-two-numbers/" class="post-title-link" itemprop="url">LeetCode 2. Add Two Numbers</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-06-05 08:00:00" itemprop="dateCreated datePublished" datetime="2022-06-05T08:00:00+08:00">2022-06-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="題目連結：Add-Two-Numbers-LeetCode"><a href="#題目連結：Add-Two-Numbers-LeetCode" class="headerlink" title="題目連結：Add Two Numbers - LeetCode"></a>題目連結：<a target="_blank" rel="noopener" href="https://leetcode.com/problems/add-two-numbers/">Add Two Numbers - LeetCode</a></h3><h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>我的作法可能沒有那麼好，我是用 vector 存數字，接著進行運算，最後再轉成 link-list。</p>
+<h3 id="code"><a href="#code" class="headerlink" title="code"></a>code</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">/**</span><br><span class="line"> * Definition for singly-linked list.</span><br><span class="line"> * struct ListNode &#123;</span><br><span class="line"> *     int val;</span><br><span class="line"> *     ListNode *next;</span><br><span class="line"> *     ListNode() : val(0), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x) : val(x), next(nullptr) &#123;&#125;</span><br><span class="line"> *     ListNode(int x, ListNode *next) : val(x), next(next) &#123;&#125;</span><br><span class="line"> * &#125;;</span><br><span class="line"> */</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">ListNode* <span class="title">addTwoNumbers</span><span class="params">(ListNode* l1, ListNode* l2)</span> </span>&#123;</span><br><span class="line">        vector&lt;<span class="type">int</span>&gt; n1,n2;</span><br><span class="line">        n1.<span class="built_in">emplace_back</span>(l1-&gt;val);</span><br><span class="line">        <span class="keyword">while</span>(l1-&gt;next!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            l1=l1-&gt;next;</span><br><span class="line">            n1.<span class="built_in">emplace_back</span>(l1-&gt;val);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        n2.<span class="built_in">emplace_back</span>(l2-&gt;val);</span><br><span class="line">        <span class="keyword">while</span>(l2-&gt;next!=<span class="literal">nullptr</span>)&#123;</span><br><span class="line">            l2=l2-&gt;next;</span><br><span class="line">            n2.<span class="built_in">emplace_back</span>(l2-&gt;val);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="function">vector&lt;<span class="type">int</span>&gt; <span class="title">ans</span><span class="params">(max(n1.size(),n2.size())+<span class="number">1</span>)</span></span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n1.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">            ans[i]+=n1[i];</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;n2.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">            ans[i]+=n2[i];</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;<span class="built_in">max</span>(n1.<span class="built_in">size</span>(),n2.<span class="built_in">size</span>());++i)&#123;</span><br><span class="line">            <span class="keyword">if</span>(ans[i]&gt;=<span class="number">10</span>)&#123;</span><br><span class="line">                ans[i+<span class="number">1</span>]++;</span><br><span class="line">                ans[i]-=<span class="number">10</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(ans.<span class="built_in">back</span>()==<span class="number">0</span>)&#123;</span><br><span class="line">            ans.<span class="built_in">pop_back</span>();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ListNode *ret=<span class="keyword">new</span> <span class="built_in">ListNode</span>(ans[<span class="number">0</span>]),*a=ret,*b=<span class="literal">nullptr</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;ans.<span class="built_in">size</span>();++i)&#123;</span><br><span class="line">            b=<span class="keyword">new</span> <span class="built_in">ListNode</span>(ans[i]);</span><br><span class="line">            a-&gt;next=b;</span><br><span class="line">            a=b;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ret;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -1204,7 +1201,7 @@
         <span class="site-state-item-name">categories</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-count">18</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
