@@ -830,7 +830,7 @@
 
   
   <url>
-    <loc>http://mtmatt.one/tags/apcs/</loc>
+    <loc>http://mtmatt.one/tags/competition/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -858,7 +858,7 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/tags/competition/</loc>
+    <loc>http://mtmatt.one/tags/apcs/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -914,14 +914,14 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/tags/datastructure/</loc>
+    <loc>http://mtmatt.one/tags/disjointsets/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mtmatt.one/tags/disjointsets/</loc>
+    <loc>http://mtmatt.one/tags/datastructure/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -951,13 +951,6 @@
 
   
   <url>
-    <loc>http://mtmatt.one/categories/apcs/</loc>
-    <lastmod>2023-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mtmatt.one/categories/ojques/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -965,7 +958,7 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/categories/apcs/apcspracticaltest/</loc>
+    <loc>http://mtmatt.one/categories/apcs/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -973,6 +966,13 @@
   
   <url>
     <loc>http://mtmatt.one/categories/apcspracticaltest/</loc>
+    <lastmod>2023-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtmatt.one/categories/apcs/apcspracticaltest/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
