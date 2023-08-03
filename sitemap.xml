@@ -11,42 +11,6 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/cppreview/the-key-for-a-practical-test-of-dynamic-programming/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mtmatt.one/tags/index.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mtmatt.one/categories/index.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mtmatt.one/about/index.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://mtmatt.one/ojques/codeforces-round-847-div-3/</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -83,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/ojques/codeforces-round-826-pd/</loc>
+    <loc>http://mtmatt.one/ojques/atcoder-abc-215-b-log2n/</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -92,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/ojques/atcoder-abc-215-b-log2n/</loc>
+    <loc>http://mtmatt.one/ojques/codeforces-round-826-pd/</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -110,6 +74,15 @@
   </url>
   
   <url>
+    <loc>http://mtmatt.one/misc/coding-style/</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://mtmatt.one/cppreview/optimize/</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -119,9 +92,36 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/misc/coding-style/</loc>
+    <loc>http://mtmatt.one/cppreview/the-key-for-a-practical-test-of-dynamic-programming/</loc>
     
-    <lastmod>2023-07-28</lastmod>
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtmatt.one/categories/index.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtmatt.one/tags/index.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtmatt.one/about/index.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -828,6 +828,13 @@
   </url>
   
   <url>
+    <loc>http://mtmatt.one/tags/apcs/</loc>
+    <lastmod>2023-08-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://mtmatt.one/tags/oj/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -843,13 +850,6 @@
   
   <url>
     <loc>http://mtmatt.one/tags/sproutoj/</loc>
-    <lastmod>2023-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mtmatt.one/tags/apcs/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -956,14 +956,14 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/categories/apcspracticaltest/</loc>
+    <loc>http://mtmatt.one/categories/apcs/apcspracticaltest/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mtmatt.one/categories/apcs/apcspracticaltest/</loc>
+    <loc>http://mtmatt.one/categories/apcspracticaltest/</loc>
     <lastmod>2023-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
