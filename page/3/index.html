@@ -150,6 +150,93 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2021/11/26/tioj-1142-95_3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mtMatt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="mtMatt@GitHub">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/11/26/tioj-1142-95_3/" class="post-title-link" itemprop="url">TIOJ 1142 95_3.關鍵邏輯閘</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2021-11-26 08:00:00" itemprop="dateCreated datePublished" datetime="2021-11-26T08:00:00+08:00">2021-11-26</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-07-28 13:21:48" itemprop="dateModified" datetime="2023-07-28T13:21:48+08:00">2023-07-28</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/contest/" itemprop="url" rel="index"><span itemprop="name">contest</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="題目連結：1142-3-關鍵邏輯閘-TIOJ-INFOR-Online-Judge"><a href="#題目連結：1142-3-關鍵邏輯閘-TIOJ-INFOR-Online-Judge" class="headerlink" title="題目連結：1142 - 3.關鍵邏輯閘 | TIOJ INFOR Online Judge"></a>題目連結：<a target="_blank" rel="noopener" href="https://tioj.ck.tp.edu.tw/problems/1142">1142 - 3.關鍵邏輯閘 | TIOJ INFOR Online Judge</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述 :"></a>題目敘述 :</h4><p>一個組合電路(combinational circuit)由線路(wires)連接一組邏輯閘(logic gates)而成，並且不包含有向迴路(directed cycle)。一個組合電路的效能決定於最後一個主要輸出(primary output)被算出來的時間。假設每一個邏輯閘所需的運算時間都是固定並且是已知的，而線路的延遲(delay)是0。我們希望把一個組合電路所有的關鍵邏輯閘找出來。若一個邏輯閘的運算時間有任何延長，便會影響到整個電路的效能，它就被稱為關鍵邏輯閘。以圖一的組合電路為例，I1、I2、I3是主要輸入；O1、O2是主要輸出；圓圈代表邏輯閘，箭頭代表線路；每個邏輯閘有自己的編號以及固定的延遲時間。在圖一的例子當中，該組合電路中的O1會因為邏輯閘2、4、5的延遲，在時間400才會收到運算結果；而O2會因為邏輯閘2、4、6的延遲，在時間600才收到運算結果，因此O2是最後一個被算出來的主要輸出。關鍵邏輯閘分別是2、4以及6號邏輯閘，當其中一個關鍵邏輯閘的運算時間有任何延長，O2被算出來的時間也會再往後延遲。相反地，就算1號邏輯閘的運算時間從150延長到160，也不會影響到O2被算出來的時間，因此1號邏輯閘並不是關鍵邏輯閘。</p>
+<h4 id="輸入說明"><a href="#輸入說明" class="headerlink" title="輸入說明 :"></a>輸入說明 :</h4><p>第一行為一個整數 n (0 &lt; n &lt; 10000)，代表一個組合電路的邏輯閘總數，每個邏輯閘的編號都不同，且範圍是介於 1~n 之間的整數。第二行為一個整數 m (m &lt; 50000)，代表線路的總數。接下來的 n 行，依序列出每個邏輯閘的運算時間；每個運算時間的值是介於 0 到 600 之間(含)的整數。最後 m 行，分別列出每一條線路由某個邏輯閘的輸出接到另一個邏輯閘的輸入。 注意：為簡化輸入，我們把主要輸入(primary inputs)與邏輯閘之間的線路，以及邏輯閘與主要輸出(primary outputs)之間的線路省略。(每一個邏輯閘至少都含有一個線路輸出到另一個邏輯閘或主要輸出)</p>
+<h4 id="輸出說明"><a href="#輸出說明" class="headerlink" title="輸出說明 :"></a>輸出說明 :</h4><p>列出關鍵邏輯閘的個數。</p>
+<h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1 :"></a>範例輸入 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">5 4</span><br><span class="line">200</span><br><span class="line">200</span><br><span class="line">400</span><br><span class="line">250</span><br><span class="line">200</span><br><span class="line">1 2</span><br><span class="line">3 2</span><br><span class="line">3 5</span><br><span class="line">4 5</span><br></pre></td></tr></table></figure>
+
+<h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1 :"></a>範例輸出 1 :</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+
+<h3 id="題解"><a href="#題解" class="headerlink" title="題解 :"></a>題解 :</h3><p>很明顯，題目是要最長的路徑，因為最後一個完成的才會是關鍵邏輯閘，並且圖是有向無環圖，我的想法是先做出反圖( f-&gt;t 存成 t-&gt;f )，接著將所有終點接到虛擬點0，並用一次DFS算出所有點的最長路徑。以範測為例。</p>
+<p><img src="https://tioj.ck.tp.edu.tw/pimgs/1142_2.jpg"></p>
+<p>原圖的邊有 1-&gt;2, 3-&gt;2, 3-&gt;5, 和 4-&gt;5。我將它存為下圖</p>
+<p><img src="https://live.staticflickr.com/65535/51706596679_dc6f022266.jpg" alt="TIOJ1142_p1"></p>
+<p>可以聲稱一個性質”對於每個點而言，只有反圖上累積路徑最長的那幾條，後面的點才會有可能是關鍵邏輯閘”，最後再做一次DFS，知道那些點是關鍵就可以間接算出數量了。</p>
+<p>實作程式碼如下</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> ll=<span class="type">long</span> <span class="type">long</span>;</span><br><span class="line"><span class="type">const</span> ll N=<span class="number">10010</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n,m;</span><br><span class="line"><span class="comment">//dis存運算時間，dp存到這個點的最長距離</span></span><br><span class="line"><span class="type">int</span> dis[N],dp[N];</span><br><span class="line"><span class="comment">//ind表示indegree，ind[i]為零的都是終點</span></span><br><span class="line"><span class="type">int</span> ind[N];</span><br><span class="line"><span class="comment">//圖的鄰接串列表示法</span></span><br><span class="line">vector&lt;<span class="type">int</span>&gt; g[N];</span><br><span class="line"><span class="comment">//哪些是關鍵</span></span><br><span class="line">bitset&lt;N&gt; ans;</span><br><span class="line"></span><br><span class="line"><span class="comment">//第一次DFS</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">init</span><span class="params">(<span class="type">int</span> node)</span></span>&#123;</span><br><span class="line">    dp[node]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i:g[node])&#123;</span><br><span class="line">        <span class="built_in">init</span>(i);</span><br><span class="line">        dp[node]=<span class="built_in">max</span>(dp[node],dp[i]);</span><br><span class="line">    &#125;</span><br><span class="line">    dp[node]+=dis[node];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//第二次DFS</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> node)</span></span>&#123;</span><br><span class="line">    <span class="type">int</span> mx=<span class="number">0</span>;</span><br><span class="line">    bitset&lt;N&gt; tp;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i:g[node])&#123;</span><br><span class="line">        <span class="keyword">if</span>(dp[i]&gt;mx)&#123;</span><br><span class="line">            tp.<span class="built_in">reset</span>();</span><br><span class="line">            mx=dp[i];</span><br><span class="line">            tp[i]=<span class="literal">true</span>;</span><br><span class="line">        &#125;<span class="keyword">else</span> <span class="keyword">if</span>(dp[i]==mx)&#123;</span><br><span class="line">            tp[i]=<span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">auto</span> i:g[node])&#123;</span><br><span class="line">        <span class="keyword">if</span>(tp[i])&#123;</span><br><span class="line">            <span class="built_in">dfs</span>(i);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    ans|=tp;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    ios::<span class="built_in">sync_with_stdio</span>(<span class="number">0</span>);cin.<span class="built_in">tie</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;++i)&#123;</span><br><span class="line">        cin&gt;&gt;dis[i];</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">0</span>;i&lt;m;++i)&#123;</span><br><span class="line">        <span class="type">int</span> f,t;</span><br><span class="line">        cin&gt;&gt;f&gt;&gt;t;</span><br><span class="line">        g[t].<span class="built_in">emplace_back</span>(f);</span><br><span class="line">        ind[f]++;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//  將所有終點用點0連接</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;=n;++i)&#123;</span><br><span class="line">        <span class="keyword">if</span>(ind[i]==<span class="number">0</span>)&#123;</span><br><span class="line">            g[<span class="number">0</span>].<span class="built_in">emplace_back</span>(i);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//  最後各跑一次就可以求出答案了</span></span><br><span class="line">    <span class="built_in">init</span>(<span class="number">0</span>);</span><br><span class="line">    <span class="built_in">dfs</span>(<span class="number">0</span>);</span><br><span class="line"></span><br><span class="line">    cout&lt;&lt;ans.<span class="built_in">count</span>();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
     <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2021/09/05/apcs-2021-9-5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -883,81 +970,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://mtmatt.github.io/2021/07/18/hackerrank-sorting-3-comparator/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mtMatt">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="mtMatt@GitHub">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/18/hackerrank-sorting-3-comparator/" class="post-title-link" itemprop="url">HackerRank Sorting 3.Comparator</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2021-07-18 08:00:00" itemprop="dateCreated datePublished" datetime="2021-07-18T08:00:00+08:00">2021-07-18</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2023-07-28 13:21:47" itemprop="dateModified" datetime="2023-07-28T13:21:47+08:00">2023-07-28</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/ojques/" itemprop="url" rel="index"><span itemprop="name">ojques</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="題目連結：Sorting-Comparator-HackerRank"><a href="#題目連結：Sorting-Comparator-HackerRank" class="headerlink" title="題目連結：Sorting: Comparator | HackerRank"></a>題目連結：<a target="_blank" rel="noopener" href="https://www.hackerrank.com/challenges/ctci-comparator-sorting/">Sorting: Comparator | HackerRank</a></h3><p>比較函式的撰寫</p>
-<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">Player</span> &#123;</span><br><span class="line">    <span class="type">int</span> score;</span><br><span class="line">    string name;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Checker</span>&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">static</span> <span class="type">int</span> <span class="title">comparator</span><span class="params">(Player a, Player b)</span>  </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(a.score!=b.score) <span class="keyword">return</span> a.score&gt;b.score?<span class="number">0</span>:<span class="number">-1</span>;</span><br><span class="line">        <span class="keyword">return</span> a.name&lt;b.name?<span class="number">0</span>:<span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -1027,7 +1039,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">88</span>
+          <span class="site-state-item-count">89</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -1036,7 +1048,7 @@
         <span class="site-state-item-name">categories</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-count">19</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
