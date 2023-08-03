@@ -409,7 +409,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2023-08-03 14:09:46" itemprop="dateModified" datetime="2023-08-03T14:09:46+08:00">2023-08-03</time>
+                <time title="修改時間：2023-08-03 14:11:11" itemprop="dateModified" datetime="2023-08-03T14:11:11+08:00">2023-08-03</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -434,9 +434,8 @@
       
           <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
 
-<h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>由題目可知，必須由甲開始，甲結束。因此，取的次數是奇數。我們可以將第一個甲獨立判斷，後面乙甲都綁定在一起。於是，可以得到。</p>
-<script type="math/tex; mode=display">
-dp_n = dp_{n-2} + 2 \times dp_{n-3} + dp_{n-4}</script><p>其中，\(dp_{n-2}\) 是最後乙甲都取 1 個棋子；\(dp_{n-3}\) 是最後乙甲其中一個取 1 個棋子，\(dp_{n-4}\) 是最後乙甲都取 2 個棋子的方法數。</p>
+<h3 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h3><p>由題目可知，必須由甲開始，甲結束。因此，取的次數是奇數。我們可以將第一個甲獨立判斷，後面乙甲都綁定在一起。於是，可以得到。<br>\(dp_n = dp_{n-2} + 2 \times dp_{n-3} + dp_{n-4}\)</p>
+<p>其中，\(dp_{n-2}\) 是最後乙甲都取 1 個棋子；\(dp_{n-3}\) 是最後乙甲其中一個取 1 個棋子，\(dp_{n-4}\) 是最後乙甲都取 2 個棋子的方法數。</p>
 <p>由於這是一個線性遞迴的轉移式，因此我們可以用矩陣乘法進一步優化。</p>
 <script type="math/tex; mode=display">
     \begin{pmatrix}dp_{n} \\ dp_{n-1} \\ dp_{n-2} \\ dp_{n-3} \end{pmatrix} = 
