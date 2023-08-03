@@ -30,7 +30,7 @@
 <meta property="og:description" content="題目連結：AtCoder Beginner Contest 215: D - Coprime 2題目敘述">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:published_time" content="2021-12-19T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-08-03T23:35:19.299Z">
+<meta property="article:modified_time" content="2023-08-03T23:36:44.172Z">
 <meta property="article:author" content="mtMatt">
 <meta property="article:tag" content="oj">
 <meta property="article:tag" content="onlinejudge">
@@ -239,7 +239,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新於</span>
-                <time title="修改時間：2023-08-04 07:35:19" itemprop="dateModified" datetime="2023-08-04T07:35:19+08:00">2023-08-04</time>
+                <time title="修改時間：2023-08-04 07:36:44" itemprop="dateModified" datetime="2023-08-04T07:36:44+08:00">2023-08-04</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -262,7 +262,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="題目連結：AtCoder-Beginner-Contest-215-D-Coprime-2"><a href="#題目連結：AtCoder-Beginner-Contest-215-D-Coprime-2" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: D - Coprime 2"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_d">AtCoder Beginner Contest 215: D - Coprime 2</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述"></a>題目敘述</h4><p>給定\(n, m\)下一行會有\(n\)個數字，輸出所有\(k in 1~m\)，\(k\)是與所有數字皆互質的數。</p>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<h3 id="題目連結：AtCoder-Beginner-Contest-215-D-Coprime-2"><a href="#題目連結：AtCoder-Beginner-Contest-215-D-Coprime-2" class="headerlink" title="題目連結：AtCoder Beginner Contest 215: D - Coprime 2"></a>題目連結：<a target="_blank" rel="noopener" href="https://atcoder.jp/contests/abc215/tasks/abc215_d">AtCoder Beginner Contest 215: D - Coprime 2</a></h3><h4 id="題目敘述"><a href="#題目敘述" class="headerlink" title="題目敘述"></a>題目敘述</h4><p>給定\(n, m\)下一行會有\(n\)個數字，輸出所有\(k in 1~m\)，\(k\)是與所有數字皆互質的數。</p>
 <h4 id="範例輸入-1"><a href="#範例輸入-1" class="headerlink" title="範例輸入 1"></a>範例輸入 1</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">3 12</span><br><span class="line">6 1 5</span><br></pre></td></tr></table></figure>
 <h4 id="範例輸出-1"><a href="#範例輸出-1" class="headerlink" title="範例輸出 1"></a>範例輸出 1</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">3</span><br><span class="line">1</span><br><span class="line">7</span><br><span class="line">11</span><br></pre></td></tr></table></figure>
 <h3 id="題解"><a href="#題解" class="headerlink" title="題解"></a>題解</h3><p>用埃氏篩法在\(log(n)\) 的時間內做質因數分解，接著將所有數字的質因數聯集存在 bitset 中，最後判斷\(1~m\)的所有數字的質因數之中有無存於 bitset 中。</p>
