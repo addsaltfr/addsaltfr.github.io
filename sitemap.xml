@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://mtmatt.one/apcs/apcspracticaltest/my-apcs-handout/</loc>
-    
-    <lastmod>2023-08-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://mtmatt.one/my-apcs-handout.html</loc>
     
     <lastmod>2023-08-19</lastmod>
@@ -848,20 +839,6 @@
 
   
   <url>
-    <loc>http://mtmatt.one/tags/competition/</loc>
-    <lastmod>2023-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mtmatt.one/tags/apcs/</loc>
-    <lastmod>2023-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mtmatt.one/tags/oj/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -877,6 +854,20 @@
   
   <url>
     <loc>http://mtmatt.one/tags/sproutoj/</loc>
+    <lastmod>2023-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtmatt.one/tags/competition/</loc>
+    <lastmod>2023-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtmatt.one/tags/apcs/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -953,13 +944,6 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/tags/APCS%E8%88%87%E7%AB%B6%E8%B3%BD%E5%85%A5%E9%96%80/</loc>
-    <lastmod>2023-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mtmatt.one/tags/coding/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -983,14 +967,14 @@
   </url>
   
   <url>
-    <loc>http://mtmatt.one/categories/apcspracticaltest/</loc>
+    <loc>http://mtmatt.one/categories/apcs/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mtmatt.one/categories/apcs/</loc>
+    <loc>http://mtmatt.one/categories/apcspracticaltest/</loc>
     <lastmod>2023-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
