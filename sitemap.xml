@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mtcookie.fr/about/index.html</loc>
+    
+    <lastmod>2023-08-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://mtcookie.fr/apcs/apcspracticaltest/apcs-2022-1-9/</loc>
     
     <lastmod>2023-08-21</lastmod>
@@ -156,15 +165,6 @@
   
   <url>
     <loc>http://mtcookie.fr/categories/index.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://mtcookie.fr/about/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -839,7 +839,14 @@
 
   
   <url>
-    <loc>http://mtcookie.fr/tags/apcs/</loc>
+    <loc>http://mtcookie.fr/tags/competition/</loc>
+    <lastmod>2023-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtcookie.fr/tags/abc/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -867,14 +874,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/competition/</loc>
-    <lastmod>2023-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://mtcookie.fr/tags/abc/</loc>
+    <loc>http://mtcookie.fr/tags/apcs/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -951,27 +951,20 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/95%E5%85%A8%E5%9C%8B%E8%83%BD%E5%8A%9B%E7%AB%B6%E8%B3%BD/</loc>
-    <lastmod>2023-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mtcookie.fr/tags/coding/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
-
-  
   <url>
-    <loc>http://mtcookie.fr/categories/apcs/</loc>
+    <loc>http://mtcookie.fr/tags/95%E5%85%A8%E5%9C%8B%E8%83%BD%E5%8A%9B%E7%AB%B6%E8%B3%BD/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
+  
+
   
   <url>
     <loc>http://mtcookie.fr/categories/ojques/</loc>
@@ -981,7 +974,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/categories/apcs/apcspracticaltest/</loc>
+    <loc>http://mtcookie.fr/categories/apcs/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -989,6 +982,13 @@
   
   <url>
     <loc>http://mtcookie.fr/categories/misc/</loc>
+    <lastmod>2023-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtcookie.fr/categories/apcs/apcspracticaltest/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
