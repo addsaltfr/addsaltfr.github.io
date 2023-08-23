@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/ojques/atcoder-abc-215-b-log2n/</loc>
+    <loc>http://mtcookie.fr/ojques/atcoder-abc-215-d-d-coprime-2/</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/ojques/atcoder-abc-215-d-d-coprime-2/</loc>
+    <loc>http://mtcookie.fr/ojques/atcoder-abc-215-b-log2n/</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/index.html</loc>
+    <loc>http://mtcookie.fr/categories/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/categories/index.html</loc>
+    <loc>http://mtcookie.fr/tags/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -839,7 +839,7 @@
 
   
   <url>
-    <loc>http://mtcookie.fr/tags/competition/</loc>
+    <loc>http://mtcookie.fr/tags/apcs/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -867,7 +867,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/apcs/</loc>
+    <loc>http://mtcookie.fr/tags/competition/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -967,14 +967,14 @@
 
   
   <url>
-    <loc>http://mtcookie.fr/categories/ojques/</loc>
+    <loc>http://mtcookie.fr/categories/apcs/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/categories/apcs/</loc>
+    <loc>http://mtcookie.fr/categories/ojques/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
