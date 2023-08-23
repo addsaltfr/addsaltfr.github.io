@@ -119,15 +119,6 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/cppreview/optimize/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://mtcookie.fr/contest/tioj-1142-95_3/</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -146,6 +137,15 @@
   </url>
   
   <url>
+    <loc>http://mtcookie.fr/cppreview/optimize/</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://mtcookie.fr/misc/coding-style/</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/index.html</loc>
+    <loc>http://mtcookie.fr/categories/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/categories/index.html</loc>
+    <loc>http://mtcookie.fr/tags/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -846,13 +846,6 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/apcs/</loc>
-    <lastmod>2023-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mtcookie.fr/tags/oj/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -868,6 +861,13 @@
   
   <url>
     <loc>http://mtcookie.fr/tags/sproutoj/</loc>
+    <lastmod>2023-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtcookie.fr/tags/apcs/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -916,14 +916,14 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/review/</loc>
+    <loc>http://mtcookie.fr/tags/datastructure/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/datastructure/</loc>
+    <loc>http://mtcookie.fr/tags/review/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -937,13 +937,6 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/leetcode/</loc>
-    <lastmod>2023-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://mtcookie.fr/tags/APCS%E8%88%87%E7%AB%B6%E8%B3%BD%E5%85%A5%E9%96%80/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -951,7 +944,7 @@
   </url>
   
   <url>
-    <loc>http://mtcookie.fr/tags/coding/</loc>
+    <loc>http://mtcookie.fr/tags/leetcode/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -959,6 +952,13 @@
   
   <url>
     <loc>http://mtcookie.fr/tags/95%E5%85%A8%E5%9C%8B%E8%83%BD%E5%8A%9B%E7%AB%B6%E8%B3%BD/</loc>
+    <lastmod>2023-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://mtcookie.fr/tags/coding/</loc>
     <lastmod>2023-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
