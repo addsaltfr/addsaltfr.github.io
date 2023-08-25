@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"lifesimple.fr","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="前言上星期，才走完 [版本更新] 快速回顧 微軟發布 Windows 11：KB5010386 (作業系統組建 22000.493)，想不到，沒多久又來一支補丁。 今天換來看看 KB5010386 (作業系統組建 22000.493) 這一支補丁。     更新前內容概覽我先讀過 2022 年 2 月 15 日 —KB5010414 (OS 版本 22000.527) 預覽 裡的說明，而這次的說明">
+<meta property="og:type" content="website">
+<meta property="og:title" content="[版本更新] 快速回顧 微軟發布 KB5010414 (Windows 11 作業系統組建 22000.527)">
+<meta property="og:url" content="http://lifesimple.fr/posts_mtMattPage/quickrecap-of-kb5010414-windows-11-os-build-22000-527.html">
+<meta property="og:site_name" content="lifesimple.fr">
+<meta property="og:description" content="前言上星期，才走完 [版本更新] 快速回顧 微軟發布 Windows 11：KB5010386 (作業系統組建 22000.493)，想不到，沒多久又來一支補丁。 今天換來看看 KB5010386 (作業系統組建 22000.493) 這一支補丁。     更新前內容概覽我先讀過 2022 年 2 月 15 日 —KB5010414 (OS 版本 22000.527) 預覽 裡的說明，而這次的說明">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51887957027_bc95a8c9fe_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51889006713_4a3bbe0ba0_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51889252729_c5d9db1867_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51889252634_bcebe72970_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51889006508_99f0aea4a8_o.png">
+<meta property="article:published_time" content="2022-02-18T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-08-03T11:14:42.000Z">
+<meta property="article:author" content="lifesimple.fr">
+<meta property="article:tag" content="quickrecap">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="windows11">
+<meta property="article:tag" content="windowsupdate">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/51887957027_bc95a8c9fe_o.png">
+
+<link rel="canonical" href="http://lifesimple.fr/posts_mtMattPage/quickrecap-of-kb5010414-windows-11-os-build-22000-527">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : false,
+    lang   : 'zh-TW'
+  };
+</script>
+
+  <title>[版本更新] 快速回顧 微軟發布 KB5010414 (Windows 11 作業系統組建 22000.527) | lifesimple.fr
+</title>
+  
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: 'ca-pub-4821894216366631',
+          enable_page_level_ads: true
+     });
+</script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --></head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">lifesimple.fr</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content page posts-expand">
+            
+
+    
+    
+    
+    <div class="post-block" lang="zh-TW">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">[版本更新] 快速回顧 微軟發布 KB5010414 (Windows 11 作業系統組建 22000.527)
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>上星期，才走完 <a target="_blank" rel="noopener" href="http://mtmatt.page/windows/quickrecap-of-windows-11-kb5010386-os-build-22000-493/">[版本更新] 快速回顧 微軟發布 Windows 11：KB5010386 (作業系統組建 22000.493)</a>，想不到，沒多久又來一支補丁。</p>
+<p>今天換來看看 KB5010386 (作業系統組建 22000.493) 這一支補丁。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51887957027/in/dateposted-public/" title="Windows11UpdateKB5010414(OSBuild22000.527)Ep1"><img src="https://live.staticflickr.com/65535/51887957027_bc95a8c9fe_o.png" alt="Windows11UpdateKB5010414(OSBuild22000.527)Ep1"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<hr>
+<h3 id="更新前內容概覽"><a href="#更新前內容概覽" class="headerlink" title="更新前內容概覽"></a>更新前內容概覽</h3><p>我先讀過 <a target="_blank" rel="noopener" href="https://support.microsoft.com/zh-tw/topic/2022-%E5%B9%B4-2-%E6%9C%88-15-%E6%97%A5-kb5010414-os-%E7%89%88%E6%9C%AC-22000-527-%E9%A0%90%E8%A6%BD-73e259d0-45ca-45ef-960f-426035104e73">2022 年 2 月 15 日 —KB5010414 (OS 版本 22000.527) 預覽</a> 裡的說明，而這次的說明，我認為還算滿清楚的。</p>
+<p>「新增功能！」是我特別注意到的部分，其中又以工作列的調整，最吸引我的注目。</p>
+<blockquote>
+<p>如果工作列在中央對齊，則新增天氣內容至工作列左側。 當您將游標停留在天氣上時，畫面左側會顯示小工具面板，當您停止將游標停留在該區域上時，就會消失。</p>
+</blockquote>
+<hr>
+<h3 id="更新後的觀察"><a href="#更新後的觀察" class="headerlink" title="更新後的觀察"></a>更新後的觀察</h3><p>我認為工作列在中央對齊後，把一個後 Windows 10 時期放進工作列的小工具面板，移到最左邊是一個滿不錯的做法。坦白說，從我使用 Windows 11 之後，只要是工作列在中央對齊，我就會覺得工作列右邊好擁擠，而現在有這樣的調整，真的還滿不錯的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51889006713/in/dateposted-public/" title="Windows11UpdateKB5010414(OSBuild22000.527)Ep3"><img src="https://live.staticflickr.com/65535/51889006713_4a3bbe0ba0_o.png" alt="Windows11UpdateKB5010414(OSBuild22000.527)Ep3"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>僅管微軟做了調整，左右兩邊的「東西」，在量的部分，還是有點失衡，對我來說，如果左右兩邊的「東西」都可以自行調整的話，就更棒了。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51889252729/in/dateposted-public/" title="Windows11UpdateKB5010414(OSBuild22000.527)Ep4"><img src="https://live.staticflickr.com/65535/51889252729_c5d9db1867_o.png" alt="Windows11UpdateKB5010414(OSBuild22000.527)Ep4"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p>Microsoft Teams(微軟團隊)是我很少用的 App，就…決定先把「自動啟動 Teams」關掉，至於它升級的部分，對常用的人，或許會覺得還不錯用。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51889252634/in/dateposted-public/" title="Windows11UpdateKB5010414(OSBuild22000.527)Ep6"><img src="https://live.staticflickr.com/65535/51889252634_bcebe72970_o.png" alt="Windows11UpdateKB5010414(OSBuild22000.527)Ep6"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<p> &lt;<a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51889006508/in/dateposted-public/" title="Windows11UpdateKB5010414(OSBuild22000.527)Ep5"><img src="https://live.staticflickr.com/65535/51889006508_99f0aea4a8_o.png" alt="Windows11UpdateKB5010414(OSBuild22000.527)Ep5"></a></p>
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>以往，我不會特別注意 Windows 更新的補丁，通常會注意到的時候，多半是釋出補丁之後，多數人補壞了才知道，要釋出穩定的補丁，還真的不是一件容易的事。</p>
+<p>這次的更新，除了上述提到的 2 點之外，官方總共整理出 7 點，有興趣的伙伴，不妨在更新前讀一下，再決定要不要在這次更新。</p>
+
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E5%89%8D%E5%85%A7%E5%AE%B9%E6%A6%82%E8%A6%BD"><span class="nav-number">2.</span> <span class="nav-text">更新前內容概覽</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E5%BE%8C%E7%9A%84%E8%A7%80%E5%AF%9F"><span class="nav-number">3.</span> <span class="nav-text">更新後的觀察</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">4.</span> <span class="nav-text">後記</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">lifesimple.fr</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">40</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">80</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+
+      <!--google_adsense-->
+      
+        <div class="links-of-blogroll-title">
+          <i class="fab fa-google"></i> Google AdSense
+          <ins class="adsbygoogle"
+              style="display:block"
+              data-ad-client="ca-pub-4821894216366631"
+              data-ad-slot="8006458540"
+              data-ad-format="auto"
+              data-full-width-responsive="true"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      
+      <!--/google_adsense-->
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">lifesimple.fr</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 強力驅動
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
