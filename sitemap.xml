@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/review-my-finances/</loc>
-    
-    <lastmod>2023-08-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/%E9%96%8B%E7%AE%B1/ringke-fusion-ipad-air-5-10-9/</loc>
     
     <lastmod>2023-08-25</lastmod>
@@ -20,7 +11,16 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/virgin-river-on-netflix/</loc>
+    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/review-my-finances/</loc>
+    
+    <lastmod>2023-08-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/%E9%96%8B%E7%AE%B1/sony-xperia-10-iii/</loc>
     
     <lastmod>2023-08-25</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/%E9%96%8B%E7%AE%B1/sony-xperia-10-iii/</loc>
+    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/virgin-river-on-netflix/</loc>
     
     <lastmod>2023-08-25</lastmod>
     
@@ -83,6 +83,15 @@
   </url>
   
   <url>
+    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/cp-value-of-protecting-product-for-iphone/</loc>
+    
+    <lastmod>2023-08-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lifesimple.fr/%E9%96%8B%E7%AE%B1/black-belkin-secure-holder-for-airtag/</loc>
     
     <lastmod>2023-08-25</lastmod>
@@ -93,15 +102,6 @@
   
   <url>
     <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/dot-day-and-google-domains/</loc>
-    
-    <lastmod>2023-08-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/cp-value-of-protecting-product-for-iphone/</loc>
     
     <lastmod>2023-08-25</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/iphone-se-3/</loc>
+    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/iphone-13-pro/</loc>
     
     <lastmod>2023-08-25</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/iphone-13-pro/</loc>
+    <loc>http://lifesimple.fr/%E9%96%8B%E8%AC%9B/iphone-se-3/</loc>
     
     <lastmod>2023-08-25</lastmod>
     
@@ -515,7 +515,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/centos-stream-9.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/archlabs-linux-2023-01-20.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -524,7 +524,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/archlabs-linux-2023-01-20.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/centos-stream-9.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -560,15 +560,6 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-boshiamy-and-chewing-on-archcraft-2023-01-01.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/endeavouros-artemis-nova-22-9.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -578,7 +569,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-boshiamy-and-chewing-on-archlabs-linux-2023-01-20.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-boshiamy-and-chewing-on-archcraft-2023-01-01.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -596,6 +587,15 @@
   </url>
   
   <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-boshiamy-and-chewing-on-archlabs-linux-2023-01-20.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-chewing-on-arch-linux.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -605,7 +605,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-chewing-on-ubuntu-22-04-lts.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -614,7 +614,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/fcitx5-with-chewing-on-ubuntu-22-04-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -803,7 +803,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/manjaro-linux-22-0-5-plasma-edition.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/manjaro-xfce-21-2-2-and-boshiamy-feat-fcitx5.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -812,7 +812,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/manjaro-xfce-21-2-2-and-boshiamy-feat-fcitx5.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/manjaro-linux-22-0-5-plasma-edition.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -839,7 +839,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/opensuse-tumbleweed-snapshot20220905.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/openvanilla-1-6-2-and-boshiamy-unix-table.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -848,7 +848,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/pop_os-22-04-lts.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/opensuse-tumbleweed-snapshot20220905.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -866,7 +866,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/openvanilla-1-6-2-and-boshiamy-unix-table.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/pop_os-22-04-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -938,7 +938,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/quickrecap-of-kb5013943-windows-11-os-build-22000-675.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/quickrecap-of-kb5012643-windows-11-os-build-22000-652.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -947,7 +947,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/quickrecap-of-kb5012643-windows-11-os-build-22000-652.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/quickrecap-of-kb5013943-windows-11-os-build-22000-675.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1019,15 +1019,6 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/shifting-from-mx-linux-to-garuda-linux.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/risios-37-1-1.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1046,7 +1037,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/ubuntu-18-04-6-desktop-and-boshiamy-feat-fcitx.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/shifting-from-mx-linux-to-garuda-linux.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1056,6 +1047,15 @@
   
   <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/things-to-do-after-installing-mx-linux-mx-21.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/ubuntu-18-04-6-desktop-and-boshiamy-feat-fcitx.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1100,15 +1100,6 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/upgrade-to-fedora-37-from-fedora-35.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/upgrade-to-macos-monterey-on-my-mac-mini-late-2014.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1119,6 +1110,15 @@
   
   <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/upgrade-to-manjaro-linux-22-1-0-from-manjaro-linux-22-0-5.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/upgrade-to-fedora-37-from-fedora-35.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1154,15 +1154,6 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/apple-swift-playgrounds.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/after-upgrading-and-using-windows-11-and-boshiamy-for-several-hours.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1173,6 +1164,15 @@
   
   <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/auto-cpufreq.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/apple-swift-playgrounds.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1217,7 +1217,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/fixing-imageinstall-error-when-using-bootcamp-to-install-windows-10-on-my-imac.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/fixing-time-differences-in-ubuntu-20-04-lts-and-windows-10-dual-boot.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1226,7 +1226,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/fixing-time-differences-in-ubuntu-20-04-lts-and-windows-10-dual-boot.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/fixing-imageinstall-error-when-using-bootcamp-to-install-windows-10-on-my-imac.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1262,15 +1262,6 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-arch-linux-and-boshiamy.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/installing-arch-linux-on-my-mac-mini.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1280,7 +1271,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-boshiamy-on-lubuntu-18-04.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-arch-linux-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1290,6 +1281,15 @@
   
   <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/installing-boshiamy-table-for-fcitx-on-debian-10-10.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-boshiamy-on-lubuntu-18-04.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1334,24 +1334,6 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-clear-linux-into-my-mac-mini-late-2014.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-debian-11-and-boshiamy.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/installing-codeblocks-ide-17-12-on-lubuntu-18-04.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1361,7 +1343,25 @@
   </url>
   
   <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-clear-linux-into-my-mac-mini-late-2014.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/installing-elementary-os-6-0-and-boshiamy.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-debian-11-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1397,6 +1397,15 @@
   </url>
   
   <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/installing-feren-os-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1407,15 +1416,6 @@
   
   <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1451,6 +1451,15 @@
   </url>
   
   <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-pop_os-21-04-and-boshiamy.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/installing-pop_os-21-10-on-my-mac-mini.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1469,7 +1478,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-pop_os-21-04-and-boshiamy.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-virtualbox-6-1-26-on-clear-linux.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1478,7 +1487,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-virtualbox-6-1-26-on-clear-linux.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-ubuntu-budgie-21-10-desktop-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1505,7 +1514,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-ubuntu-budgie-21-10-desktop-and-boshiamy.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/installing-zorin-os-16-core-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1523,25 +1532,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/installing-zorin-os-16-core-and-boshiamy.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/linux-mint-on-parallels-desktop-15.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/making-a-dual-bootable-flash-drive-on-my-imac.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1560,6 +1551,15 @@
   
   <url>
     <loc>http://lifesimple.fr/posts_mtMattPage/more-important-things-for-me-than-the-versus-between-apple-m1-and-intel.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/posts_mtMattPage/making-a-dual-bootable-flash-drive-on-my-imac.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1613,7 +1613,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/upgrade-to-fedora-35-from-fedora-34.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/unistall-grub-by-clearlinux-live-usb.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1622,7 +1622,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/posts_mtMattPage/unistall-grub-by-clearlinux-live-usb.html</loc>
+    <loc>http://lifesimple.fr/posts_mtMattPage/upgrade-to-fedora-35-from-fedora-34.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1649,7 +1649,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/tags/index.html</loc>
+    <loc>http://lifesimple.fr/categories/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1658,7 +1658,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/categories/index.html</loc>
+    <loc>http://lifesimple.fr/tags/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1739,14 +1739,14 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/tags/ipad/</loc>
+    <loc>http://lifesimple.fr/tags/biometrics/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/tags/ipadair5/</loc>
+    <loc>http://lifesimple.fr/tags/iphone/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1767,21 +1767,14 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/tags/biometrics/</loc>
+    <loc>http://lifesimple.fr/tags/ipad/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/tags/iphone/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/belkin/</loc>
+    <loc>http://lifesimple.fr/tags/ipadair5/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1809,6 +1802,27 @@
   </url>
   
   <url>
+    <loc>http://lifesimple.fr/tags/mobliedevice/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/screenprotector/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/belkin/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://lifesimple.fr/tags/domains/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1824,27 +1838,6 @@
   
   <url>
     <loc>http://lifesimple.fr/tags/web/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/mobliedevice/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/screenprotector/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/adjustablelaptopstand/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1879,14 +1872,7 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/tags/fedora/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/linux/</loc>
+    <loc>http://lifesimple.fr/tags/adjustablelaptopstand/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1908,6 +1894,20 @@
   
   <url>
     <loc>http://lifesimple.fr/tags/fitnesstracker/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/fedora/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/linux/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2047,27 +2047,6 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/tags/boots/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/palladium/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/waterproof/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/tags/fitnessTracker/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2083,6 +2062,27 @@
   
   <url>
     <loc>http://lifesimple.fr/tags/walking/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/boots/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/palladium/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/waterproof/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2138,27 +2138,6 @@
   </url>
   
   <url>
-    <loc>http://lifesimple.fr/tags/4k/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/smarttv/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://lifesimple.fr/tags/teco/</loc>
-    <lastmod>2023-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://lifesimple.fr/tags/android/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2181,6 +2160,27 @@
   
   <url>
     <loc>http://lifesimple.fr/tags/xperia/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/4k/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/smarttv/</loc>
+    <lastmod>2023-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://lifesimple.fr/tags/teco/</loc>
     <lastmod>2023-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
