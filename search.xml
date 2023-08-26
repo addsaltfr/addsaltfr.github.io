@@ -56,25 +56,32 @@
       </tags>
   </entry>
   <entry>
-    <title>生物辨識技術在 iPhone 上的應用</title>
-    <url>/%E9%96%8B%E8%AC%9B/biometrics-and-iphone/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>生物辨識技術 (Biometric) 早在 iPhone 導入指紋辨識之前，就已經被應用多年，但，iPhone 確實是讓這項技術廣泛被應用的重要推手，iPhone 也因為這項技術，給自己挖了個坑。  <img src="https://images.unsplash.com/photo-1529974445367-5b9bf0a0586e?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1025&amp;q=80" alt=""><br>Photo by <a href="https://unsplash.com/@kylejglenn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kyle Glenn</a> on <a href="https://unsplash.com/s/photos/face-id?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-<h3 id="Touch-ID-與-Face-ID"><a href="#Touch-ID-與-Face-ID" class="headerlink" title="Touch ID 與 Face ID"></a>Touch ID 與 Face ID</h3><p>比起按 4 到 6 個數字或是在螢幕上畫出解鎖圖示，指紋辨識一碰就解，搭配 SmartPhone 的硬體特性及 iOS 使用體驗設計，再加上蘋果給這個技術起了個順口好記的名字：Touch ID ，一下子之間，生物辨識技術不僅僅是個話題，更讓 iPhone 持續站在 SmartPhone 的高點。</p>
-<p>但，在 iPhone X 首次導入的 Face ID，就沒有那麼順利…</p>
-<h3 id="花式吹牛？"><a href="#花式吹牛？" class="headerlink" title="花式吹牛？"></a>花式吹牛？</h3><p>普遍來說，蘋果使用者多少還是能夠接受瀏海頭的設計，然而，疫情的延燒似乎給了蘋果一個當頭棒喝，蘋果的因應方式，本來我在猜想的是 iPad Air 4 放上與電源鍵集成的指紋辨識，會延用到 iPhone 12 上面，不過，iPad Air 4 發表後，有個小小插曲是 Bob Borchers 與 John Ternus 在受訪時，宣稱為「難以置信的工程壯舉」，也因為這一點，讓我看弱蘋果，畢竟該項技術，早在 Android 上面就被應用，如果蘋果表達出自己是參考所有的設計後，嘗試在自家的硬體上做出優化，這樣的說法，我反而比較能夠接受。</p>
-<p>最後，2020 年的 iPhone 12 最後並沒有延用這項設計，我倒是沒有那種「難以置信」的反應，可能是因為早在 iPhone 12 發表的幾天前，我就已經把 iPhone X 與 Apple Watch 通通出掉，也沒再特別去注意發表會的關係吧！</p>
-<h3 id="Apple-Watch-幫忙解鎖，還是讓人一步一步走入萬丈深淵"><a href="#Apple-Watch-幫忙解鎖，還是讓人一步一步走入萬丈深淵" class="headerlink" title="Apple Watch 幫忙解鎖，還是讓人一步一步走入萬丈深淵"></a>Apple Watch 幫忙解鎖，還是讓人一步一步走入萬丈深淵</h3><p>蘋果提出的另一個解決方式，…就是要麻煩使用者，再添購一支 Apple Watch。看到這一個方法時，我真的快要無言，雖然，有不少人現在手上都有一塊 Apple Watch，但是，一塊 Apple Watch 不是 2、3 張小朋友就可以輕易入手仍是事實，更何況蘋果一再強調的隱私問題，我深表認同，因此，我也不見得願意把個人的生理相關資料提供給蘋果蒐集。</p>
-<h3 id="Face-ID-的成敗未定"><a href="#Face-ID-的成敗未定" class="headerlink" title="Face ID 的成敗未定"></a>Face ID 的成敗未定</h3><p>Tim Cook 把 Face ID 當成一個 iPhone 發展史的重要里程碑，以我的角度來看，Face ID 比較像是一個分水嶺，因為，導入 Face ID 後的 iPhone，在各個面向，不是被緊緊逼近，就是遭受打擊，iOS 也被詬病越來越像 Android(其實，操作介面已經有點哥倆好的樣子)。除了 iPhone、iPad Pro 以外，蘋果至今還沒有把 Face ID 導入其他產品的結果正式出品，而我已先在 Microsoft Surface，有過使用體驗。</p>
-<p>現在論成敗，或許言之過早，但，從 Face ID 的經驗來看，蘋果在持續發展 iPhone 時，需要認真思考的，除了 iPhone 還能夠在顏色有什麼樣的表現外，還可以思考 iPhone 可不可以再從其他的面向，帶給使用者更多生活上的便利。</p>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>最近有親友分享，推論出一個 Face ID 不被大家喜歡，卻仍存在的可能原因，那就是 App Store 上的消費行為，蘋果比較有立足點去否決，以避免不當退費。</p>
-<p>不曉得大家認為呢？</p>
+    <title>捉對廝殺之 Apple Store 線上商店 VS. Yahoo奇摩購物中心 (AirTag 購買篇)</title>
+    <url>/%E9%96%8B%E8%AC%9B/apple-store-vs-yahoo-shopping-for-airtag/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>AirTag 不能算是新穎的產品，而今天的重點並不是在分享使用心得，而是我在 <a href="https://www.apple.com/tw/store">Apple Store 線上商店 – Apple (台灣)</a> 入手後，又在 <a href="https://tw.buy.yahoo.com/">Yahoo奇摩購物中心-品質生活盡在雅虎購物，好的生活真的不貴!</a> 以較划算的價格入手。<br>結果，都在同一天到貨，剛好可以做一個「捉對廝殺」的比較紀錄。 <img src="https://live.staticflickr.com/65535/51722202687_98cb1c4d22_o.png" alt=""></p>
+<h3 id="Apple-Store-線上商店-VS-Yahoo奇摩購物中心-AirTag-開箱影片"><a href="#Apple-Store-線上商店-VS-Yahoo奇摩購物中心-AirTag-開箱影片" class="headerlink" title="Apple Store 線上商店 VS. Yahoo奇摩購物中心 (AirTag 開箱影片)"></a>Apple Store 線上商店 VS. Yahoo奇摩購物中心 (AirTag 開箱影片)</h3><ol>
+<li>先來看看「Apple Store 線上商店」這邊<br> [youtube <a href="https://www.youtube.com/watch?v=4pAtVNNSdIo&amp;w=560&amp;h=315\">https://www.youtube.com/watch?v=4pAtVNNSdIo&amp;w=560&amp;h=315\</a>]</li>
+<li>再來瞧瞧「Yahoo奇摩購物中心」這邊<br> [youtube <a href="https://www.youtube.com/watch?v=sWc1K-Dqdgs&amp;w=560&amp;h=315\">https://www.youtube.com/watch?v=sWc1K-Dqdgs&amp;w=560&amp;h=315\</a>]</li>
+</ol>
+<h3 id="主觀比一比-2-家的優劣勢"><a href="#主觀比一比-2-家的優劣勢" class="headerlink" title="主觀比一比 2 家的優劣勢"></a>主觀比一比 2 家的優劣勢</h3><ol>
+<li>出貨速度：這個部分會是「Yahoo奇摩購物中心」勝出，不過，我這次在「Apple Store 線上商店」購買的原因是想要使用「鐫刻服務」，加上這個服務，時間會再拉長一點。但，即便如此，「Apple Store 線上商店」從官網下訂後，所顯示的到貨時間，也不是在 24 小時內。也必須說，我在「Apple Store 線上商店」還同時下訂「適用於 AirTag 的 Belkin Secure Holder (附鑰匙圈) – 粉紅色」，實際到貨的時間，比下訂時官網給的時間還來得早。因此，我猜想，「Apple Store 線上商店」比較是在時程預估上的做法偏保守一點。</li>
+<li>貨源穩定度：又不是要進貨，比這個會不會有點「怪」。其實，我注意到，「Yahoo奇摩購物中心」是在架上不定時更新貨量，相較之下，「Apple Store 線上商店」的貨源相對來得穩定得多。不過，這段時間接近「雙12」，也還有其他的因素會干擾到貨源的穩定度，這一點並非絕對，如果有更專業的看法，也歡迎告知。</li>
+<li>包裝品質：就我來看，2 家可以說是平手。只能說「Apple Store 線上商店」可能在「環保」多一點，而「Yahoo奇摩購物中心」則是在「防水保護」上多一點。</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>開箱費用：<br> (1)Apple Store 線上商店：990 元。<br> (2)Yahoo奇摩購物中心：849 元。<br> (3)價格可能會有波動，請以賣場售價為主。</li>
+<li>參考資料：<br> (1)AirTag – Apple (台灣)：<a href="https://www.apple.com/tw/airtag/">https://www.apple.com/tw/airtag/</a><br> (2)Apple Store 線上商店：<a href="https://www.apple.com/tw/store">https://www.apple.com/tw/store</a><br> (3)Yahoo奇摩購物中心：<a href="https://tw.buy.yahoo.com/">https://tw.buy.yahoo.com/</a></li>
+<li>其他： (1)兩支影片，還有一個比較大的差異是「Apple Store 線上商店」還加上「產品啟動」的章節，從「Yahoo奇摩購物中心」入手的，也有走過「產品啟動」這個部分，貨沒有太大問題，我雖然有錄影，但從我所錄製的影片裡看不出差異，這次就當是一個經驗，未來有類似的狀況，我會試著使用 iPhone 的螢幕錄影紀錄下來。 (2)附帶一提的是，2 家應該都可以使用 Line Points 折抵，只不過，這次的開箱經驗中，我是後來才注意到，因此，Line Points 只用在「Yahoo奇摩購物中心」這裡。</li>
+</ol>
 ]]></content>
       <categories>
         <category>開講</category>
       </categories>
       <tags>
-        <tag>biometrics</tag>
-        <tag>iphone</tag>
+        <tag>airtag</tag>
+        <tag>apple</tag>
+        <tag>applestore</tag>
+        <tag>yahooshoppingmall</tag>
       </tags>
   </entry>
   <entry>
@@ -122,6 +129,28 @@
       </tags>
   </entry>
   <entry>
+    <title>生物辨識技術在 iPhone 上的應用</title>
+    <url>/%E9%96%8B%E8%AC%9B/biometrics-and-iphone/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>生物辨識技術 (Biometric) 早在 iPhone 導入指紋辨識之前，就已經被應用多年，但，iPhone 確實是讓這項技術廣泛被應用的重要推手，iPhone 也因為這項技術，給自己挖了個坑。  <img src="https://images.unsplash.com/photo-1529974445367-5b9bf0a0586e?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1025&amp;q=80" alt=""><br>Photo by <a href="https://unsplash.com/@kylejglenn?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kyle Glenn</a> on <a href="https://unsplash.com/s/photos/face-id?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<h3 id="Touch-ID-與-Face-ID"><a href="#Touch-ID-與-Face-ID" class="headerlink" title="Touch ID 與 Face ID"></a>Touch ID 與 Face ID</h3><p>比起按 4 到 6 個數字或是在螢幕上畫出解鎖圖示，指紋辨識一碰就解，搭配 SmartPhone 的硬體特性及 iOS 使用體驗設計，再加上蘋果給這個技術起了個順口好記的名字：Touch ID ，一下子之間，生物辨識技術不僅僅是個話題，更讓 iPhone 持續站在 SmartPhone 的高點。</p>
+<p>但，在 iPhone X 首次導入的 Face ID，就沒有那麼順利…</p>
+<h3 id="花式吹牛？"><a href="#花式吹牛？" class="headerlink" title="花式吹牛？"></a>花式吹牛？</h3><p>普遍來說，蘋果使用者多少還是能夠接受瀏海頭的設計，然而，疫情的延燒似乎給了蘋果一個當頭棒喝，蘋果的因應方式，本來我在猜想的是 iPad Air 4 放上與電源鍵集成的指紋辨識，會延用到 iPhone 12 上面，不過，iPad Air 4 發表後，有個小小插曲是 Bob Borchers 與 John Ternus 在受訪時，宣稱為「難以置信的工程壯舉」，也因為這一點，讓我看弱蘋果，畢竟該項技術，早在 Android 上面就被應用，如果蘋果表達出自己是參考所有的設計後，嘗試在自家的硬體上做出優化，這樣的說法，我反而比較能夠接受。</p>
+<p>最後，2020 年的 iPhone 12 最後並沒有延用這項設計，我倒是沒有那種「難以置信」的反應，可能是因為早在 iPhone 12 發表的幾天前，我就已經把 iPhone X 與 Apple Watch 通通出掉，也沒再特別去注意發表會的關係吧！</p>
+<h3 id="Apple-Watch-幫忙解鎖，還是讓人一步一步走入萬丈深淵"><a href="#Apple-Watch-幫忙解鎖，還是讓人一步一步走入萬丈深淵" class="headerlink" title="Apple Watch 幫忙解鎖，還是讓人一步一步走入萬丈深淵"></a>Apple Watch 幫忙解鎖，還是讓人一步一步走入萬丈深淵</h3><p>蘋果提出的另一個解決方式，…就是要麻煩使用者，再添購一支 Apple Watch。看到這一個方法時，我真的快要無言，雖然，有不少人現在手上都有一塊 Apple Watch，但是，一塊 Apple Watch 不是 2、3 張小朋友就可以輕易入手仍是事實，更何況蘋果一再強調的隱私問題，我深表認同，因此，我也不見得願意把個人的生理相關資料提供給蘋果蒐集。</p>
+<h3 id="Face-ID-的成敗未定"><a href="#Face-ID-的成敗未定" class="headerlink" title="Face ID 的成敗未定"></a>Face ID 的成敗未定</h3><p>Tim Cook 把 Face ID 當成一個 iPhone 發展史的重要里程碑，以我的角度來看，Face ID 比較像是一個分水嶺，因為，導入 Face ID 後的 iPhone，在各個面向，不是被緊緊逼近，就是遭受打擊，iOS 也被詬病越來越像 Android(其實，操作介面已經有點哥倆好的樣子)。除了 iPhone、iPad Pro 以外，蘋果至今還沒有把 Face ID 導入其他產品的結果正式出品，而我已先在 Microsoft Surface，有過使用體驗。</p>
+<p>現在論成敗，或許言之過早，但，從 Face ID 的經驗來看，蘋果在持續發展 iPhone 時，需要認真思考的，除了 iPhone 還能夠在顏色有什麼樣的表現外，還可以思考 iPhone 可不可以再從其他的面向，帶給使用者更多生活上的便利。</p>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>最近有親友分享，推論出一個 Face ID 不被大家喜歡，卻仍存在的可能原因，那就是 App Store 上的消費行為，蘋果比較有立足點去否決，以避免不當退費。</p>
+<p>不曉得大家認為呢？</p>
+]]></content>
+      <categories>
+        <category>開講</category>
+      </categories>
+      <tags>
+        <tag>biometrics</tag>
+        <tag>iphone</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>開箱 Anker A2633 PowerPort III Nano 20W</title>
     <url>/%E9%96%8B%E7%AE%B1/anker-a2633-powerport-iii-nano-20w/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>直接進入主題。  <img src="https://live.staticflickr.com/65535/51756633712_1d8335dae5_b.jpg" width="1024" height="768" alt="IMG_0030"/></p>
@@ -148,32 +177,35 @@
       </tags>
   </entry>
   <entry>
-    <title>捉對廝殺之 Apple Store 線上商店 VS. Yahoo奇摩購物中心 (AirTag 購買篇)</title>
-    <url>/%E9%96%8B%E8%AC%9B/apple-store-vs-yahoo-shopping-for-airtag/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>AirTag 不能算是新穎的產品，而今天的重點並不是在分享使用心得，而是我在 <a href="https://www.apple.com/tw/store">Apple Store 線上商店 – Apple (台灣)</a> 入手後，又在 <a href="https://tw.buy.yahoo.com/">Yahoo奇摩購物中心-品質生活盡在雅虎購物，好的生活真的不貴!</a> 以較划算的價格入手。<br>結果，都在同一天到貨，剛好可以做一個「捉對廝殺」的比較紀錄。 <img src="https://live.staticflickr.com/65535/51722202687_98cb1c4d22_o.png" alt=""></p>
-<h3 id="Apple-Store-線上商店-VS-Yahoo奇摩購物中心-AirTag-開箱影片"><a href="#Apple-Store-線上商店-VS-Yahoo奇摩購物中心-AirTag-開箱影片" class="headerlink" title="Apple Store 線上商店 VS. Yahoo奇摩購物中心 (AirTag 開箱影片)"></a>Apple Store 線上商店 VS. Yahoo奇摩購物中心 (AirTag 開箱影片)</h3><ol>
-<li>先來看看「Apple Store 線上商店」這邊<br> [youtube <a href="https://www.youtube.com/watch?v=4pAtVNNSdIo&amp;w=560&amp;h=315\">https://www.youtube.com/watch?v=4pAtVNNSdIo&amp;w=560&amp;h=315\</a>]</li>
-<li>再來瞧瞧「Yahoo奇摩購物中心」這邊<br> [youtube <a href="https://www.youtube.com/watch?v=sWc1K-Dqdgs&amp;w=560&amp;h=315\">https://www.youtube.com/watch?v=sWc1K-Dqdgs&amp;w=560&amp;h=315\</a>]</li>
+    <title>開箱「適用於 AirTag 的 Belkin Secure Holder (附鑰匙圈) - 黑色」</title>
+    <url>/%E9%96%8B%E7%AE%B1/black-belkin-secure-holder-for-airtag/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>緊接著在粉紅色的買完之後，我就給自己也買一組：黑色。</p>
+<h3 id="開箱影片-Powered-by-Youtube"><a href="#開箱影片-Powered-by-Youtube" class="headerlink" title="開箱影片(Powered by Youtube)"></a>開箱影片(Powered by Youtube)</h3><p>後製時，整部片都用 2 倍速快轉。</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9q2Jpcaj1mQ?si=3dQUGy2E4F5HFbfC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h3 id="開箱前的準備"><a href="#開箱前的準備" class="headerlink" title="開箱前的準備"></a>開箱前的準備</h3><ol>
+<li>務必錄影：與實體店面不太一樣的地方，就是實體店面是店員負責開箱，並且帶著消費者檢查與檢測商品。電商入手，送到家的商品，尤其是 3C 產品，我一定會架好錄影設備再開箱。去年我在「雙11」入手筆電時，還好有錄影，廠商也就很乾脆地退貨，…雖然，花了好一段時間才搞定。</li>
+<li>錄影設備：本次使用的錄影機器為 SONY HDR-XR100。</li>
 </ol>
-<h3 id="主觀比一比-2-家的優劣勢"><a href="#主觀比一比-2-家的優劣勢" class="headerlink" title="主觀比一比 2 家的優劣勢"></a>主觀比一比 2 家的優劣勢</h3><ol>
-<li>出貨速度：這個部分會是「Yahoo奇摩購物中心」勝出，不過，我這次在「Apple Store 線上商店」購買的原因是想要使用「鐫刻服務」，加上這個服務，時間會再拉長一點。但，即便如此，「Apple Store 線上商店」從官網下訂後，所顯示的到貨時間，也不是在 24 小時內。也必須說，我在「Apple Store 線上商店」還同時下訂「適用於 AirTag 的 Belkin Secure Holder (附鑰匙圈) – 粉紅色」，實際到貨的時間，比下訂時官網給的時間還來得早。因此，我猜想，「Apple Store 線上商店」比較是在時程預估上的做法偏保守一點。</li>
-<li>貨源穩定度：又不是要進貨，比這個會不會有點「怪」。其實，我注意到，「Yahoo奇摩購物中心」是在架上不定時更新貨量，相較之下，「Apple Store 線上商店」的貨源相對來得穩定得多。不過，這段時間接近「雙12」，也還有其他的因素會干擾到貨源的穩定度，這一點並非絕對，如果有更專業的看法，也歡迎告知。</li>
-<li>包裝品質：就我來看，2 家可以說是平手。只能說「Apple Store 線上商店」可能在「環保」多一點，而「Yahoo奇摩購物中心」則是在「防水保護」上多一點。</li>
+<h3 id="再買一支原因是？"><a href="#再買一支原因是？" class="headerlink" title="再買一支原因是？"></a>再買一支原因是？</h3><ol>
+<li>我也想用：呃…，之前的，當然是我老婆在用，我要用的話，自然得掏腰包再買一個。</li>
+<li>有備無患：不知道從什麼時候開始，我就不再與自己的忘性對抗，而是讓習慣來減少自己可能會落東落西的次數與頻率，即使如此，我還是給自己的包包放一個 AirTag，為的就是避免「偶爾還是會發生隨手一放，記憶影像根本沒輸入腦袋的狀況」。</li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>開箱費用：<br> (1)Apple Store 線上商店：990 元。<br> (2)Yahoo奇摩購物中心：849 元。<br> (3)價格可能會有波動，請以賣場售價為主。</li>
-<li>參考資料：<br> (1)AirTag – Apple (台灣)：<a href="https://www.apple.com/tw/airtag/">https://www.apple.com/tw/airtag/</a><br> (2)Apple Store 線上商店：<a href="https://www.apple.com/tw/store">https://www.apple.com/tw/store</a><br> (3)Yahoo奇摩購物中心：<a href="https://tw.buy.yahoo.com/">https://tw.buy.yahoo.com/</a></li>
-<li>其他： (1)兩支影片，還有一個比較大的差異是「Apple Store 線上商店」還加上「產品啟動」的章節，從「Yahoo奇摩購物中心」入手的，也有走過「產品啟動」這個部分，貨沒有太大問題，我雖然有錄影，但從我所錄製的影片裡看不出差異，這次就當是一個經驗，未來有類似的狀況，我會試著使用 iPhone 的螢幕錄影紀錄下來。 (2)附帶一提的是，2 家應該都可以使用 Line Points 折抵，只不過，這次的開箱經驗中，我是後來才注意到，因此，Line Points 只用在「Yahoo奇摩購物中心」這裡。</li>
+<li>開箱費用：312 元，價格可能會有波動，請以賣場售價為主。</li>
+<li>入手方式：PChome 24h購物購入(<a href="https://24h.pchome.com.tw/prod/DYAF6G-A900BNXH4">Belkin AirTag 專用保護套鎖匙扣 – PChome 24h購物)</a></li>
+<li>官網資料：<a href="https://www.apple.com/tw/shop/product/HNPR2ZM/A/%E9%81%A9%E7%94%A8%E6%96%BC-airtag-%E7%9A%84-belkin-secure-holder-%E9%99%84%E9%91%B0%E5%8C%99%E5%9C%88-%E9%BB%91%E8%89%B2">適用於 AirTag 的 Belkin Secure Holder (附鑰匙圈) – 黑色 – Apple (台灣)</a></li>
+<li>附帶一提：為了避免不肖人士，蘋果在 Android 上的 Google Play 商店釋出可以掃瞄 AirTag 的 App(<a href="https://play.google.com/store/apps/details?id=com.apple.trackerdetect&amp;hl=en_US&amp;gl=US">Tracker Detect – Apps on Google Play</a>)，目的似乎是為了讓任何使用者可以進行反追蹤的動作，但不知是我不太會用，還是哪裡的設定沒做好，基本上是掃瞄不到的。</li>
 </ol>
 ]]></content>
       <categories>
-        <category>開講</category>
+        <category>開箱</category>
       </categories>
       <tags>
         <tag>airtag</tag>
         <tag>apple</tag>
         <tag>applestore</tag>
-        <tag>yahooshoppingmall</tag>
+        <tag>belkin</tag>
       </tags>
   </entry>
   <entry>
@@ -216,35 +248,33 @@
       </tags>
   </entry>
   <entry>
-    <title>開箱「適用於 AirTag 的 Belkin Secure Holder (附鑰匙圈) - 黑色」</title>
-    <url>/%E9%96%8B%E7%AE%B1/black-belkin-secure-holder-for-airtag/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>緊接著在粉紅色的買完之後，我就給自己也買一組：黑色。</p>
-<h3 id="開箱影片-Powered-by-Youtube"><a href="#開箱影片-Powered-by-Youtube" class="headerlink" title="開箱影片(Powered by Youtube)"></a>開箱影片(Powered by Youtube)</h3><p>後製時，整部片都用 2 倍速快轉。</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9q2Jpcaj1mQ?si=3dQUGy2E4F5HFbfC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h3 id="開箱前的準備"><a href="#開箱前的準備" class="headerlink" title="開箱前的準備"></a>開箱前的準備</h3><ol>
-<li>務必錄影：與實體店面不太一樣的地方，就是實體店面是店員負責開箱，並且帶著消費者檢查與檢測商品。電商入手，送到家的商品，尤其是 3C 產品，我一定會架好錄影設備再開箱。去年我在「雙11」入手筆電時，還好有錄影，廠商也就很乾脆地退貨，…雖然，花了好一段時間才搞定。</li>
-<li>錄影設備：本次使用的錄影機器為 SONY HDR-XR100。</li>
+    <title>.DAY 域名與 Google Domains</title>
+    <url>/%E9%96%8B%E8%AC%9B/dot-day-and-google-domains/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><a href="https://www.flickr.com/photos/unboxcp/52013068390" title="screenshotForDotDayDomainName"><img src="https://live.staticflickr.com/65535/52013068390_bb9651bba6_o.jpg" alt="screenshotForDotDayDomainName"></a>  今年，Google 推出 .DAY 域名註冊服務(詳可見：<a href="https://blog.google/outreach-initiatives/entrepreneurs/today-dotday/">Today is the .day</a>)，我並不是第一時間注意到的人，如果是的話，我就可以在 Google Domains 完成 Beta 版測試時，以 7 折的價格入手目前的域名。</p>
+<hr>
+<h3 id="Google-Domains-服務"><a href="#Google-Domains-服務" class="headerlink" title="Google Domains 服務"></a>Google Domains 服務</h3><p>尚未科普之前，就我自己的印象是 Google Domains 服務已經行之有年，早期如果想要用 Google Domains 服務，就跟其他的 Domains 服務供應商一樣，多半要想辦法找一個美國的地址來處理，絕大多數可以透過信用卡直接消費，或是使用 Paypal 搞定。</p>
+<p>就我個人而言，我當時並不會把 Google Domains 服務做為我的首選，但是，多年後的今天，我就會想要試試 Google 所提供的 Domain Name 服務。</p>
+<p>其中一個重要的原因是 Google 做為一個全球搜尋引擎的領航者，我認為服務的效能、穩定度都一定有水準上的表現。另外一個原因，就是像今天的 .DAY 域名一樣，Google 也開始涉足頂級域名的世界，…我所謂的涉足，不單單只是把腳踩進來擔任「登記註冊商」而已，同時，Google 也已經是「網域註冊管理機構」，推出不少頂級域名，我也發現，這些 Google 推出的頂級域名，都有更完整的服務，比方說，更注重隱私權等。</p>
+<p>還有一個原因是「沒有比較，就沒有傷害」，而這裡所謂的比較，指的是我也使用過其他家「登記註冊商」的域名註冊服務，雖然價格便宜很多(詳可見：<a href="https://camellia.day/unbox/unboxing-my-experience-of-registering-a-domain-name/">開箱我的域名服務註冊、使用經驗</a>)，但是不到半年的時間，讓我遭遇到「登記註冊商」被 DDoS 攻擊 2 次(事後「登記註冊商」都有寫 E-Mail 道歉)，所幸我只是寫寫部落格，要是拿來做商業經營的網站，可能就會有顯而易見的損失。當然，也不是說 Google 就不會當機，但是，印象中不會像前面提到的「登記註冊商」那樣頻繁吧！</p>
+<h3 id="Google-Domains-服務介面"><a href="#Google-Domains-服務介面" class="headerlink" title="Google Domains 服務介面"></a>Google Domains 服務介面</h3><p>我並不打算把整個 Google Domains 服務裡面的所有介面都逐一截圖與說明，今天大概就幾個我看到的點，拿出來聊聊。</p>
+<ol>
+<li>如果，您跟我一樣是在台灣這邊的話，頭一次登入到 Google Domains 就會看到像這樣的畫面，「Google Domains 尚未於您所在國家/地區推出。」的字樣就在眼前，我認為這個說明會誤導使用者，讓人以為自己是在無法使用的國家/地區。  <a href="https://www.flickr.com/photos/unboxcp/52012637958/in/dateposted-public/" title="screenshotofGoogleDomainsUI"><img src="https://live.staticflickr.com/65535/52012637958_f9db6515bd_b.jpg" alt="screenshotofGoogleDomainsUI"></a></li>
+<li>註冊好自己想要的域名後，從畫面左手邊點進【我的網域】，就可以看到右手邊的介面，會列出自己註冊好的域名。  <a href="https://www.flickr.com/photos/unboxcp/52012690473/in/dateposted-public/" title="screenshotofGoogleDomainsUiEp2"><img src="https://live.staticflickr.com/65535/52012690473_3f9b7c549b_b.jpg" alt="screenshotofGoogleDomainsUiEp2"></a></li>
+<li>再點一下自己的域名，或是點【管理】，就會走到下面的畫面，剛註冊好的時候，一點進來，會有「透過 Google 提供線上服務」這樣的「任務」要解，事實上是 Google 希望在這個過程，讓使用者有機會跟 Google 家直接或推薦的服務綁在一起，我相信這些服務都有一定的價值，只是，以我的需求而言，這些服務的價格算是偏高很多。  <a href="https://www.flickr.com/photos/unboxcp/52013152185/in/dateposted-public/" title="screenshotofGoogleDomainsUiEp3"><img src="https://live.staticflickr.com/65535/52013152185_b53099954b_c.jpg" alt="screenshotofGoogleDomainsUiEp3"></a></li>
+<li>承上，右邊的功能選項，我認為都算簡單、直覺，想要找的設定，並不會太難找。</li>
 </ol>
-<h3 id="再買一支原因是？"><a href="#再買一支原因是？" class="headerlink" title="再買一支原因是？"></a>再買一支原因是？</h3><ol>
-<li>我也想用：呃…，之前的，當然是我老婆在用，我要用的話，自然得掏腰包再買一個。</li>
-<li>有備無患：不知道從什麼時候開始，我就不再與自己的忘性對抗，而是讓習慣來減少自己可能會落東落西的次數與頻率，即使如此，我還是給自己的包包放一個 AirTag，為的就是避免「偶爾還是會發生隨手一放，記憶影像根本沒輸入腦袋的狀況」。</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>開箱費用：312 元，價格可能會有波動，請以賣場售價為主。</li>
-<li>入手方式：PChome 24h購物購入(<a href="https://24h.pchome.com.tw/prod/DYAF6G-A900BNXH4">Belkin AirTag 專用保護套鎖匙扣 – PChome 24h購物)</a></li>
-<li>官網資料：<a href="https://www.apple.com/tw/shop/product/HNPR2ZM/A/%E9%81%A9%E7%94%A8%E6%96%BC-airtag-%E7%9A%84-belkin-secure-holder-%E9%99%84%E9%91%B0%E5%8C%99%E5%9C%88-%E9%BB%91%E8%89%B2">適用於 AirTag 的 Belkin Secure Holder (附鑰匙圈) – 黑色 – Apple (台灣)</a></li>
-<li>附帶一提：為了避免不肖人士，蘋果在 Android 上的 Google Play 商店釋出可以掃瞄 AirTag 的 App(<a href="https://play.google.com/store/apps/details?id=com.apple.trackerdetect&amp;hl=en_US&amp;gl=US">Tracker Detect – Apps on Google Play</a>)，目的似乎是為了讓任何使用者可以進行反追蹤的動作，但不知是我不太會用，還是哪裡的設定沒做好，基本上是掃瞄不到的。</li>
-</ol>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>回到一開始聊到的 .DAY 域名這個話題，我在購買 .DAY 準備要結帳時，在結帳畫面有一個提示說明，特別講到 .DAY 這個網域必須使用安全資料傳輸層 (SSL) 憑證，才能與網站相互連結。我個人認為，依現今網路而言，「安全資料傳輸層 (SSL) 憑證」是必要的存在，在註冊時就特別聲明 .DAY 必須使用會是過渡時期的「產物」，不久的將來，當「安全資料傳輸層 (SSL) 憑證」成為日常，那麼，這個聲明應該就不會出現。</p>
+<p>只不過，目前在架設網站時，想要使用「安全資料傳輸層 (SSL) 憑證」多半得付出額外的費用，或是找尋不用錢，卻得花點時間設定，或是幾個月之後就要重新設定，難免麻煩，…又是一個安全與便利無法兼顧的狀況。</p>
+<p>無論如何，.DAY 我覺得是一個滿有意思的頂級域名，雖然，搭配我原本常用的域名之後，看起來就是怪怪的(…有點像是「國際某某日」的節日型域名)，但，也剛好讓我想想，這個部落格的撰寫方向，嘗試取一個感覺比較輕鬆的名字。</p>
 ]]></content>
       <categories>
-        <category>開箱</category>
+        <category>開講</category>
       </categories>
       <tags>
-        <tag>airtag</tag>
-        <tag>apple</tag>
-        <tag>applestore</tag>
-        <tag>belkin</tag>
+        <tag>domains</tag>
+        <tag>google</tag>
+        <tag>web</tag>
       </tags>
   </entry>
   <entry>
@@ -305,87 +335,6 @@
       </tags>
   </entry>
   <entry>
-    <title>.DAY 域名與 Google Domains</title>
-    <url>/%E9%96%8B%E8%AC%9B/dot-day-and-google-domains/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><a href="https://www.flickr.com/photos/unboxcp/52013068390" title="screenshotForDotDayDomainName"><img src="https://live.staticflickr.com/65535/52013068390_bb9651bba6_o.jpg" alt="screenshotForDotDayDomainName"></a>  今年，Google 推出 .DAY 域名註冊服務(詳可見：<a href="https://blog.google/outreach-initiatives/entrepreneurs/today-dotday/">Today is the .day</a>)，我並不是第一時間注意到的人，如果是的話，我就可以在 Google Domains 完成 Beta 版測試時，以 7 折的價格入手目前的域名。</p>
-<hr>
-<h3 id="Google-Domains-服務"><a href="#Google-Domains-服務" class="headerlink" title="Google Domains 服務"></a>Google Domains 服務</h3><p>尚未科普之前，就我自己的印象是 Google Domains 服務已經行之有年，早期如果想要用 Google Domains 服務，就跟其他的 Domains 服務供應商一樣，多半要想辦法找一個美國的地址來處理，絕大多數可以透過信用卡直接消費，或是使用 Paypal 搞定。</p>
-<p>就我個人而言，我當時並不會把 Google Domains 服務做為我的首選，但是，多年後的今天，我就會想要試試 Google 所提供的 Domain Name 服務。</p>
-<p>其中一個重要的原因是 Google 做為一個全球搜尋引擎的領航者，我認為服務的效能、穩定度都一定有水準上的表現。另外一個原因，就是像今天的 .DAY 域名一樣，Google 也開始涉足頂級域名的世界，…我所謂的涉足，不單單只是把腳踩進來擔任「登記註冊商」而已，同時，Google 也已經是「網域註冊管理機構」，推出不少頂級域名，我也發現，這些 Google 推出的頂級域名，都有更完整的服務，比方說，更注重隱私權等。</p>
-<p>還有一個原因是「沒有比較，就沒有傷害」，而這裡所謂的比較，指的是我也使用過其他家「登記註冊商」的域名註冊服務，雖然價格便宜很多(詳可見：<a href="https://camellia.day/unbox/unboxing-my-experience-of-registering-a-domain-name/">開箱我的域名服務註冊、使用經驗</a>)，但是不到半年的時間，讓我遭遇到「登記註冊商」被 DDoS 攻擊 2 次(事後「登記註冊商」都有寫 E-Mail 道歉)，所幸我只是寫寫部落格，要是拿來做商業經營的網站，可能就會有顯而易見的損失。當然，也不是說 Google 就不會當機，但是，印象中不會像前面提到的「登記註冊商」那樣頻繁吧！</p>
-<h3 id="Google-Domains-服務介面"><a href="#Google-Domains-服務介面" class="headerlink" title="Google Domains 服務介面"></a>Google Domains 服務介面</h3><p>我並不打算把整個 Google Domains 服務裡面的所有介面都逐一截圖與說明，今天大概就幾個我看到的點，拿出來聊聊。</p>
-<ol>
-<li>如果，您跟我一樣是在台灣這邊的話，頭一次登入到 Google Domains 就會看到像這樣的畫面，「Google Domains 尚未於您所在國家/地區推出。」的字樣就在眼前，我認為這個說明會誤導使用者，讓人以為自己是在無法使用的國家/地區。  <a href="https://www.flickr.com/photos/unboxcp/52012637958/in/dateposted-public/" title="screenshotofGoogleDomainsUI"><img src="https://live.staticflickr.com/65535/52012637958_f9db6515bd_b.jpg" alt="screenshotofGoogleDomainsUI"></a></li>
-<li>註冊好自己想要的域名後，從畫面左手邊點進【我的網域】，就可以看到右手邊的介面，會列出自己註冊好的域名。  <a href="https://www.flickr.com/photos/unboxcp/52012690473/in/dateposted-public/" title="screenshotofGoogleDomainsUiEp2"><img src="https://live.staticflickr.com/65535/52012690473_3f9b7c549b_b.jpg" alt="screenshotofGoogleDomainsUiEp2"></a></li>
-<li>再點一下自己的域名，或是點【管理】，就會走到下面的畫面，剛註冊好的時候，一點進來，會有「透過 Google 提供線上服務」這樣的「任務」要解，事實上是 Google 希望在這個過程，讓使用者有機會跟 Google 家直接或推薦的服務綁在一起，我相信這些服務都有一定的價值，只是，以我的需求而言，這些服務的價格算是偏高很多。  <a href="https://www.flickr.com/photos/unboxcp/52013152185/in/dateposted-public/" title="screenshotofGoogleDomainsUiEp3"><img src="https://live.staticflickr.com/65535/52013152185_b53099954b_c.jpg" alt="screenshotofGoogleDomainsUiEp3"></a></li>
-<li>承上，右邊的功能選項，我認為都算簡單、直覺，想要找的設定，並不會太難找。</li>
-</ol>
-<hr>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>回到一開始聊到的 .DAY 域名這個話題，我在購買 .DAY 準備要結帳時，在結帳畫面有一個提示說明，特別講到 .DAY 這個網域必須使用安全資料傳輸層 (SSL) 憑證，才能與網站相互連結。我個人認為，依現今網路而言，「安全資料傳輸層 (SSL) 憑證」是必要的存在，在註冊時就特別聲明 .DAY 必須使用會是過渡時期的「產物」，不久的將來，當「安全資料傳輸層 (SSL) 憑證」成為日常，那麼，這個聲明應該就不會出現。</p>
-<p>只不過，目前在架設網站時，想要使用「安全資料傳輸層 (SSL) 憑證」多半得付出額外的費用，或是找尋不用錢，卻得花點時間設定，或是幾個月之後就要重新設定，難免麻煩，…又是一個安全與便利無法兼顧的狀況。</p>
-<p>無論如何，.DAY 我覺得是一個滿有意思的頂級域名，雖然，搭配我原本常用的域名之後，看起來就是怪怪的(…有點像是「國際某某日」的節日型域名)，但，也剛好讓我想想，這個部落格的撰寫方向，嘗試取一個感覺比較輕鬆的名字。</p>
-]]></content>
-      <categories>
-        <category>開講</category>
-      </categories>
-      <tags>
-        <tag>domains</tag>
-        <tag>google</tag>
-        <tag>web</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>開箱「一粒桌」</title>
-    <url>/%E9%96%8B%E7%AE%B1/eary-storage-table/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>「一粒桌」？  <img src="https://live.staticflickr.com/65535/51647821490_97d2460b3c_b.jpg" width="1024" height="768" alt="unboxingEaryStorageTableEp6"/></p>
-<h3 id="開箱照片-點圖至-Flickr-瀏覽相簿"><a href="#開箱照片-點圖至-Flickr-瀏覽相簿" class="headerlink" title="開箱照片(點圖至 Flickr 瀏覽相簿)"></a>開箱照片(點圖至 Flickr 瀏覽相簿)</h3><p><a href="https://www.flickr.com/photos/unboxcp/albums/72157720093527738" title="earyStorageTable"><img src="https://live.staticflickr.com/65535/51646138717_dd4ea6946e_b.jpg" alt="earyStorageTable"></a></p>
-<h3 id="購買前的分析"><a href="#購買前的分析" class="headerlink" title="購買前的分析"></a>購買前的分析</h3><ol>
-<li>需求：<br> (1)原本使用的桌子，似乎因孩子們慢慢長大，閱讀角度容易讓孩子們的頸椎感到不適，一開始，我是朝著買升降桌的方向思考的，但後來孩子們以身體展示與說明，認為升降桌並沒有辦法改變自己靠在桌緣時的閱讀角度，這才讓我往「筆電架」、「閱讀書架」這些關鍵字去爬文找合用的商品。<br> (2)我最後找到 2 個比較符合需求的商品，沒有入手開箱的商品，目前在網路上用「護頸閱讀架」這個關鍵字就可以找到，我認為那個商品雖然看起來比較穩固，但是從商品的介紹頁來看，當要調整角度時，要調整的「點」似乎有點多，僅管比較便宜，為了簡單、方便與易用，我最後還是從清單中移除，留下唯一的商品，也就是今天要開箱的「一粒桌」。</li>
-<li>價格：我入手的價格是 611 元 (含運，加送 2 樣贈品，這個數字讓我想到「雙11」)，雖然拍賣場上有更低的價格，如果加上運費，我認為自己入手的 CP 值算高。</li>
-</ol>
-<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
-<li>產品介紹參考度高：除了便攜性，這一點我用不到，也沒有去試過之外，其他商品介紹頁所提到的，我認為有滿高的參考度。</li>
-<li>有的話更好：商品介紹頁裡面，在便攜性的部分，使用了一個袋子裝起來，這個袋子並不是配件，也不是隨附商品，對於有攜帶需求的使用者，這個袋子應該多少有加分效果，…當然，這可能也會反應到商品的價格上，以廠商的角度來說，在取捨上應該是滿考驗智慧的。</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>商品價格可能會有變動，請以商品所屬網站的價格為主。</li>
-<li>商品官網：<a href="http://www.szsppkj.com/" title="深圳市派派科技有限公司">深圳市派派科技有限公司</a>，我對這間公司的認識，也是從這個網址開始的，看起來似乎是以設計便攜並且有質感的產品為主，但，今天開箱的「一粒桌」似乎沒有在官網裡面。</li>
-<li>入手的商品網址：<a href="https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=9649391" title="萬用多功能 可調角度 筆電架/平板支架/閱讀書架(IP-MA33) | 螢幕架/折疊桌 | Yahoo奇摩購物中心">萬用多功能 可調角度 筆電架/平板支架/閱讀書架(IP-MA33) | 螢幕架/折疊桌 | Yahoo奇摩購物中心</a>。</li>
-<li>相同商品的拍賣場網址：<a href="https://shopee.tw/%E6%B4%BE%E5%87%A1-%E4%B8%80%E7%B2%92%E7%B1%B3-%E7%AD%86%E9%9B%BB-%E8%BB%8A%E7%94%A8-%E5%BA%8A%E4%B8%8A-%E6%8A%98%E7%96%8A%E6%A1%8C-%E8%A7%92%E5%BA%A6%E5%8F%AF%E8%AA%BF-%E5%A4%9A%E7%A8%AE%E4%BD%BF%E6%96%B9%E5%BC%8F-%E9%96%B1%E8%AE%80%E6%9B%B8%E6%9E%B6-%E8%90%AC%E7%94%A8%E6%89%8B%E6%A9%9F-%E6%A1%8C%E9%9D%A2-%E6%94%AF%E6%9E%B6-%E4%BE%BF%E6%94%9C%E5%8F%AF%E6%8A%98%E7%96%8A%E5%A4%9A%E5%8A%9F%E8%83%BD-%E7%8F%BE%E8%B2%A8--i.310970803.9212858226" title="Oatsbasf 一粒米 筆電 車用 床上 折疊桌 角度可調 多種使方式 閱讀書架 萬用手機 桌面 支架 {現貨} | 蝦皮購物">Oatsbasf 一粒米 筆電 車用 床上 折疊桌 角度可調 多種使方式 閱讀書架 萬用手機 桌面 支架 {現貨} | 蝦皮購物</a></li>
-<li>其他相關商品網址：<a href="https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=8347040" title="【角度高度可調/可單手翻頁】護頸閱讀架 看書架 讀書架 懶人書架-momo購物網">【角度高度可調/可單手翻頁】護頸閱讀架 看書架 讀書架 懶人書架-momo購物網</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>開箱</category>
-      </categories>
-      <tags>
-        <tag>adjustablelaptopstand</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>開箱 Fedora 35 Workstation</title>
-    <url>/%E9%96%8B%E7%AE%B1/fedora-35-workstation/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Fedora，我認為是一支具有指標性意義的 Distro，今天開箱的是 Workstation 版。  <img src="https://live.staticflickr.com/65535/51652417495_ce6b97a152_b.jpg" alt=""></p>
-<h3 id="開箱照片-點圖至-Flickr-瀏覽相簿"><a href="#開箱照片-點圖至-Flickr-瀏覽相簿" class="headerlink" title="開箱照片(點圖至 Flickr 瀏覽相簿)"></a>開箱照片(點圖至 Flickr 瀏覽相簿)</h3><p><a href="https://www.flickr.com/photos/unboxcp/albums/72157720101979879" title="fedora35Workstation"><img src="https://live.staticflickr.com/65535/51651788518_debe679b6a_b.jpg" alt="fedora35Workstation"></a></p>
-<h3 id="開箱-10-分鐘左右的心得"><a href="#開箱-10-分鐘左右的心得" class="headerlink" title="開箱 10 分鐘左右的心得"></a>開箱 10 分鐘左右的心得</h3><ol>
-<li>硬體要求偏高：在 Parallels Desktop 15 上，正好可以跟不久前才安裝的 Linux Mint 做一個對比，Fedora 35 Workstation 記憶體明顯吃得比較兇，這一點，可能對於有在持續關注各個 Linux Distro(發行版) 的使用者，並不陌生。</li>
-<li>新鮮感偏弱：<a href="https://fedoramagazine.org/whats-new-fedora-35-workstation/">What’s new in Fedora Workstation 35 – Fedora Magazine</a> 提到的更新當中，Desktop improvements 被拿來當標題，GNOME 41 囊括的幾個功能：Support for power modes、Redesigned Software app、New Connections app 與 Parental controls，我並沒有特別感受到什麼。不過，假設今天是安裝在筆電、平板上面，應該就會比較明顯一點。</li>
-<li>驅動程式支援仍有進步空間：無論是那一 支 Linux Distro，驅動程式支援一直都是重要課題，我也試著在 Mac mini (2014 年末) 上面以外接硬碟運行，音效輸出的驅動是可用的(至少有聽到聲音的概念)，但 Wi-Fi 的部分，就要再自行解決。雖然，Linux 給人的印象，就是比較偏硬派的系統，但是，當做是桌面系統的部分，一些現時已是必要的功能，如果還要使用者自己下指令做 Trouble Shooting，我認為親和度就降低了不少，也是我認為整個開箱過程比較可惜的地方。Fedora 對驅動程式支援，也投入了一些心力，相信這個部分的改善是指日可待的。</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>開箱費用：0 元。但如果要嚴格來算的話，我花費時間使用寬頻下載等等的，這都要算是成本，Linux 的維護，初期功力還不足的時候，所耗費的成本視每個人的學習狀況而定，因此，要使用 Linux 前，看在錢的份上，需求的部分(為了興趣，還是為了工作等因素)，要謹慎評估。</li>
-<li>有點期待的功能：開箱前，我讀到 GNOME 41 裡的 Calendar 可以匯入 .ics 檔，算是我有一點期待的功能，開箱之後，我再慢慢使用。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>開箱</category>
-      </categories>
-      <tags>
-        <tag>fedora</tag>
-        <tag>linux</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>開箱 FlashFire SP3500 與 SP3600</title>
     <url>/%E9%96%8B%E7%AE%B1/flashfire-sp3500-and-sp3600/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Nintendo Switch 搭載的 Joy-Con 遊戲控制器，可以說是在各項功能之間取得平衡的產品，我在入手 Switch OLED 之後，本來也想要同步購買 Joy-Con 遊戲控制器，但是，我家的小朋友跟我提到，那個控制器似乎會有飄移的問題，這一點，我也在網路上爬到相關的文章。</p>
@@ -411,45 +360,6 @@
         <tag>gamepad</tag>
         <tag>nintendo</tag>
         <tag>switch</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>流汗吧！健身少女</title>
-    <url>/%E9%96%8B%E8%AC%9B/how-heavy-are-the-dumbbells-you-lift-on-netflix/</url>
-    <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p><img src="https://dumbbell-anime.jp/assets/story/12_4.jpg" alt="">  Picture on <a href="https://dumbbell-anime.jp/story/">STORY | TVアニメ「ダンベル何キロ持てる？」公式サイト</a></p>
-<p>鍥而舍之，朽木不折；鍥而不捨，金石可鏤。 — 荀子</p>
-<hr>
-<h3 id="感想"><a href="#感想" class="headerlink" title="感想"></a>感想</h3><p>「流汗吧！健身少女」這部片，不曉得是透過什麼樣的演算法，推薦給我的。</p>
-<p>但，我最近都會一邊在跑步機上步行；一邊追劇，既然是運動類的動漫，順便服用也算是有搭配上的「菜色」。</p>
-<p>以下，紀錄我自己吃了這道菜之後的感想。</p>
-<ol>
-<li>基礎鍛練知識：這裡要表達的是有每一集都會穿插一些比較具有知識性的肌肉鍛練相關訊息，比方說，肌肉的部位與名稱，以及使用什麼樣的鍛練，會對該部位的肌肉產生效果。看了之後，我也不得不說，自己讀過幾本肌肉鍛練的書，怎麼連大家最耳熟能詳的伏地挺身，雙手手掌靠近或是離遠一點，會鍛練到什麼部分的肌肉，都傻傻搞不清楚。再者，該如何設定專屬自己的強度，我認為這部動畫也給出比較容易懂，也容易掌握的答案。總之，這些知識對於新手，或是像我這樣似懂非懂的人，都有助於釐清與重新學習。</li>
-<li>飲食的重要性：肌肉要鍛練，也需要養分讓它「長大」，就我所知，最重要的養分是蛋白質。整部重漫裡面，女主角不時在吃東西，作者肯定營養攝取的重要性，也會透過動畫標示每種食物大致上的卡路里，我其實想要知道更多一點，比方說蛋白質、脂肪與碳水化合物的佔比，只是，我猜可能礙於畫面能夠呈現的有限，況且，要是再標示出這些，就算畫面塞得下，訊息有點多的話，也不好記下來。</li>
-<li>日式搞笑風格：其實，最近幾年，可能我看了一些比較冷門、沉默的作品，對於日式常用的搞笑梗，已慢慢淡忘。「流汗吧！健身少女」倒是把這些日式搞笑風格正常發揮出來，而且風格算是鮮明，對我來說，即使猜出接下來要玩什麼梗，也還是會笑一下，我相信，即使是老梗，也多少有一些療癒效果。</li>
-<li><p>醉翁之意：這部動漫，主題是鍛練肌肉，以女性角色為故事陳述的主人翁，我認為是一個賣點，也是一個亮點，多多少少更是一種眼球上的「福利」。不過，這個分寸拿掐有一定的難度，做得不夠，搔不到癢處，不如不做；做得太過頭，又好像會讓主題稍稍失焦。</p>
-<p> ↘以我一個男性且非肌肉控的角度來看，我對街雄鳴造秀肌肉的部分，…沒感覺。<br> <img src="https://dumbbell-anime.jp/assets/story/11_3.jpg" alt=""><br> Picture on <a href="https://dumbbell-anime.jp/story/">STORY | TVアニメ「ダンベル何キロ持てる？」公式サイト</a></p>
-<p> ↘女性角色的部分，有些畫面似乎不是用養眼可以形容，而且，看起來又不像是在激發鍛練肌肉的心。<br> <img src="https://dumbbell-anime.jp/assets/story/6_2.jpg" alt=""><br> Picture on <a href="https://dumbbell-anime.jp/story/">STORY | TVアニメ「ダンベル何キロ持てる？」公式サイト</a></p>
-<p> ↘這或許…，就是醉翁之意吧！？<br> <img src="https://dumbbell-anime.jp/assets/story/9_2.jpg" alt=""><br> Picture on <a href="https://dumbbell-anime.jp/story/">STORY | TVアニメ「ダンベル何キロ持てる？」公式サイト</a></p>
-</li>
-</ol>
-<hr>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>隨著人類對人類自己越來越瞭解之後，怎麼樣照顧、培養自己的身體，都已經走向科學化，「流汗吧！健身少女」這部動漫，似乎引發非常大的迴響，也讓人可以用比較輕鬆的方式看待肌肉鍛練這件事。</p>
-<p>但，問題又回到原點，…我的意思是很多事情，常常是我們知道，但我們不一定會有動機去做，有了動機，還要有足夠的熱情，我倒認為到一定的程度之後，是不是熱情已經不確定，但身體畢竟是自己的，想要怎麼樣的自己，應該比較多是一份自我責任吧！</p>
-<p>以我而言，以前常常會因為某些原因，讓自己的鍛練停下來，受傷之後要休息多久，就是最明顯的狀況。還有一點，就是節食之後，沒有設定自我獎勵日，所以身體進入節能狀態，好像也練不出個所以然，我甚至懷疑自己是不是也把肌肉消耗掉，而不是練上來。</p>
-<p>綜合上述，步入中年的我，目前設定每天 1 萬步的目標，也維持快 3 個月，然而，是要繼續保持每天 1 萬步，還是可以安排其他的訓練，…我認為要從這部動畫找答案，並不是那麼容易，但動畫裡面也提到健身房這項資源，或許，這是一個可以找到專業諮詢的地方。受到疫情的影響，健身房這個資源，我認為，最快也差不多已經是暑假，比較保險的設想，應該是明年之後再多方洽詢。</p>
-<p>總之，我認為動畫是個重要的引子，如果能夠體認到使用自己身體的每一天，都要試著好好照顧自己，應該會是這部動漫期待給觀賞者更深遠的理念。</p>
-<hr>
-<h3 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h3><ol>
-<li><a href="https://dumbbell-anime.jp/">TVアニメ「ダンベル何キロ持てる？」公式サイト</a></li>
-<li><a href="https://zh.wikipedia.org/zh-tw/%E6%B5%81%E6%B1%97%E5%90%A7%EF%BC%81%E5%81%A5%E8%BA%AB%E5%B0%91%E5%A5%B3">流汗吧！健身少女 – 維基百科，自由的百科全書</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>開講</category>
-      </categories>
-      <tags>
-        <tag>netflix</tag>
-        <tag>cartoon</tag>
       </tags>
   </entry>
   <entry>
@@ -484,6 +394,57 @@
         <tag>applewatch</tag>
         <tag>fitbit</tag>
         <tag>fitnesstracker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>開箱 Fedora 35 Workstation</title>
+    <url>/%E9%96%8B%E7%AE%B1/fedora-35-workstation/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Fedora，我認為是一支具有指標性意義的 Distro，今天開箱的是 Workstation 版。  <img src="https://live.staticflickr.com/65535/51652417495_ce6b97a152_b.jpg" alt=""></p>
+<h3 id="開箱照片-點圖至-Flickr-瀏覽相簿"><a href="#開箱照片-點圖至-Flickr-瀏覽相簿" class="headerlink" title="開箱照片(點圖至 Flickr 瀏覽相簿)"></a>開箱照片(點圖至 Flickr 瀏覽相簿)</h3><p><a href="https://www.flickr.com/photos/unboxcp/albums/72157720101979879" title="fedora35Workstation"><img src="https://live.staticflickr.com/65535/51651788518_debe679b6a_b.jpg" alt="fedora35Workstation"></a></p>
+<h3 id="開箱-10-分鐘左右的心得"><a href="#開箱-10-分鐘左右的心得" class="headerlink" title="開箱 10 分鐘左右的心得"></a>開箱 10 分鐘左右的心得</h3><ol>
+<li>硬體要求偏高：在 Parallels Desktop 15 上，正好可以跟不久前才安裝的 Linux Mint 做一個對比，Fedora 35 Workstation 記憶體明顯吃得比較兇，這一點，可能對於有在持續關注各個 Linux Distro(發行版) 的使用者，並不陌生。</li>
+<li>新鮮感偏弱：<a href="https://fedoramagazine.org/whats-new-fedora-35-workstation/">What’s new in Fedora Workstation 35 – Fedora Magazine</a> 提到的更新當中，Desktop improvements 被拿來當標題，GNOME 41 囊括的幾個功能：Support for power modes、Redesigned Software app、New Connections app 與 Parental controls，我並沒有特別感受到什麼。不過，假設今天是安裝在筆電、平板上面，應該就會比較明顯一點。</li>
+<li>驅動程式支援仍有進步空間：無論是那一 支 Linux Distro，驅動程式支援一直都是重要課題，我也試著在 Mac mini (2014 年末) 上面以外接硬碟運行，音效輸出的驅動是可用的(至少有聽到聲音的概念)，但 Wi-Fi 的部分，就要再自行解決。雖然，Linux 給人的印象，就是比較偏硬派的系統，但是，當做是桌面系統的部分，一些現時已是必要的功能，如果還要使用者自己下指令做 Trouble Shooting，我認為親和度就降低了不少，也是我認為整個開箱過程比較可惜的地方。Fedora 對驅動程式支援，也投入了一些心力，相信這個部分的改善是指日可待的。</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>開箱費用：0 元。但如果要嚴格來算的話，我花費時間使用寬頻下載等等的，這都要算是成本，Linux 的維護，初期功力還不足的時候，所耗費的成本視每個人的學習狀況而定，因此，要使用 Linux 前，看在錢的份上，需求的部分(為了興趣，還是為了工作等因素)，要謹慎評估。</li>
+<li>有點期待的功能：開箱前，我讀到 GNOME 41 裡的 Calendar 可以匯入 .ics 檔，算是我有一點期待的功能，開箱之後，我再慢慢使用。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>開箱</category>
+      </categories>
+      <tags>
+        <tag>fedora</tag>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>開箱「一粒桌」</title>
+    <url>/%E9%96%8B%E7%AE%B1/eary-storage-table/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>「一粒桌」？  <img src="https://live.staticflickr.com/65535/51647821490_97d2460b3c_b.jpg" width="1024" height="768" alt="unboxingEaryStorageTableEp6"/></p>
+<h3 id="開箱照片-點圖至-Flickr-瀏覽相簿"><a href="#開箱照片-點圖至-Flickr-瀏覽相簿" class="headerlink" title="開箱照片(點圖至 Flickr 瀏覽相簿)"></a>開箱照片(點圖至 Flickr 瀏覽相簿)</h3><p><a href="https://www.flickr.com/photos/unboxcp/albums/72157720093527738" title="earyStorageTable"><img src="https://live.staticflickr.com/65535/51646138717_dd4ea6946e_b.jpg" alt="earyStorageTable"></a></p>
+<h3 id="購買前的分析"><a href="#購買前的分析" class="headerlink" title="購買前的分析"></a>購買前的分析</h3><ol>
+<li>需求：<br> (1)原本使用的桌子，似乎因孩子們慢慢長大，閱讀角度容易讓孩子們的頸椎感到不適，一開始，我是朝著買升降桌的方向思考的，但後來孩子們以身體展示與說明，認為升降桌並沒有辦法改變自己靠在桌緣時的閱讀角度，這才讓我往「筆電架」、「閱讀書架」這些關鍵字去爬文找合用的商品。<br> (2)我最後找到 2 個比較符合需求的商品，沒有入手開箱的商品，目前在網路上用「護頸閱讀架」這個關鍵字就可以找到，我認為那個商品雖然看起來比較穩固，但是從商品的介紹頁來看，當要調整角度時，要調整的「點」似乎有點多，僅管比較便宜，為了簡單、方便與易用，我最後還是從清單中移除，留下唯一的商品，也就是今天要開箱的「一粒桌」。</li>
+<li>價格：我入手的價格是 611 元 (含運，加送 2 樣贈品，這個數字讓我想到「雙11」)，雖然拍賣場上有更低的價格，如果加上運費，我認為自己入手的 CP 值算高。</li>
+</ol>
+<h3 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h3><ol>
+<li>產品介紹參考度高：除了便攜性，這一點我用不到，也沒有去試過之外，其他商品介紹頁所提到的，我認為有滿高的參考度。</li>
+<li>有的話更好：商品介紹頁裡面，在便攜性的部分，使用了一個袋子裝起來，這個袋子並不是配件，也不是隨附商品，對於有攜帶需求的使用者，這個袋子應該多少有加分效果，…當然，這可能也會反應到商品的價格上，以廠商的角度來說，在取捨上應該是滿考驗智慧的。</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>商品價格可能會有變動，請以商品所屬網站的價格為主。</li>
+<li>商品官網：<a href="http://www.szsppkj.com/" title="深圳市派派科技有限公司">深圳市派派科技有限公司</a>，我對這間公司的認識，也是從這個網址開始的，看起來似乎是以設計便攜並且有質感的產品為主，但，今天開箱的「一粒桌」似乎沒有在官網裡面。</li>
+<li>入手的商品網址：<a href="https://tw.buy.yahoo.com/gdsale/gdsale.asp?gdid=9649391" title="萬用多功能 可調角度 筆電架/平板支架/閱讀書架(IP-MA33) | 螢幕架/折疊桌 | Yahoo奇摩購物中心">萬用多功能 可調角度 筆電架/平板支架/閱讀書架(IP-MA33) | 螢幕架/折疊桌 | Yahoo奇摩購物中心</a>。</li>
+<li>相同商品的拍賣場網址：<a href="https://shopee.tw/%E6%B4%BE%E5%87%A1-%E4%B8%80%E7%B2%92%E7%B1%B3-%E7%AD%86%E9%9B%BB-%E8%BB%8A%E7%94%A8-%E5%BA%8A%E4%B8%8A-%E6%8A%98%E7%96%8A%E6%A1%8C-%E8%A7%92%E5%BA%A6%E5%8F%AF%E8%AA%BF-%E5%A4%9A%E7%A8%AE%E4%BD%BF%E6%96%B9%E5%BC%8F-%E9%96%B1%E8%AE%80%E6%9B%B8%E6%9E%B6-%E8%90%AC%E7%94%A8%E6%89%8B%E6%A9%9F-%E6%A1%8C%E9%9D%A2-%E6%94%AF%E6%9E%B6-%E4%BE%BF%E6%94%9C%E5%8F%AF%E6%8A%98%E7%96%8A%E5%A4%9A%E5%8A%9F%E8%83%BD-%E7%8F%BE%E8%B2%A8--i.310970803.9212858226" title="Oatsbasf 一粒米 筆電 車用 床上 折疊桌 角度可調 多種使方式 閱讀書架 萬用手機 桌面 支架 {現貨} | 蝦皮購物">Oatsbasf 一粒米 筆電 車用 床上 折疊桌 角度可調 多種使方式 閱讀書架 萬用手機 桌面 支架 {現貨} | 蝦皮購物</a></li>
+<li>其他相關商品網址：<a href="https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=8347040" title="【角度高度可調/可單手翻頁】護頸閱讀架 看書架 讀書架 懶人書架-momo購物網">【角度高度可調/可單手翻頁】護頸閱讀架 看書架 讀書架 懶人書架-momo購物網</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>開箱</category>
+      </categories>
+      <tags>
+        <tag>adjustablelaptopstand</tag>
       </tags>
   </entry>
   <entry>
@@ -546,31 +507,42 @@
       </tags>
   </entry>
   <entry>
-    <title>iPhone 13 (Pro)</title>
-    <url>/%E9%96%8B%E8%AC%9B/iphone-13-pro/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>每一年的蘋果新機，仍然會有一定的銷售率，印象中，在國內的每月銷售排行，前 10 都能夠找到 iPhone 的身影。</p>
-<p>因此，我想開一篇，試著從更多的面向來聊一聊蘋果，並且就拿 2021 年的 iPhone 13 來當切入的點。  <img src="https://images.unsplash.com/photo-1636108840454-8fbe394c7837?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" alt=""><br>Photo by <a href="https://unsplash.com/@vanjamphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Vanja Matijevic</a> on <a href="https://unsplash.com/s/photos/iphone-13?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
-<h3 id="先講-iPhone-13-比較不足的部分"><a href="#先講-iPhone-13-比較不足的部分" class="headerlink" title="先講 iPhone 13 比較不足的部分"></a>先講 iPhone 13 比較不足的部分</h3><ol>
-<li>仍然有瀏海頭、生物辨識總有美中不足(指紋沒回歸、Face ID 的解鎖距離較遠)、沒有隨顯螢幕(Always on Display，AOD)、重量增加、PWM 調光的 OLED、軟硬體並沒有特別針對遊戲最佳化、Pro 版的相機鏡頭佔用較多空間而影響操作、相機的規格好像有點玄機…等等。</li>
-<li>上面所列的缺點當中，我最擔心的是「PWM 調光的 OLED」，這一點，在我使用 iPhone X 期間特別有感，而且，那幾年奇快地加速我的老花。換言之，就是因為用起來眼睛就是會不舒服，我才又更用力地去瞭解手機的硬體規格。或許，也因為我有點年紀，不能全然怪罪 iPhone 身上。但，現在回想起來，我會出掉 iPhone X，主要原因就是疫情期間，非常不便的 Face ID 與越看眼睛越不舒服的 OLED。反而是孩子們在用的 Redmi Note 8 Pro，逐漸成為我的主力機。</li>
+    <title>流汗吧！健身少女</title>
+    <url>/%E9%96%8B%E8%AC%9B/how-heavy-are-the-dumbbells-you-lift-on-netflix/</url>
+    <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p><img src="https://dumbbell-anime.jp/assets/story/12_4.jpg" alt="">  Picture on <a href="https://dumbbell-anime.jp/story/">STORY | TVアニメ「ダンベル何キロ持てる？」公式サイト</a></p>
+<p>鍥而舍之，朽木不折；鍥而不捨，金石可鏤。 — 荀子</p>
+<hr>
+<h3 id="感想"><a href="#感想" class="headerlink" title="感想"></a>感想</h3><p>「流汗吧！健身少女」這部片，不曉得是透過什麼樣的演算法，推薦給我的。</p>
+<p>但，我最近都會一邊在跑步機上步行；一邊追劇，既然是運動類的動漫，順便服用也算是有搭配上的「菜色」。</p>
+<p>以下，紀錄我自己吃了這道菜之後的感想。</p>
+<ol>
+<li>基礎鍛練知識：這裡要表達的是有每一集都會穿插一些比較具有知識性的肌肉鍛練相關訊息，比方說，肌肉的部位與名稱，以及使用什麼樣的鍛練，會對該部位的肌肉產生效果。看了之後，我也不得不說，自己讀過幾本肌肉鍛練的書，怎麼連大家最耳熟能詳的伏地挺身，雙手手掌靠近或是離遠一點，會鍛練到什麼部分的肌肉，都傻傻搞不清楚。再者，該如何設定專屬自己的強度，我認為這部動畫也給出比較容易懂，也容易掌握的答案。總之，這些知識對於新手，或是像我這樣似懂非懂的人，都有助於釐清與重新學習。</li>
+<li>飲食的重要性：肌肉要鍛練，也需要養分讓它「長大」，就我所知，最重要的養分是蛋白質。整部重漫裡面，女主角不時在吃東西，作者肯定營養攝取的重要性，也會透過動畫標示每種食物大致上的卡路里，我其實想要知道更多一點，比方說蛋白質、脂肪與碳水化合物的佔比，只是，我猜可能礙於畫面能夠呈現的有限，況且，要是再標示出這些，就算畫面塞得下，訊息有點多的話，也不好記下來。</li>
+<li>日式搞笑風格：其實，最近幾年，可能我看了一些比較冷門、沉默的作品，對於日式常用的搞笑梗，已慢慢淡忘。「流汗吧！健身少女」倒是把這些日式搞笑風格正常發揮出來，而且風格算是鮮明，對我來說，即使猜出接下來要玩什麼梗，也還是會笑一下，我相信，即使是老梗，也多少有一些療癒效果。</li>
+<li><p>醉翁之意：這部動漫，主題是鍛練肌肉，以女性角色為故事陳述的主人翁，我認為是一個賣點，也是一個亮點，多多少少更是一種眼球上的「福利」。不過，這個分寸拿掐有一定的難度，做得不夠，搔不到癢處，不如不做；做得太過頭，又好像會讓主題稍稍失焦。</p>
+<p> ↘以我一個男性且非肌肉控的角度來看，我對街雄鳴造秀肌肉的部分，…沒感覺。<br> <img src="https://dumbbell-anime.jp/assets/story/11_3.jpg" alt=""><br> Picture on <a href="https://dumbbell-anime.jp/story/">STORY | TVアニメ「ダンベル何キロ持てる？」公式サイト</a></p>
+<p> ↘女性角色的部分，有些畫面似乎不是用養眼可以形容，而且，看起來又不像是在激發鍛練肌肉的心。<br> <img src="https://dumbbell-anime.jp/assets/story/6_2.jpg" alt=""><br> Picture on <a href="https://dumbbell-anime.jp/story/">STORY | TVアニメ「ダンベル何キロ持てる？」公式サイト</a></p>
+<p> ↘這或許…，就是醉翁之意吧！？<br> <img src="https://dumbbell-anime.jp/assets/story/9_2.jpg" alt=""><br> Picture on <a href="https://dumbbell-anime.jp/story/">STORY | TVアニメ「ダンベル何キロ持てる？」公式サイト</a></p>
+</li>
 </ol>
-<h3 id="換個角度來看-iPhone-13"><a href="#換個角度來看-iPhone-13" class="headerlink" title="換個角度來看 iPhone 13"></a>換個角度來看 iPhone 13</h3><ol>
-<li>家族語彙：瀏海頭似乎已廣為使用者接受，從 Macbook Pro 也看得到瀏海頭時，我一方面快暈倒，一方面也在想，該不會蘋果已經乾脆把這瀏海頭當成家族語彙了吧！？更有趣的是，三星當年是拿這個瀏海頭來調侃的，卻在最近自家的平板產品上，也現出瀏海頭的蹤跡。關於三星的新平板，可以自行爬文，或是參考：<a href="https://agirls.aotter.net/post/59832">三星最新旗艦平板 Galaxy Tab S8 也有瀏海了？據傳將於 2022 年與旗艦手機 Galaxy S22 系列一同亮相 – 電獺少女</a>。</li>
-<li>Face ID 或有另外一層的考量與功能：上面提到指紋辨識沒回歸與Face ID 的解鎖距離較前代遠等小缺憾，但，我也注意到 Face ID 似乎也解決蘋果 App Store 一直以來存在的問題。這個問題就是以往使用者想要辦理消費退款時，可以推說是指紋誤觸造成的非預期付費，然而，誤解鎖率相對較低的 Face ID，就讓蘋果更有立場回應與處理不當退款的問題，簡單說，使用 Face ID 的付費，消費者不好賴帳。</li>
-<li>輕便又強大的錄影設備：<br> (1)蘋果常常強調在 iPhone 上的自家處理器效能有多好，我的觀察與看法是這些效能似乎多半運用在攝影上。之前我提到自己的需求時，由於自己擁有入門的攝影配備，因此，不會覺得需要 iPhone。但是我也得說，iPhone 若相較於其他一般或專業的攝影配備而言，確實輕便不少。<br> (2)錄影這個部分，對我目前來說，或許不能稱得上是需求，但是，我認為這會是一個趨勢。再說，蘋果一直以來，在影音相關領域有一定的專業度，也一直對 AR 等有一定能量的投入。或許，未來會有令人意想不到的產品，只是，就現在而言，多半讓人感受到的就是在擠牙膏。</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>曾經，在親朋好友的閒聊之間，聽到 Cook 有過「蘋果不做垃圾」的說法，在撰寫本文之前，我試著爬文，發現 Cook 似乎講過如此高傲的話：<a href="https://joejoeyourmoney.pixnet.net/blog/post/253892741">蘋果執行長Tim Cook：「市場上有許多的垃圾，我們不會進入垃圾業務，高端產品有更高的價值，理應定價更高。」</a>我認為，這樣的說法，展現出蘋果的自信與驕傲，然而，這幾年安卓陣營急起直追，也有那麼點像當年微軟以 Windows 系統整合，圍剿蘋果，Cook 在手腕上比較柔軟，能夠與 Google 在大部分的時間裡，站在共好的點上，因此，就目前看來還不至於走入「驕兵必敗」的下場。</li>
-<li>只是，我也認為，如果蘋果拿汽車市場裡面的雙 B 來比喻自己的話，那麼，就算再有自信，就算雙 B 再強，也不能夠否定其他車廠在汽車市場上的努力，只不過，話說回來，智慧型手機的市場裡，會不會也是聽到 Cook 這麼一席話之後，奮發圖強呢？說真的，我不清楚。</li>
-<li>只能說，單純地從各種不同的參考資料來看，我會認為 iPhone 13 無論是跟自己或是跟別人比，都滿明顯地在錄影的部分有相對強勁的表現，即使，入手的使用者們，當時不一定是衝著這一點而來，也或許可以試著使用、體驗看看。</li>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>隨著人類對人類自己越來越瞭解之後，怎麼樣照顧、培養自己的身體，都已經走向科學化，「流汗吧！健身少女」這部動漫，似乎引發非常大的迴響，也讓人可以用比較輕鬆的方式看待肌肉鍛練這件事。</p>
+<p>但，問題又回到原點，…我的意思是很多事情，常常是我們知道，但我們不一定會有動機去做，有了動機，還要有足夠的熱情，我倒認為到一定的程度之後，是不是熱情已經不確定，但身體畢竟是自己的，想要怎麼樣的自己，應該比較多是一份自我責任吧！</p>
+<p>以我而言，以前常常會因為某些原因，讓自己的鍛練停下來，受傷之後要休息多久，就是最明顯的狀況。還有一點，就是節食之後，沒有設定自我獎勵日，所以身體進入節能狀態，好像也練不出個所以然，我甚至懷疑自己是不是也把肌肉消耗掉，而不是練上來。</p>
+<p>綜合上述，步入中年的我，目前設定每天 1 萬步的目標，也維持快 3 個月，然而，是要繼續保持每天 1 萬步，還是可以安排其他的訓練，…我認為要從這部動畫找答案，並不是那麼容易，但動畫裡面也提到健身房這項資源，或許，這是一個可以找到專業諮詢的地方。受到疫情的影響，健身房這個資源，我認為，最快也差不多已經是暑假，比較保險的設想，應該是明年之後再多方洽詢。</p>
+<p>總之，我認為動畫是個重要的引子，如果能夠體認到使用自己身體的每一天，都要試著好好照顧自己，應該會是這部動漫期待給觀賞者更深遠的理念。</p>
+<hr>
+<h3 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h3><ol>
+<li><a href="https://dumbbell-anime.jp/">TVアニメ「ダンベル何キロ持てる？」公式サイト</a></li>
+<li><a href="https://zh.wikipedia.org/zh-tw/%E6%B5%81%E6%B1%97%E5%90%A7%EF%BC%81%E5%81%A5%E8%BA%AB%E5%B0%91%E5%A5%B3">流汗吧！健身少女 – 維基百科，自由的百科全書</a></li>
 </ol>
 ]]></content>
       <categories>
         <category>開講</category>
       </categories>
       <tags>
-        <tag>iphone13</tag>
-        <tag>iphone</tag>
+        <tag>netflix</tag>
+        <tag>cartoon</tag>
       </tags>
   </entry>
   <entry>
@@ -600,6 +572,34 @@
       <tags>
         <tag>iphone</tag>
         <tag>iphonese3rdgen</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>iPhone 13 (Pro)</title>
+    <url>/%E9%96%8B%E8%AC%9B/iphone-13-pro/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>每一年的蘋果新機，仍然會有一定的銷售率，印象中，在國內的每月銷售排行，前 10 都能夠找到 iPhone 的身影。</p>
+<p>因此，我想開一篇，試著從更多的面向來聊一聊蘋果，並且就拿 2021 年的 iPhone 13 來當切入的點。  <img src="https://images.unsplash.com/photo-1636108840454-8fbe394c7837?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80" alt=""><br>Photo by <a href="https://unsplash.com/@vanjamphotography?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Vanja Matijevic</a> on <a href="https://unsplash.com/s/photos/iphone-13?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+<h3 id="先講-iPhone-13-比較不足的部分"><a href="#先講-iPhone-13-比較不足的部分" class="headerlink" title="先講 iPhone 13 比較不足的部分"></a>先講 iPhone 13 比較不足的部分</h3><ol>
+<li>仍然有瀏海頭、生物辨識總有美中不足(指紋沒回歸、Face ID 的解鎖距離較遠)、沒有隨顯螢幕(Always on Display，AOD)、重量增加、PWM 調光的 OLED、軟硬體並沒有特別針對遊戲最佳化、Pro 版的相機鏡頭佔用較多空間而影響操作、相機的規格好像有點玄機…等等。</li>
+<li>上面所列的缺點當中，我最擔心的是「PWM 調光的 OLED」，這一點，在我使用 iPhone X 期間特別有感，而且，那幾年奇快地加速我的老花。換言之，就是因為用起來眼睛就是會不舒服，我才又更用力地去瞭解手機的硬體規格。或許，也因為我有點年紀，不能全然怪罪 iPhone 身上。但，現在回想起來，我會出掉 iPhone X，主要原因就是疫情期間，非常不便的 Face ID 與越看眼睛越不舒服的 OLED。反而是孩子們在用的 Redmi Note 8 Pro，逐漸成為我的主力機。</li>
+</ol>
+<h3 id="換個角度來看-iPhone-13"><a href="#換個角度來看-iPhone-13" class="headerlink" title="換個角度來看 iPhone 13"></a>換個角度來看 iPhone 13</h3><ol>
+<li>家族語彙：瀏海頭似乎已廣為使用者接受，從 Macbook Pro 也看得到瀏海頭時，我一方面快暈倒，一方面也在想，該不會蘋果已經乾脆把這瀏海頭當成家族語彙了吧！？更有趣的是，三星當年是拿這個瀏海頭來調侃的，卻在最近自家的平板產品上，也現出瀏海頭的蹤跡。關於三星的新平板，可以自行爬文，或是參考：<a href="https://agirls.aotter.net/post/59832">三星最新旗艦平板 Galaxy Tab S8 也有瀏海了？據傳將於 2022 年與旗艦手機 Galaxy S22 系列一同亮相 – 電獺少女</a>。</li>
+<li>Face ID 或有另外一層的考量與功能：上面提到指紋辨識沒回歸與Face ID 的解鎖距離較前代遠等小缺憾，但，我也注意到 Face ID 似乎也解決蘋果 App Store 一直以來存在的問題。這個問題就是以往使用者想要辦理消費退款時，可以推說是指紋誤觸造成的非預期付費，然而，誤解鎖率相對較低的 Face ID，就讓蘋果更有立場回應與處理不當退款的問題，簡單說，使用 Face ID 的付費，消費者不好賴帳。</li>
+<li>輕便又強大的錄影設備：<br> (1)蘋果常常強調在 iPhone 上的自家處理器效能有多好，我的觀察與看法是這些效能似乎多半運用在攝影上。之前我提到自己的需求時，由於自己擁有入門的攝影配備，因此，不會覺得需要 iPhone。但是我也得說，iPhone 若相較於其他一般或專業的攝影配備而言，確實輕便不少。<br> (2)錄影這個部分，對我目前來說，或許不能稱得上是需求，但是，我認為這會是一個趨勢。再說，蘋果一直以來，在影音相關領域有一定的專業度，也一直對 AR 等有一定能量的投入。或許，未來會有令人意想不到的產品，只是，就現在而言，多半讓人感受到的就是在擠牙膏。</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>曾經，在親朋好友的閒聊之間，聽到 Cook 有過「蘋果不做垃圾」的說法，在撰寫本文之前，我試著爬文，發現 Cook 似乎講過如此高傲的話：<a href="https://joejoeyourmoney.pixnet.net/blog/post/253892741">蘋果執行長Tim Cook：「市場上有許多的垃圾，我們不會進入垃圾業務，高端產品有更高的價值，理應定價更高。」</a>我認為，這樣的說法，展現出蘋果的自信與驕傲，然而，這幾年安卓陣營急起直追，也有那麼點像當年微軟以 Windows 系統整合，圍剿蘋果，Cook 在手腕上比較柔軟，能夠與 Google 在大部分的時間裡，站在共好的點上，因此，就目前看來還不至於走入「驕兵必敗」的下場。</li>
+<li>只是，我也認為，如果蘋果拿汽車市場裡面的雙 B 來比喻自己的話，那麼，就算再有自信，就算雙 B 再強，也不能夠否定其他車廠在汽車市場上的努力，只不過，話說回來，智慧型手機的市場裡，會不會也是聽到 Cook 這麼一席話之後，奮發圖強呢？說真的，我不清楚。</li>
+<li>只能說，單純地從各種不同的參考資料來看，我會認為 iPhone 13 無論是跟自己或是跟別人比，都滿明顯地在錄影的部分有相對強勁的表現，即使，入手的使用者們，當時不一定是衝著這一點而來，也或許可以試著使用、體驗看看。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>開講</category>
+      </categories>
+      <tags>
+        <tag>iphone13</tag>
+        <tag>iphone</tag>
       </tags>
   </entry>
   <entry>
@@ -734,34 +734,6 @@
       </tags>
   </entry>
   <entry>
-    <title>開箱 Nintendo Switch OLED</title>
-    <url>/%E9%96%8B%E7%AE%B1/nintendo-switch-oled/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Nintendo(以下稱任天堂)的遊戲產品，在電玩遊戲的領域裡，佔有一席之地，我跟任天堂結緣是從紅白機開始的，我的近視與散光，似乎也是從那時候開始(暈)，再者，我的爸媽擔心沉迷遊戲會影響我的課業，因此，後續的遊戲機我有接觸到的，應該就是灰白機(超級任天堂)，但，也只停留在接觸到，而不是擁有它。幾年後，超級任天堂出復刻迷你版，我不顧一切入手，一種買情懷的概念。</p>
-<p>而今，已成人父的我，入手並開箱 <a href="https://www.nintendo.tw/hardware/detail/switch-oled/" title="Nintendo Switch (OLED 款式)">Nintendo Switch (OLED 款式)</a>，目的是期待透過任天堂，營造一個家人共同遊戲與分享歡樂的過程與體驗。</p>
-<h3 id="開箱照片-點圖至-Flickr-瀏覽相簿"><a href="#開箱照片-點圖至-Flickr-瀏覽相簿" class="headerlink" title="開箱照片(點圖至 Flickr 瀏覽相簿)"></a>開箱照片(點圖至 Flickr 瀏覽相簿)</h3><p><a href="https://www.flickr.com/photos/unboxcp/albums/72157720140922533" title="nintendoSwitchOled"><img src="https://live.staticflickr.com/65535/51681406995_521c22b803_b.jpg" alt="nintendoSwitchOled"></a></p>
-<h3 id="開箱-1-5-小時左右的心得"><a href="#開箱-1-5-小時左右的心得" class="headerlink" title="開箱 1.5 小時左右的心得"></a>開箱 1.5 小時左右的心得</h3><ol>
-<li>紙本說明文件偏少：這一點，我認為是優點，回想起自己購買遊戲機的經驗，還真的沒有怎麼去看文件，通常遊戲機都會帶入一些操作，所以，很快就會上手。說明文件，確實是可以省下來的。</li>
-<li>在 OLED 款式出品後的入手時機：<br> (1)這個時間點入手 Switch，我認為應該是相對較晚的，原因是 Switch 剛出來不久時，我們曾在旅館玩過賽車，進行遊戲時，並沒有感受到特別之處。<br> (2)對我來說，OLED 不是需求，而是多擁有的裝備，也就是說，我帶出門以掌機的型式進行遊戲的機會，應該是不多的，以 CP 值而言，或許應該入手的是最基本的版本就可以。<br> (3)今天會想要入手，除了健身環這個因素，我的考量，主要在於內建網路卡、記憶體升級與轉軸式支架，尤其是內建網路卡這一點，對我來說是非常關鍵的因素。</li>
-<li>來自健身環的提醒：<br> (1)健身環也不是隨著 OLED 款式問世的產品，相關的分享已經很多。<br> (2)然而，疫情開始前，原有的運動習慣慢慢流失；疫情開始後，不運動要找理由變得很容易。昨天，小試一下健身環後發現，我的身體協調性變差，部分動作上，總有一種兩邊的肌肉與骨骼所帶給自己的感受似乎不太一樣的感覺，照照鏡子才發現身體似乎有點歪一邊。</li>
-<li>遊戲體驗：說真的，一開始要買的時候，已經在讀高二的兒子是反對的，他自己有較長時間在親友家的遊玩經驗，認為 Switch 的硬體效能並不好，而且大家可能沒有空一起玩。但，我認為遊戲體驗也是評價遊戲很重要的因素之一，而 Switch 以及任天堂更早之前的 Wii，其實都在這一個點上，嘗試刷新遊戲「互動」體驗。事實上，也在開箱後證實我的想法，而且，相較於我的上一部主機 XBOX 360 上的 KINECT 而言，我認為，Switch 在互動時，比較有回饋感，KINECT 倒是滿適合用在做瑜伽，回饋感的部分，就相對顯得比較薄弱。</li>
-<li>闔家歡樂：昨天開箱後，全家都在初體驗健身環的部分，感到很開心。另外，我購買的遊戲：Mario Tennis Ace (瑪利歐網球王牌高手)，孩子們也在遊戲過程當中充滿歡樂的氣息。甚至，我已經準備再買一組 Joy-Con，好讓全家人都可以一起投入多人遊戲。</li>
-</ol>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>開箱費用：14,850 元。</li>
-<li>入手方式：三井 3C 實體店購入，考量原因有 2 點如下。<br> (1)「雙11」的影響：坦白說，今年在「雙11」期間，我並沒有從電商的優惠裡面賺到什麼，訂貨後的到貨時間，賣場可能因為下單量大，導致出貨與到貨時間不好預測，這是其中一個，讓我決定跑一趟實體店購買的原因之一。<br> (2)實體商店的普遍優勢：我自己越來越有一種習慣：買 3C 產品，還是會到實體店入手。實體店不一定在價格上佔到便宜，卻比較可以降低故障更換的麻煩以及節省時間。我知道，這一點並非全部適用，不過，我仍認為實體店仍有優勢，如果多方考量後，貴一點可以讓我省下很多不必要的麻煩與時間，那麼，我會到實體店去購買商品。</li>
-<li>參考資料：<a href="https://www.mobile01.com/topicdetail.php?f=740&amp;t=6464221" title="Nintendo Switch OLED 搶先玩｜小改款推砌出更沉浸的遊玩體驗！ - Mobile01">Nintendo Switch OLED 搶先玩｜小改款推砌出更沉浸的遊玩體驗！ – Mobile01</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>開箱</category>
-      </categories>
-      <tags>
-        <tag>nintendo</tag>
-        <tag>switch</tag>
-        <tag>videogame</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>開箱 NutriPlus 活沛多游離型葉黃素</title>
     <url>/%E9%96%8B%E7%AE%B1/nutriplus-free-form-lutein-plus/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>「葉黃素」這三個字，在這幾年當中，我相信已經不是一個陌生的詞，大多數的人也多半知道它具備什麼樣的功效。</p>
@@ -792,6 +764,61 @@
       <tags>
         <tag>health</tag>
         <tag>lutein</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>開箱 Nintendo Switch OLED</title>
+    <url>/%E9%96%8B%E7%AE%B1/nintendo-switch-oled/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Nintendo(以下稱任天堂)的遊戲產品，在電玩遊戲的領域裡，佔有一席之地，我跟任天堂結緣是從紅白機開始的，我的近視與散光，似乎也是從那時候開始(暈)，再者，我的爸媽擔心沉迷遊戲會影響我的課業，因此，後續的遊戲機我有接觸到的，應該就是灰白機(超級任天堂)，但，也只停留在接觸到，而不是擁有它。幾年後，超級任天堂出復刻迷你版，我不顧一切入手，一種買情懷的概念。</p>
+<p>而今，已成人父的我，入手並開箱 <a href="https://www.nintendo.tw/hardware/detail/switch-oled/" title="Nintendo Switch (OLED 款式)">Nintendo Switch (OLED 款式)</a>，目的是期待透過任天堂，營造一個家人共同遊戲與分享歡樂的過程與體驗。</p>
+<h3 id="開箱照片-點圖至-Flickr-瀏覽相簿"><a href="#開箱照片-點圖至-Flickr-瀏覽相簿" class="headerlink" title="開箱照片(點圖至 Flickr 瀏覽相簿)"></a>開箱照片(點圖至 Flickr 瀏覽相簿)</h3><p><a href="https://www.flickr.com/photos/unboxcp/albums/72157720140922533" title="nintendoSwitchOled"><img src="https://live.staticflickr.com/65535/51681406995_521c22b803_b.jpg" alt="nintendoSwitchOled"></a></p>
+<h3 id="開箱-1-5-小時左右的心得"><a href="#開箱-1-5-小時左右的心得" class="headerlink" title="開箱 1.5 小時左右的心得"></a>開箱 1.5 小時左右的心得</h3><ol>
+<li>紙本說明文件偏少：這一點，我認為是優點，回想起自己購買遊戲機的經驗，還真的沒有怎麼去看文件，通常遊戲機都會帶入一些操作，所以，很快就會上手。說明文件，確實是可以省下來的。</li>
+<li>在 OLED 款式出品後的入手時機：<br> (1)這個時間點入手 Switch，我認為應該是相對較晚的，原因是 Switch 剛出來不久時，我們曾在旅館玩過賽車，進行遊戲時，並沒有感受到特別之處。<br> (2)對我來說，OLED 不是需求，而是多擁有的裝備，也就是說，我帶出門以掌機的型式進行遊戲的機會，應該是不多的，以 CP 值而言，或許應該入手的是最基本的版本就可以。<br> (3)今天會想要入手，除了健身環這個因素，我的考量，主要在於內建網路卡、記憶體升級與轉軸式支架，尤其是內建網路卡這一點，對我來說是非常關鍵的因素。</li>
+<li>來自健身環的提醒：<br> (1)健身環也不是隨著 OLED 款式問世的產品，相關的分享已經很多。<br> (2)然而，疫情開始前，原有的運動習慣慢慢流失；疫情開始後，不運動要找理由變得很容易。昨天，小試一下健身環後發現，我的身體協調性變差，部分動作上，總有一種兩邊的肌肉與骨骼所帶給自己的感受似乎不太一樣的感覺，照照鏡子才發現身體似乎有點歪一邊。</li>
+<li>遊戲體驗：說真的，一開始要買的時候，已經在讀高二的兒子是反對的，他自己有較長時間在親友家的遊玩經驗，認為 Switch 的硬體效能並不好，而且大家可能沒有空一起玩。但，我認為遊戲體驗也是評價遊戲很重要的因素之一，而 Switch 以及任天堂更早之前的 Wii，其實都在這一個點上，嘗試刷新遊戲「互動」體驗。事實上，也在開箱後證實我的想法，而且，相較於我的上一部主機 XBOX 360 上的 KINECT 而言，我認為，Switch 在互動時，比較有回饋感，KINECT 倒是滿適合用在做瑜伽，回饋感的部分，就相對顯得比較薄弱。</li>
+<li>闔家歡樂：昨天開箱後，全家都在初體驗健身環的部分，感到很開心。另外，我購買的遊戲：Mario Tennis Ace (瑪利歐網球王牌高手)，孩子們也在遊戲過程當中充滿歡樂的氣息。甚至，我已經準備再買一組 Joy-Con，好讓全家人都可以一起投入多人遊戲。</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>開箱費用：14,850 元。</li>
+<li>入手方式：三井 3C 實體店購入，考量原因有 2 點如下。<br> (1)「雙11」的影響：坦白說，今年在「雙11」期間，我並沒有從電商的優惠裡面賺到什麼，訂貨後的到貨時間，賣場可能因為下單量大，導致出貨與到貨時間不好預測，這是其中一個，讓我決定跑一趟實體店購買的原因之一。<br> (2)實體商店的普遍優勢：我自己越來越有一種習慣：買 3C 產品，還是會到實體店入手。實體店不一定在價格上佔到便宜，卻比較可以降低故障更換的麻煩以及節省時間。我知道，這一點並非全部適用，不過，我仍認為實體店仍有優勢，如果多方考量後，貴一點可以讓我省下很多不必要的麻煩與時間，那麼，我會到實體店去購買商品。</li>
+<li>參考資料：<a href="https://www.mobile01.com/topicdetail.php?f=740&amp;t=6464221" title="Nintendo Switch OLED 搶先玩｜小改款推砌出更沉浸的遊玩體驗！ - Mobile01">Nintendo Switch OLED 搶先玩｜小改款推砌出更沉浸的遊玩體驗！ – Mobile01</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>開箱</category>
+      </categories>
+      <tags>
+        <tag>nintendo</tag>
+        <tag>switch</tag>
+        <tag>videogame</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在我堅持每日步行 1 萬步的 60 天之後</title>
+    <url>/%E9%96%8B%E8%AC%9B/one-million-steps-above-60days/</url>
+    <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p><a href="https://www.flickr.com/photos/195515311@N06/52031432933/in/dateposted-public/" title="byTheRiverEp1"><img src="https://live.staticflickr.com/65535/52031432933_615b2959eb_b.jpg" alt="byTheRiverEp1"></a>  你走得多慢都無所謂，最重要的是絕不停下腳步。—安迪·沃荷 Andy Warhol</p>
+<hr>
+<h3 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h3><p><a href="https://camellia.day/unbox/unboxing-fitbit-charge-4/">開箱 Fitbit Charge 4</a> 後，我一開始比較多是拿 Fitbit Charge 4 來追蹤自己的睡眠狀況，而日積月累的使用，也慢慢地注意到每日步行 1 萬步之後，錶盤上會有動畫。</p>
+<p>疫情之前，我的運動量就減少很多；疫情開始，我更是整天讓屁股黏在椅子上，久久才會起來動一下，反倒是高熱量的食物吃得多，加上水喝得少等種種因素加總起來，造就今年農曆過年後，我的身材有更明顯的走樣，…尤其是肚子上的肥肉，用一圈已不足以形容。</p>
+<p>我認為這樣下去不是辦法，而決定要改變這樣的自己。</p>
+<p>我想，已經很久沒有動，即使近期偶爾會使用一下健身環，我仍認為自己的運動量太不足，若強度一下子拉回到我以前經常運動那般，我可能會受不了。因此，在運動內容的設定上，我選擇從「步行」出發，而這個過程，也考量到家裡就有跑步機，只要換上跑步鞋，就可以上機運動，同時也是為了兼顧便利性。</p>
+<p>至於每日目標的設定上，我漫無頭緒地，一開始想說每天 1 個半小時，分成 3 次進行，每次之間會間隔約 10 分鐘，如果狀況好，就直接把 1 個半小時走好走滿。走了 2 個多月之後，才想到從前面才提到的 1 萬步做為每日目標，主要也是考量到回頭去看 Fitbit Charge 4 紀錄，就算我都沒有運動，每日也大約會走個差不多 5 千步之多。</p>
+<p>就這樣，我從 2022 年 2 月 19 日走到今天，也快 70 天(超過 3 個月)。<br><a href="https://www.flickr.com/photos/cafetalkwithyou/52031435438" title="theDatainFitbitAppEp1"><img src="https://live.staticflickr.com/65535/52031435438_def6022cf0_c.jpg" alt="theDatainFitbitAppEp1"></a></p>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p><a href="https://www.flickr.com/photos/cafetalkwithyou/52032543055/in/dateposted-public/" title="weeklyReportonFitbit"><img src="https://live.staticflickr.com/65535/52032543055_9526ce1b50_b.jpg" alt="weeklyReportonFitbit"></a><br>回頭去看，發現 2 個月的日子過得挺快，而我的腰上那一團和氣的肉，已經減少很多，體重下降後的 BMI 值是 22.8，與我的目標：BMI 值為 22.5 也已只有一步之遙(2 個月後的體重下降不像一開始那麼快就是)。</p>
+<p>有點可惜的是我沒有做一個持續運動前的「前測」，留下數據給自己看看這個過程至今的變化。</p>
+<p>另外，我得說，本來我對 Fitbit App 的操作介面沒有太多挑剔，今天發現日期只能一天一天切，算是增加了我回顧紀錄上的不便，即使，我嘗試找尋，仍沒有辦法找到以月份的方式呈現的樣貌。</p>
+]]></content>
+      <categories>
+        <category>開講</category>
+      </categories>
+      <tags>
+        <tag>fitbit</tag>
+        <tag>health</tag>
+        <tag>fitnessTracker</tag>
+        <tag>sport</tag>
+        <tag>walking</tag>
       </tags>
   </entry>
   <entry>
@@ -873,30 +900,38 @@
       </tags>
   </entry>
   <entry>
-    <title>在我堅持每日步行 1 萬步的 60 天之後</title>
-    <url>/%E9%96%8B%E8%AC%9B/one-million-steps-above-60days/</url>
-    <content><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p><a href="https://www.flickr.com/photos/195515311@N06/52031432933/in/dateposted-public/" title="byTheRiverEp1"><img src="https://live.staticflickr.com/65535/52031432933_615b2959eb_b.jpg" alt="byTheRiverEp1"></a>  你走得多慢都無所謂，最重要的是絕不停下腳步。—安迪·沃荷 Andy Warhol</p>
-<hr>
-<h3 id="心得"><a href="#心得" class="headerlink" title="心得"></a>心得</h3><p><a href="https://camellia.day/unbox/unboxing-fitbit-charge-4/">開箱 Fitbit Charge 4</a> 後，我一開始比較多是拿 Fitbit Charge 4 來追蹤自己的睡眠狀況，而日積月累的使用，也慢慢地注意到每日步行 1 萬步之後，錶盤上會有動畫。</p>
-<p>疫情之前，我的運動量就減少很多；疫情開始，我更是整天讓屁股黏在椅子上，久久才會起來動一下，反倒是高熱量的食物吃得多，加上水喝得少等種種因素加總起來，造就今年農曆過年後，我的身材有更明顯的走樣，…尤其是肚子上的肥肉，用一圈已不足以形容。</p>
-<p>我認為這樣下去不是辦法，而決定要改變這樣的自己。</p>
-<p>我想，已經很久沒有動，即使近期偶爾會使用一下健身環，我仍認為自己的運動量太不足，若強度一下子拉回到我以前經常運動那般，我可能會受不了。因此，在運動內容的設定上，我選擇從「步行」出發，而這個過程，也考量到家裡就有跑步機，只要換上跑步鞋，就可以上機運動，同時也是為了兼顧便利性。</p>
-<p>至於每日目標的設定上，我漫無頭緒地，一開始想說每天 1 個半小時，分成 3 次進行，每次之間會間隔約 10 分鐘，如果狀況好，就直接把 1 個半小時走好走滿。走了 2 個多月之後，才想到從前面才提到的 1 萬步做為每日目標，主要也是考量到回頭去看 Fitbit Charge 4 紀錄，就算我都沒有運動，每日也大約會走個差不多 5 千步之多。</p>
-<p>就這樣，我從 2022 年 2 月 19 日走到今天，也快 70 天(超過 3 個月)。<br><a href="https://www.flickr.com/photos/cafetalkwithyou/52031435438" title="theDatainFitbitAppEp1"><img src="https://live.staticflickr.com/65535/52031435438_def6022cf0_c.jpg" alt="theDatainFitbitAppEp1"></a></p>
-<hr>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p><a href="https://www.flickr.com/photos/cafetalkwithyou/52032543055/in/dateposted-public/" title="weeklyReportonFitbit"><img src="https://live.staticflickr.com/65535/52032543055_9526ce1b50_b.jpg" alt="weeklyReportonFitbit"></a><br>回頭去看，發現 2 個月的日子過得挺快，而我的腰上那一團和氣的肉，已經減少很多，體重下降後的 BMI 值是 22.8，與我的目標：BMI 值為 22.5 也已只有一步之遙(2 個月後的體重下降不像一開始那麼快就是)。</p>
-<p>有點可惜的是我沒有做一個持續運動前的「前測」，留下數據給自己看看這個過程至今的變化。</p>
-<p>另外，我得說，本來我對 Fitbit App 的操作介面沒有太多挑剔，今天發現日期只能一天一天切，算是增加了我回顧紀錄上的不便，即使，我嘗試找尋，仍沒有辦法找到以月份的方式呈現的樣貌。</p>
+    <title>開箱 PowerSync 四開四插防雷擊抗搖擺延長線-黑色 (產品型號：TPS344AN0018)</title>
+    <url>/%E9%96%8B%E7%AE%B1/powersync-TPS344AN0018/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>延長線，似乎是家戶必備的物品。  <a href="https://www.flickr.com/photos/unboxcp/51864878276/in/dateposted-public/" title="IMG_0096"><img src="https://live.staticflickr.com/65535/51864878276_e13d1c0c00_o.jpg" alt="IMG_0096"></a></p>
+<p>在這個住家裡，最一開始入手的延長線，就是群加國際股份有限公司出品的為主，最先入手的 2 條線，型號是 PWS-EEA1427(詳可見：<a href="https://www.powersync.com.tw/products_detail_263.htm">防雷擊一開四插延長線(加大距離) – 群加國際股份有限公司</a>)，其中一條在接電暖爐後，插座處開始有融化的情形，以安性全的角度來看，產生這樣的狀況，應該就不該繼續使用，我卻讓它繼續撐了一段時間(錯誤示範，請勿學習)。  <a href="https://www.flickr.com/photos/unboxcp/51864878356/in/dateposted-public/" title="IMG_0115"><img src="https://live.staticflickr.com/65535/51864878356_f44b4e1e78_o.jpg" alt="IMG_0115"></a> <a href="https://www.flickr.com/photos/unboxcp/51863909357/in/dateposted-public/" title="IMG_0116"><img src="https://live.staticflickr.com/65535/51863909357_667094752e_o.jpg" alt="IMG_0116"></a></p>
+<p>同樣是 4 個插座的延長線，額定容量也一樣是 15A/125V/1,650W MAX，另外一條接過電暖爐，卻是頭好壯壯，沒有什麼問題。  <a href="https://www.flickr.com/photos/unboxcp/51865528135/in/dateposted-public/" title="IMG_0118"><img src="https://live.staticflickr.com/65535/51865528135_6bd3e70c4c_o.jpg" alt="IMG_0118"></a></p>
+<p>決定換掉這條線之後，來看看「已連接」與「預定連接」的電器用品，總計瓦數約為 165 + 110 + 880 + 55 = 1,130W。</p>
+<ol>
+<li><a href="https://support.apple.com/kb/sp710?locale=zh_TW">Mac mini（2014 年末）</a>(已連接)：110V * 1.5A = 165W</li>
+<li><a href="https://www.lg.com/ca_en/desktop-monitors/lg-E2341T-BN">LG FLATRON E2341T-BN</a>(已連接)：110V * 1A = 110W</li>
+<li><a href="https://archive.org/details/manuallib-id-2489026">SAMPO HX-FD14F (聲寶 14 吋鹵素式電暖器)</a>(已連接，冬日限定)：800W</li>
+<li><a href="https://www.mi.com/tw/mi-robot-vacuum-mop-combo-1c/">米家掃拖機器人 1C</a>(預定連接)：110V * 0.5A = 55W</li>
+<li>TECO XA1452BRD (TECO 東元 2019年 momo 獨家 14 吋 DC 馬達 ECO 遙控擺頭風扇)(預定連接，夏日限定)：22W</li>
+</ol>
+<p>就以上的計算方式來看，TPS344AN0018 (詳可見：<a href="https://www.powersync.com.tw/products_detail_1192.htm">四開四插防雷擊抗搖擺延長線-黑色 – 群加國際股份有限公司</a>) 是沒有問題的。</p>
+<h3 id="開箱影片"><a href="#開箱影片" class="headerlink" title="開箱影片"></a>開箱影片</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/G6l11QFPeHI?si=RUwfVz64EyygLf-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h3 id="開箱-1-小時左右的心得"><a href="#開箱-1-小時左右的心得" class="headerlink" title="開箱 1 小時左右的心得"></a>開箱 1 小時左右的心得</h3><p>由於這條延長線會在冬天的時候接上電暖爐，而且一接至少就是一個晚上的時間，推算起來大約就是 8 至 10 小時。</p>
+<p>等到晚上再測試，並不是最好的時機，所以，安裝好之後，我就試著在白天開始使用，撰寫這篇貼文的時候，也大概開了快一個小時。</p>
+<p>原則上，我會開滿 3 小時。同時也想到，如果我手邊有更好的測試儀器，可能會更好，不過一般家庭，通常不會準備這樣的設備，所以，姑且就用時間也考驗產品。</p>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>開箱費用：289 元，價格可能會有波動，請以賣場售價為主。</li>
+<li>入手方式：從 <a href="https://www.momoshop.com.tw/" title="momo購物網">momo購物網</a> 以加購價購入，相較於原價，CP 值算高。</li>
+<li>我目前的住家在規劃的時候，已經試著多設定一些電源插座，但，仍會有不足的部分。原因很簡單，就是當時候沒有想到會這麼用。以今天的狀況來說，我也沒有想過會把 Mac mini 放到斗櫃上使用。<br> <a href="https://www.flickr.com/photos/unboxcp/51864955788/in/dateposted-public/" title="IMG_0097"><img src="https://live.staticflickr.com/65535/51864955788_766335908b_o.jpg" alt="IMG_0097"></a></li>
+<li>※郵務人員，在過年過節期間，提供送貨服務，辛苦您們了，謝謝。</li>
+</ol>
 ]]></content>
       <categories>
-        <category>開講</category>
+        <category>開箱</category>
       </categories>
       <tags>
-        <tag>fitbit</tag>
-        <tag>health</tag>
-        <tag>fitnessTracker</tag>
-        <tag>sport</tag>
-        <tag>walking</tag>
+        <tag>powercord</tag>
+        <tag>powersync</tag>
       </tags>
   </entry>
   <entry>
@@ -930,41 +965,6 @@
         <tag>apple</tag>
         <tag>iphone13</tag>
         <tag>iphone</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>開箱 PowerSync 四開四插防雷擊抗搖擺延長線-黑色 (產品型號：TPS344AN0018)</title>
-    <url>/%E9%96%8B%E7%AE%B1/powersync-TPS344AN0018/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>延長線，似乎是家戶必備的物品。  <a href="https://www.flickr.com/photos/unboxcp/51864878276/in/dateposted-public/" title="IMG_0096"><img src="https://live.staticflickr.com/65535/51864878276_e13d1c0c00_o.jpg" alt="IMG_0096"></a></p>
-<p>在這個住家裡，最一開始入手的延長線，就是群加國際股份有限公司出品的為主，最先入手的 2 條線，型號是 PWS-EEA1427(詳可見：<a href="https://www.powersync.com.tw/products_detail_263.htm">防雷擊一開四插延長線(加大距離) – 群加國際股份有限公司</a>)，其中一條在接電暖爐後，插座處開始有融化的情形，以安性全的角度來看，產生這樣的狀況，應該就不該繼續使用，我卻讓它繼續撐了一段時間(錯誤示範，請勿學習)。  <a href="https://www.flickr.com/photos/unboxcp/51864878356/in/dateposted-public/" title="IMG_0115"><img src="https://live.staticflickr.com/65535/51864878356_f44b4e1e78_o.jpg" alt="IMG_0115"></a> <a href="https://www.flickr.com/photos/unboxcp/51863909357/in/dateposted-public/" title="IMG_0116"><img src="https://live.staticflickr.com/65535/51863909357_667094752e_o.jpg" alt="IMG_0116"></a></p>
-<p>同樣是 4 個插座的延長線，額定容量也一樣是 15A/125V/1,650W MAX，另外一條接過電暖爐，卻是頭好壯壯，沒有什麼問題。  <a href="https://www.flickr.com/photos/unboxcp/51865528135/in/dateposted-public/" title="IMG_0118"><img src="https://live.staticflickr.com/65535/51865528135_6bd3e70c4c_o.jpg" alt="IMG_0118"></a></p>
-<p>決定換掉這條線之後，來看看「已連接」與「預定連接」的電器用品，總計瓦數約為 165 + 110 + 880 + 55 = 1,130W。</p>
-<ol>
-<li><a href="https://support.apple.com/kb/sp710?locale=zh_TW">Mac mini（2014 年末）</a>(已連接)：110V * 1.5A = 165W</li>
-<li><a href="https://www.lg.com/ca_en/desktop-monitors/lg-E2341T-BN">LG FLATRON E2341T-BN</a>(已連接)：110V * 1A = 110W</li>
-<li><a href="https://archive.org/details/manuallib-id-2489026">SAMPO HX-FD14F (聲寶 14 吋鹵素式電暖器)</a>(已連接，冬日限定)：800W</li>
-<li><a href="https://www.mi.com/tw/mi-robot-vacuum-mop-combo-1c/">米家掃拖機器人 1C</a>(預定連接)：110V * 0.5A = 55W</li>
-<li>TECO XA1452BRD (TECO 東元 2019年 momo 獨家 14 吋 DC 馬達 ECO 遙控擺頭風扇)(預定連接，夏日限定)：22W</li>
-</ol>
-<p>就以上的計算方式來看，TPS344AN0018 (詳可見：<a href="https://www.powersync.com.tw/products_detail_1192.htm">四開四插防雷擊抗搖擺延長線-黑色 – 群加國際股份有限公司</a>) 是沒有問題的。</p>
-<h3 id="開箱影片"><a href="#開箱影片" class="headerlink" title="開箱影片"></a>開箱影片</h3><iframe width="560" height="315" src="https://www.youtube.com/embed/G6l11QFPeHI?si=RUwfVz64EyygLf-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<h3 id="開箱-1-小時左右的心得"><a href="#開箱-1-小時左右的心得" class="headerlink" title="開箱 1 小時左右的心得"></a>開箱 1 小時左右的心得</h3><p>由於這條延長線會在冬天的時候接上電暖爐，而且一接至少就是一個晚上的時間，推算起來大約就是 8 至 10 小時。</p>
-<p>等到晚上再測試，並不是最好的時機，所以，安裝好之後，我就試著在白天開始使用，撰寫這篇貼文的時候，也大概開了快一個小時。</p>
-<p>原則上，我會開滿 3 小時。同時也想到，如果我手邊有更好的測試儀器，可能會更好，不過一般家庭，通常不會準備這樣的設備，所以，姑且就用時間也考驗產品。</p>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>開箱費用：289 元，價格可能會有波動，請以賣場售價為主。</li>
-<li>入手方式：從 <a href="https://www.momoshop.com.tw/" title="momo購物網">momo購物網</a> 以加購價購入，相較於原價，CP 值算高。</li>
-<li>我目前的住家在規劃的時候，已經試著多設定一些電源插座，但，仍會有不足的部分。原因很簡單，就是當時候沒有想到會這麼用。以今天的狀況來說，我也沒有想過會把 Mac mini 放到斗櫃上使用。<br> <a href="https://www.flickr.com/photos/unboxcp/51864955788/in/dateposted-public/" title="IMG_0097"><img src="https://live.staticflickr.com/65535/51864955788_766335908b_o.jpg" alt="IMG_0097"></a></li>
-<li>※郵務人員，在過年過節期間，提供送貨服務，辛苦您們了，謝謝。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>開箱</category>
-      </categories>
-      <tags>
-        <tag>powercord</tag>
-        <tag>powersync</tag>
       </tags>
   </entry>
   <entry>
@@ -1087,32 +1087,6 @@
       </tags>
   </entry>
   <entry>
-    <title>開箱 SONY XPERIA 10 III</title>
-    <url>/%E9%96%8B%E7%AE%B1/sony-xperia-10-iii/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>幾天前，我還在設想要開箱 Google Pixel 6，然而，計畫趕不上變化，我最終入手的是 SONY XPERIA 10 III。  <a href="https://www.flickr.com/photos/unboxcp/51639359982/in/dateposted-public/" title="SONY XPERIA 10 III Ep2"><img src="https://live.staticflickr.com/65535/51639359982_c1a3d3d4b6_b.jpg" alt="SONY XPERIA 10 III Ep2"></a></p>
-<h3 id="開箱照片-點圖至-Flickr-瀏覽相簿"><a href="#開箱照片-點圖至-Flickr-瀏覽相簿" class="headerlink" title="開箱照片(點圖至 Flickr 瀏覽相簿)"></a>開箱照片(點圖至 Flickr 瀏覽相簿)</h3><p><a href="https://www.flickr.com/photos/unboxcp/albums/72157720138798690" title="sonyXperia10Mark3"><img src="https://live.staticflickr.com/65535/51635578732_c84c2d0397_b.jpg" alt="sonyXperia10Mark3"></a></p>
-<h3 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h3><ol>
-<li>從「iPhone 的使用經驗，帶給我的心得」來看 SONY XPERIA 10 III。<br> (1)入手與維護成本：入手費用部分，我用老婆的門號續約手機+配件包(保護殼、保護貼與行動電源)，總共 8,070 元；維護成本的部分，我參考家人手上的第一代 Sony Xperia 10，購買至今已經 2 年多，系統也跟著更新到最新的版本，使用起來的感覺，畫面會稍為慢一點，家人認為還可以用，我認為如果可以用這麼久，已經非常值得。真要是受不了，換一支新的，並不會不合理。<br> (2)組裝品質：我認為沒問題。<br> (3)生態圈：略。<br> (4)專屬 App：有 SONY 專屬的 App，但我沒有依著系統指示進行安裝。<br> (5)行動電話與創新思維：我認為沒有什麼太特別的，硬要說「多視窗模式開關」的話，或許不是各家都有，只是我也不常使用。</li>
-<li>再從「找到專屬於我的分析重點」來檢視。<br> (1)處理器：憑借網路上的評測，我的印象裡是 Qualcomm Snapdragon 6 系列，使用體驗上的表現，這顆處理器明顯地比我之前用過的都來得慢，但，大部分的使用上，都能夠應付我需要的日常 。<br> (2)拍照：成相品質都夠用，但相機開啟速度有點慢。<br> (3)錄影：沒在用的功能，也沒有特別去測試。<br> (4)遊戲：玩「荒野亂鬥」，過場稍慢，螢幕較小，我可以接受。<br> (5)網速：5G 或 4G+ 的網速沒有問題，拿來設定成「無線基地台」，使用起來也是順順的。</li>
-<li>還有幾個點，也是我思考的方向。<br> (1)內在：除了上述的處理器、拍照與錄影的硬體外，SONY XPERIA 10 III 的記憶體容量為 6GB，對於喜歡使用 Google Chrome 的人，可能會有影響，因為，未來要鍍鉻的話，官方已經闡明至少要 8GB 的記憶體容量。對我的影響不大，因為我習慣用 Firefox。另外，這一代的機體設計，可不用頂針就可以安裝 SIM 卡與記憶卡，也不用重開機，方便。<br> (2)外觀：市面上，目前的手機外觀設計，我最喜歡的，就是 SONY 與 ROG Phone。雖然，我不會很排斥瀏海頭與其他的前置鏡頭設計，但，我確實對於一整片的螢幕有多一點偏好。<br> (3)價格：這一點，與「入手與維護成本」有重疊性，我想，我個人非常滿意 SONY XPERIA 10 III 的價格，它同時也讓我的苞包減少不少失血。</li>
-</ol>
-<h3 id="結論與後記"><a href="#結論與後記" class="headerlink" title="結論與後記"></a>結論與後記</h3><ol>
-<li>我喜歡 Android One 的使用體驗，現階段，我與 Google Pixel 系列的緣份還沒有到，不過，我認為更重要的是找到真正符合自己需要的商品。</li>
-<li>Google Pixel 的發熱議題，還滿熱絡的，原因當然其來有自，我既然沒有要買，後續也就沒再去試用。我只能說，過往的使用經驗裡，iPhone SE 與 iPhone 7 也都有發熱的狀況，這些手機也都是好好的在用。以今天我開箱的 SONY XPERIA 10 III 來說，當我設定「無線基地台」把網路分享出去下載 2GB 左右的檔案時，背部 NFC 字樣的位置，也會有點熱熱的。</li>
-<li>購買商品前，如果有任何的擔心、疑慮，我會跟自己說：「就先不要買，避免未來又得耗費很多的心思。」再者，如果自己決定不買，即使考量的原因也是發熱議題，我是認為自己應該不太有立場做大力評價。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>開箱</category>
-      </categories>
-      <tags>
-        <tag>android</tag>
-        <tag>pixel</tag>
-        <tag>sony</tag>
-        <tag>xperia</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>開箱 TECO 4K + SmartTV 55 型(TL55U13TRE)</title>
     <url>/%E9%96%8B%E7%AE%B1/teco-4k-smarttv-55-tl55u13tre/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天要開箱 <a href="https://www.tecohome.com.tw/tw/Products/Items/666" title="TECO 4K UltraHD SmartTV (TL55U13TRE)">TECO 4K UltraHD SmartTV (TL55U13TRE)</a> (下圖)。  <img src="https://live.staticflickr.com/65535/51701609125_5f3edec7f8_o.jpg" alt=""></p>
@@ -1144,34 +1118,29 @@
       </tags>
   </entry>
   <entry>
-    <title>維琴河 | Virgin River</title>
-    <url>/%E9%96%8B%E8%AC%9B/virgin-river-on-netflix/</url>
-    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src="https://movetosquamish.ca/wp-content/uploads/2015/10/brack-dyke-1024x491.jpg" alt="">  Photo on <a href="https://movetosquamish.ca/research-squamish/neighborhoods/">Squamish Neighbourhoods | Move to Squamish</a></p>
-<p>2022 年的農曆新年前，老婆決定用 <a href="https://www.netflix.com/">Netflix</a> 追「華燈初上」，而我也滿讚成這項決定的。一方面，老婆要出錢(嘿嘿)；一方面，我想看「獵魔士」、「后翼棄兵」已經超久的。</p>
-<p>但，追劇有幾個缺點不得不說，一個是花費不少時間，我在這個時間裡，邊看邊吃邊當看劇的傻子，持續耍廢讓我胖了不少；一個是追完之後，總會有一種空虛感。</p>
-<p>Netflix 上面的片量算大，但我卻不知道如何著手，「維琴河」就在我盲目瀏覽時開啟追劇之旅的。</p>
-<hr>
-<h3 id="目前的感想"><a href="#目前的感想" class="headerlink" title="目前的感想"></a>目前的感想</h3><p>我之所以用「目前的感想」下標題，是因為我還沒有把目前已播出的 3 季都追完(現階段走到第 2 季第 8 集)。</p>
-<p>以現在的進度而言，我認為「維琴河」非常值得一看，我想分享的幾點大致如下。</p>
-<ol>
-<li>鄉下地方：有別於以往看劇的角度，我現在看到的是美國鄉下地方，其實也跟我們國內很像，尤其我也算是鄉下地方長大的孩子，「維琴河」裡面的點點滴滴，都滿能夠引起我的共鳴的。</li>
-<li>對話：我喜歡劇裡面，每個角色幾乎都是大剌剌、直接地表達自己的想法、感受，這些對話，也滿值得玩味。</li>
-<li>美景：劇中不時會有不同時間、角度的「維琴河」，有時會讓我覺得「哇喔！好美！」，有時則是會讓我覺得「一條河那麼的巨，人跟人之間所發生的點點滴滴都顯得好渺小呀！」</li>
+    <title>開箱 SONY XPERIA 10 III</title>
+    <url>/%E9%96%8B%E7%AE%B1/sony-xperia-10-iii/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>幾天前，我還在設想要開箱 Google Pixel 6，然而，計畫趕不上變化，我最終入手的是 SONY XPERIA 10 III。  <a href="https://www.flickr.com/photos/unboxcp/51639359982/in/dateposted-public/" title="SONY XPERIA 10 III Ep2"><img src="https://live.staticflickr.com/65535/51639359982_c1a3d3d4b6_b.jpg" alt="SONY XPERIA 10 III Ep2"></a></p>
+<h3 id="開箱照片-點圖至-Flickr-瀏覽相簿"><a href="#開箱照片-點圖至-Flickr-瀏覽相簿" class="headerlink" title="開箱照片(點圖至 Flickr 瀏覽相簿)"></a>開箱照片(點圖至 Flickr 瀏覽相簿)</h3><p><a href="https://www.flickr.com/photos/unboxcp/albums/72157720138798690" title="sonyXperia10Mark3"><img src="https://live.staticflickr.com/65535/51635578732_c84c2d0397_b.jpg" alt="sonyXperia10Mark3"></a></p>
+<h3 id="需求分析"><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h3><ol>
+<li>從「iPhone 的使用經驗，帶給我的心得」來看 SONY XPERIA 10 III。<br> (1)入手與維護成本：入手費用部分，我用老婆的門號續約手機+配件包(保護殼、保護貼與行動電源)，總共 8,070 元；維護成本的部分，我參考家人手上的第一代 Sony Xperia 10，購買至今已經 2 年多，系統也跟著更新到最新的版本，使用起來的感覺，畫面會稍為慢一點，家人認為還可以用，我認為如果可以用這麼久，已經非常值得。真要是受不了，換一支新的，並不會不合理。<br> (2)組裝品質：我認為沒問題。<br> (3)生態圈：略。<br> (4)專屬 App：有 SONY 專屬的 App，但我沒有依著系統指示進行安裝。<br> (5)行動電話與創新思維：我認為沒有什麼太特別的，硬要說「多視窗模式開關」的話，或許不是各家都有，只是我也不常使用。</li>
+<li>再從「找到專屬於我的分析重點」來檢視。<br> (1)處理器：憑借網路上的評測，我的印象裡是 Qualcomm Snapdragon 6 系列，使用體驗上的表現，這顆處理器明顯地比我之前用過的都來得慢，但，大部分的使用上，都能夠應付我需要的日常 。<br> (2)拍照：成相品質都夠用，但相機開啟速度有點慢。<br> (3)錄影：沒在用的功能，也沒有特別去測試。<br> (4)遊戲：玩「荒野亂鬥」，過場稍慢，螢幕較小，我可以接受。<br> (5)網速：5G 或 4G+ 的網速沒有問題，拿來設定成「無線基地台」，使用起來也是順順的。</li>
+<li>還有幾個點，也是我思考的方向。<br> (1)內在：除了上述的處理器、拍照與錄影的硬體外，SONY XPERIA 10 III 的記憶體容量為 6GB，對於喜歡使用 Google Chrome 的人，可能會有影響，因為，未來要鍍鉻的話，官方已經闡明至少要 8GB 的記憶體容量。對我的影響不大，因為我習慣用 Firefox。另外，這一代的機體設計，可不用頂針就可以安裝 SIM 卡與記憶卡，也不用重開機，方便。<br> (2)外觀：市面上，目前的手機外觀設計，我最喜歡的，就是 SONY 與 ROG Phone。雖然，我不會很排斥瀏海頭與其他的前置鏡頭設計，但，我確實對於一整片的螢幕有多一點偏好。<br> (3)價格：這一點，與「入手與維護成本」有重疊性，我想，我個人非常滿意 SONY XPERIA 10 III 的價格，它同時也讓我的苞包減少不少失血。</li>
 </ol>
-<hr>
-<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>雖然，我沒有完整追完第 3 季，但我已經先點看第 3 季的結局，…想不到男女主角還沒有結束，而且第 3 季最後 1 集埋了不少梗，我心裡頭有點急著想知道結局，網搜並且再加上自己做功課之後，得知男女主角的結局，就寫在 <a href="https://www.robyncarr.com/book/virgin-river/">Virgin River – RobynCarr</a> 這一本裡面，走一趟 Play Store，花費 15 元搭配我還堪用的英文閱讀能力，直接得知結局。即便如此，我還是回過頭來繼續追劇，因為，我認為有別於原版小說，Netflix 上頭呈現出來的劇況仍讓我著迷。</p>
-<hr>
-<h3 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h3><ol>
-<li><a href="https://www.robyncarr.com/series/virgin-river/">Virgin River – RobynCarr</a></li>
-<li><a href="https://www.radiotimes.com/tv/drama/where-is-virgin-river-filmed/">Where is Virgin River filmed? All the locations for Netflix series | Radio Times</a></li>
+<h3 id="結論與後記"><a href="#結論與後記" class="headerlink" title="結論與後記"></a>結論與後記</h3><ol>
+<li>我喜歡 Android One 的使用體驗，現階段，我與 Google Pixel 系列的緣份還沒有到，不過，我認為更重要的是找到真正符合自己需要的商品。</li>
+<li>Google Pixel 的發熱議題，還滿熱絡的，原因當然其來有自，我既然沒有要買，後續也就沒再去試用。我只能說，過往的使用經驗裡，iPhone SE 與 iPhone 7 也都有發熱的狀況，這些手機也都是好好的在用。以今天我開箱的 SONY XPERIA 10 III 來說，當我設定「無線基地台」把網路分享出去下載 2GB 左右的檔案時，背部 NFC 字樣的位置，也會有點熱熱的。</li>
+<li>購買商品前，如果有任何的擔心、疑慮，我會跟自己說：「就先不要買，避免未來又得耗費很多的心思。」再者，如果自己決定不買，即使考量的原因也是發熱議題，我是認為自己應該不太有立場做大力評價。</li>
 </ol>
 ]]></content>
       <categories>
-        <category>開講</category>
+        <category>開箱</category>
       </categories>
       <tags>
-        <tag>netflix</tag>
-        <tag>soapopera</tag>
+        <tag>android</tag>
+        <tag>pixel</tag>
+        <tag>sony</tag>
+        <tag>xperia</tag>
       </tags>
   </entry>
   <entry>
@@ -1206,6 +1175,37 @@
       </categories>
       <tags>
         <tag>koreandrama</tag>
+        <tag>netflix</tag>
+        <tag>soapopera</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>維琴河 | Virgin River</title>
+    <url>/%E9%96%8B%E8%AC%9B/virgin-river-on-netflix/</url>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src="https://movetosquamish.ca/wp-content/uploads/2015/10/brack-dyke-1024x491.jpg" alt="">  Photo on <a href="https://movetosquamish.ca/research-squamish/neighborhoods/">Squamish Neighbourhoods | Move to Squamish</a></p>
+<p>2022 年的農曆新年前，老婆決定用 <a href="https://www.netflix.com/">Netflix</a> 追「華燈初上」，而我也滿讚成這項決定的。一方面，老婆要出錢(嘿嘿)；一方面，我想看「獵魔士」、「后翼棄兵」已經超久的。</p>
+<p>但，追劇有幾個缺點不得不說，一個是花費不少時間，我在這個時間裡，邊看邊吃邊當看劇的傻子，持續耍廢讓我胖了不少；一個是追完之後，總會有一種空虛感。</p>
+<p>Netflix 上面的片量算大，但我卻不知道如何著手，「維琴河」就在我盲目瀏覽時開啟追劇之旅的。</p>
+<hr>
+<h3 id="目前的感想"><a href="#目前的感想" class="headerlink" title="目前的感想"></a>目前的感想</h3><p>我之所以用「目前的感想」下標題，是因為我還沒有把目前已播出的 3 季都追完(現階段走到第 2 季第 8 集)。</p>
+<p>以現在的進度而言，我認為「維琴河」非常值得一看，我想分享的幾點大致如下。</p>
+<ol>
+<li>鄉下地方：有別於以往看劇的角度，我現在看到的是美國鄉下地方，其實也跟我們國內很像，尤其我也算是鄉下地方長大的孩子，「維琴河」裡面的點點滴滴，都滿能夠引起我的共鳴的。</li>
+<li>對話：我喜歡劇裡面，每個角色幾乎都是大剌剌、直接地表達自己的想法、感受，這些對話，也滿值得玩味。</li>
+<li>美景：劇中不時會有不同時間、角度的「維琴河」，有時會讓我覺得「哇喔！好美！」，有時則是會讓我覺得「一條河那麼的巨，人跟人之間所發生的點點滴滴都顯得好渺小呀！」</li>
+</ol>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>雖然，我沒有完整追完第 3 季，但我已經先點看第 3 季的結局，…想不到男女主角還沒有結束，而且第 3 季最後 1 集埋了不少梗，我心裡頭有點急著想知道結局，網搜並且再加上自己做功課之後，得知男女主角的結局，就寫在 <a href="https://www.robyncarr.com/book/virgin-river/">Virgin River – RobynCarr</a> 這一本裡面，走一趟 Play Store，花費 15 元搭配我還堪用的英文閱讀能力，直接得知結局。即便如此，我還是回過頭來繼續追劇，因為，我認為有別於原版小說，Netflix 上頭呈現出來的劇況仍讓我著迷。</p>
+<hr>
+<h3 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h3><ol>
+<li><a href="https://www.robyncarr.com/series/virgin-river/">Virgin River – RobynCarr</a></li>
+<li><a href="https://www.radiotimes.com/tv/drama/where-is-virgin-river-filmed/">Where is Virgin River filmed? All the locations for Netflix series | Radio Times</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>開講</category>
+      </categories>
+      <tags>
         <tag>netflix</tag>
         <tag>soapopera</tag>
       </tags>
