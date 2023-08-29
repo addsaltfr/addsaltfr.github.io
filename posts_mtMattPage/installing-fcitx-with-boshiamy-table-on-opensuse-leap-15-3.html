@@ -17,13 +17,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"lifesimple.fr","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"addsalt.fr","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
     <meta name="description" content="Linux 的 Distro 很多，今天筆記一下在 openSUSE 上啟用嘸蝦米的紀錄。 從系統設定去看，會以為 gcin 是內建的輸入法，但，我實際執行嘸蝦米官方的安裝檔時，系統會回應 gcin 不是預設的輸入法，而且無法從圖形介面跑出 gcin 的設定，登入登出也沒有什麼作用。 但，就像在 ubuntu 會用 apt-get，在 Fedora 會用 yum，在 openSUSE 就知道要找">
 <meta property="og:type" content="website">
 <meta property="og:title" content="在 openSUSE Leap 15.3 上輕鬆安裝嘸蝦米">
-<meta property="og:url" content="http://lifesimple.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3.html">
-<meta property="og:site_name" content="lifesimple.fr">
+<meta property="og:url" content="http://addsalt.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3.html">
+<meta property="og:site_name" content="addSalt.Fr">
 <meta property="og:description" content="Linux 的 Distro 很多，今天筆記一下在 openSUSE 上啟用嘸蝦米的紀錄。 從系統設定去看，會以為 gcin 是內建的輸入法，但，我實際執行嘸蝦米官方的安裝檔時，系統會回應 gcin 不是預設的輸入法，而且無法從圖形介面跑出 gcin 的設定，登入登出也沒有什麼作用。 但，就像在 ubuntu 會用 apt-get，在 Fedora 會用 yum，在 openSUSE 就知道要找">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51301132260_f4fe746a64_o.png">
@@ -32,7 +32,7 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/51300301113_e25b97376d_o.png">
 <meta property="article:published_time" content="2021-07-09T00:00:00.000Z">
 <meta property="article:modified_time" content="2023-08-03T11:14:40.000Z">
-<meta property="article:author" content="lifesimple.fr">
+<meta property="article:author" content="addSalt.Fr">
 <meta property="article:tag" content="boshiamy">
 <meta property="article:tag" content="fcitx">
 <meta property="article:tag" content="linux">
@@ -42,14 +42,14 @@
 <meta name="twitter:image" content="https://live.staticflickr.com/65535/51301132260_f4fe746a64_o.png">
 
 
-<link rel="canonical" href="http://lifesimple.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3">
+<link rel="canonical" href="http://addsalt.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":true,"permalink":"http://lifesimple.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3.html","path":"posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3.html","title":"在 openSUSE Leap 15.3 上輕鬆安裝嘸蝦米"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":true,"permalink":"http://addsalt.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3.html","path":"posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-opensuse-leap-15-3.html","title":"在 openSUSE Leap 15.3 上輕鬆安裝嘸蝦米"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>在 openSUSE Leap 15.3 上輕鬆安裝嘸蝦米 | lifesimple.fr
+<title>在 openSUSE Leap 15.3 上輕鬆安裝嘸蝦米 | addSalt.Fr
 </title>
   
 
@@ -87,7 +87,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <p class="site-title">lifesimple.fr</p>
+      <p class="site-title">addSalt.Fr</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -158,7 +158,7 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">lifesimple.fr</p>
+  <p class="site-author-name" itemprop="name">addSalt.Fr</p>
   <div class="site-description" itemprop="description"></div>
 </div>
 <div class="site-state-wrap animated">
@@ -248,7 +248,7 @@
     <span class="with-love">
       <i class="fa fa-heart"></i>
     </span>
-    <span class="author" itemprop="copyrightHolder">lifesimple.fr</span>
+    <span class="author" itemprop="copyrightHolder">addSalt.Fr</span>
   </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 強力驅動
   </div>
