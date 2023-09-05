@@ -44,7 +44,7 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/52696049544_d135b8c2ae_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/52695271162_ecc9a85894_c.jpg">
 <meta property="article:published_time" content="2023-02-18T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-09-04T11:03:04.246Z">
+<meta property="article:modified_time" content="2023-09-05T11:46:31.560Z">
 <meta property="article:author" content="addSalt.Fr">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="boshiamy">
@@ -180,7 +180,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">91</span>
+          <span class="site-state-item-count">122</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -191,7 +191,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">117</span>
+        <span class="site-state-item-count">145</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -254,7 +254,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2023-09-04 19:03:04" itemprop="dateModified" datetime="2023-09-04T19:03:04+08:00">2023-09-04</time>
+      <time title="修改時間：2023-09-05 19:46:31" itemprop="dateModified" datetime="2023-09-05T19:46:31+08:00">2023-09-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -281,75 +281,51 @@
 <li><p>我先下一道指令(如下)。</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure>
 <p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52696276428/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp1"><img src="https://live.staticflickr.com/65535/52696276428_50456aeb68_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp1"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>接著才是重頭戲，把整個 Fcitx5 的套件都安裝進來(如下)。…用 Wild Card 的方式是有那麼點暴力，但我認為這是比較直爽的方式，而且這樣的安裝方式，大概比我把套件挑好再安裝，會多個 200 多 MB 左右(以現在的儲存空間而言，這個大小不過是小菜一碟)。</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install fcitx5*</span><br></pre></td></tr></table></figure>
 <p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52696049719/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp2"><img src="https://live.staticflickr.com/65535/52696049719_00d67a801c_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp2"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>接著就按[Enter]讓安裝程序跑完。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52696200430/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp3"><img src="https://live.staticflickr.com/65535/52696200430_56096234c9_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp3"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-
 </li>
 </ol>
 <hr>
 <h3 id="下載並將-fcitx5-table-extra-放到正確的路徑裡"><a href="#下載並將-fcitx5-table-extra-放到正確的路徑裡" class="headerlink" title="下載並將 fcitx5-table-extra 放到正確的路徑裡"></a>下載並將 fcitx5-table-extra 放到正確的路徑裡</h3><ol>
 <li><p>跟 Fedora、Arch Linux 不太一樣，Debian 與 ubuntu 都沒有將 fcitx5-table-extra 納入軟體庫，所以，我們得跑一趟取經之路(傳送門)：<a target="_blank" rel="noopener" href="https://pkgs.org/download/fcitx5-table-extra">Fcitx5-table-extra Download (RPM, TGZ, TXZ, XBPS, XZ, ZST)</a>。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52696200375/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp17"><img src="https://live.staticflickr.com/65535/52696200375_4f6912e930_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp17"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>有好幾個版本，我下載的是 Arch Linux 的壓縮檔：<a target="_blank" rel="noopener" href="https://eu.mirror.archlinuxarm.org/aarch64/community/fcitx5-table-extra-5.0.12-1-any.pkg.tar.xz">https://eu.mirror.archlinuxarm.org/aarch64/community/fcitx5-table-extra-5.0.12-1-any.pkg.tar.xz</a>，連結與版本號都可能會有變動，建議自己跑一趟 <a target="_blank" rel="noopener" href="https://pkgs.org/download/fcitx5-table-extra">Fcitx5-table-extra Download (RPM, TGZ, TXZ, XBPS, XZ, ZST)</a> 會比較好。</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://eu.mirror.archlinuxarm.org/aarch64/community/fcitx5-table-extra-5.0.12-1-any.pkg.tar.xz</span><br></pre></td></tr></table></figure>
 <p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695271267/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp5"><img src="https://live.staticflickr.com/65535/52695271267_f106b9a111_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp5"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>確認一下，下載後的結果(指令：ls)。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695271242/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp6"><img src="https://live.staticflickr.com/65535/52695271242_d6887215af_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp6"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>解壓縮 fcitx5-table-extra-5.0.12-1-any.pkg.tar.xz 這個檔案(版本號可能不同，比較不建議從這裡直接使用「複製貼上」大法)。</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xvf fcitx5-table-extra-5.0.12-1-any.pkg.tar.xz</span><br></pre></td></tr></table></figure>
 <p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695786266/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp7"><img src="https://live.staticflickr.com/65535/52695786266_5eb8d69e4a_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp7"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>看一下解壓後的結果(指令：ls)：多了一個 usr 的資料夾。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52696049589/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp8"><img src="https://live.staticflickr.com/65535/52696049589_66f36c2873_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp8"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>把檔案放到該去的地方，指令如下。</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp -r usr/share/* /usr/share/</span><br></pre></td></tr></table></figure>
 <p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695271212/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp9"><img src="https://live.staticflickr.com/65535/52695271212_41ca38db29_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp9"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-
 </li>
 </ol>
 <hr>
 <h3 id="設定-Fcitx5-與嘸蝦米輸入法"><a href="#設定-Fcitx5-與嘸蝦米輸入法" class="headerlink" title="設定 Fcitx5 與嘸蝦米輸入法"></a>設定 Fcitx5 與嘸蝦米輸入法</h3><ol>
 <li><p>從工作列右手邊，走入「設定值」的介面。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695786216/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp10"><img src="https://live.staticflickr.com/65535/52695786216_60d0c0def5_n.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp10"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>找到「地區和語言」→「管理安裝的語言」→「鍵盤輸入法系統」：預設是 iBus，請改為「Fcitx 5」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52696049584/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp11"><img src="https://live.staticflickr.com/65535/52696049584_55b05721e0_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp11"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
 <p>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52696276278/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp12"><img src="https://live.staticflickr.com/65535/52696276278_b6dc1fd970_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp12"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>重新啟動系統。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695809066/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp13"><img src="https://live.staticflickr.com/65535/52695809066_e4ac9e0de3_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp13"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>工作列右手邊的「zh」字樣不見，取而代之的是一個小小的鍵盤圖示，請在這個鍵盤圖示上點一下右鍵，跳出選單後，再點「設定」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695271182/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp13"><img src="https://live.staticflickr.com/65535/52695271182_06153f6c63_n.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp13"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>在「Fcitx 設定」這個介面裡，找到「可用的輸入法：」下的空白輸入框，餵關鍵字：「boshi」，就可以把「嘸蝦米」找出來。找出來之後，記得新增到「目前的輸入法：」項下，再按「確定」離開這個設定介面。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695786176/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp14"><img src="https://live.staticflickr.com/65535/52695786176_6b59073207_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp14"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>先試用一下「新酷音輸入法」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52696049544/in/dateposted-public/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp15"><img src="https://live.staticflickr.com/65535/52696049544_d135b8c2ae_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp15"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>再試用一下「嘸蝦米輸入法」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52695271162/" title="fcitx5-table-extraOnUbuntu22.04.1LTSEp17"><img src="https://live.staticflickr.com/65535/52695271162_ecc9a85894_c.jpg" alt="fcitx5-table-extraOnUbuntu22.04.1LTSEp17"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-
 </li>
 </ol>
 <hr>
@@ -382,13 +358,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/linux/risios-37-1-1/" rel="prev" title="來玩 risiOS 37.1.1">
-                  <i class="fa fa-angle-left"></i> 來玩 risiOS 37.1.1
+                <a href="/linux/using-linux-lite-6-2-for-3-days/" rel="prev" title="使用 Linux Lite 6.2 三天後的感想">
+                  <i class="fa fa-angle-left"></i> 使用 Linux Lite 6.2 三天後的感想
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/review/hola-vpn-and-youtube-premium/" rel="next" title="使用 Hola VPN 從土耳其跨區訂閱 YouTube Premium">
-                  使用 Hola VPN 從土耳其跨區訂閱 YouTube Premium <i class="fa fa-angle-right"></i>
+                <a href="/linux/upgrade-to-ubuntu-22-04-2-lts-from-ubuntu-22-04-1-lts/" rel="next" title="從 ubuntu 22.04.1 LTS 升級到 ubuntu 22.04.2 LTS">
+                  從 ubuntu 22.04.1 LTS 升級到 ubuntu 22.04.2 LTS <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
