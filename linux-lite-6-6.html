@@ -19,23 +19,36 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"addsalt.fr","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="addSalt.Fr">
-<meta property="og:url" content="http://addsalt.fr/archives/page/7/index.html">
+    <meta name="description" content="前言今天要分享的 Linux Distro 是 Linux Lite，目前在 DistroWatch 排名在第 8 名，而我，在安裝這支 Distro 的過程中，因緣際會地讓實體機器上原本已經使用一段時間的 Garuda Linux，被 Linux Lite 所取代。   快速回顧與感想 第一印象：同樣地，我使用 VirtualBox 搭配 ISO 檔進入系統，第一印象就是配置上，…跟 Windo">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Linux Lite 6.6">
+<meta property="og:url" content="http://addsalt.fr/linux-lite-6-6.html">
 <meta property="og:site_name" content="addSalt.Fr">
+<meta property="og:description" content="前言今天要分享的 Linux Distro 是 Linux Lite，目前在 DistroWatch 排名在第 8 名，而我，在安裝這支 Distro 的過程中，因緣際會地讓實體機器上原本已經使用一段時間的 Garuda Linux，被 Linux Lite 所取代。   快速回顧與感想 第一印象：同樣地，我使用 VirtualBox 搭配 ISO 檔進入系統，第一印象就是配置上，…跟 Windo">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52666192445_29cdf3a625_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52666274383_226200fc17_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52666210105_08b319e2d9_c.jpg">
+<meta property="article:published_time" content="2023-09-10T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-09-10T12:19:44.012Z">
 <meta property="article:author" content="addSalt.Fr">
+<meta property="article:tag" content="debian">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="linuxlite">
+<meta property="article:tag" content="ubuntu">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/52666192445_29cdf3a625_c.jpg">
 
 
-<link rel="canonical" href="http://addsalt.fr/archives/page/7/">
+<link rel="canonical" href="http://addsalt.fr/linux-lite-6-6">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":"","permalink":"","path":"archives/page/7/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-TW","comments":true,"permalink":"http://addsalt.fr/linux-lite-6-6.html","path":"linux-lite-6-6.html","title":"Linux Lite 6.6"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>歸檔 | addSalt.Fr</title>
+<title>Linux Lite 6.6 | addSalt.Fr
+</title>
   
 
 
@@ -72,7 +85,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">addSalt.Fr</h1>
+      <p class="site-title">addSalt.Fr</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -125,7 +138,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目錄
@@ -138,6 +151,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E9%80%9F%E5%9B%9E%E9%A1%A7%E8%88%87%E6%84%9F%E6%83%B3"><span class="nav-number">2.</span> <span class="nav-text">快速回顧與感想</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -177,233 +191,57 @@
 
     </div>
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner page posts-expand">
 
 
-  
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        
-        <span class="collection-header">很好! 目前共有 126 篇文章。 繼續努力。</span>
-      </div>
+    
+    
+    
+    <div class="post-block" lang="zh-TW"><header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">Linux Lite 6.6
+</h1>
+
+<div class="post-meta-container">
+</div>
+
+</header>
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+      
+      <div class="post-body">
+          <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天要分享的 Linux Distro 是 Linux Lite，目前在 DistroWatch 排名在第 8 名，而我，在安裝這支 Distro 的過程中，因緣際會地讓實體機器上原本已經使用一段時間的 Garuda Linux，被 Linux Lite 所取代。</p>
+<p><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52666192445/in/dateposted-public/" title="usingLinuxLite6.2Ep02"><img src="https://live.staticflickr.com/65535/52666192445_29cdf3a625_c.jpg" alt="usingLinuxLite6.2Ep02"></a></p>
+<hr>
+<h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><ol>
+<li><p>第一印象：同樣地，我使用 VirtualBox 搭配 ISO 檔進入系統，第一印象就是配置上，…跟 Windows 10 以前的視窗桌面好像(下圖)，雖然，我也遇過其他 Distro 做到很接近的，但 Linux Lite 帶給我一種更貼近的感覺，然而，心裡頭仍舊非常清楚，這的確就是一支 Linux。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52666274383/in/dateposted-public/" title="installingLinuxLite6.2onVirtualBoxEp1"><img src="https://live.staticflickr.com/65535/52666274383_226200fc17_c.jpg" alt="installingLinuxLite6.2onVirtualBoxEp1"></a></p>
+</li>
+<li><p>在 VirtualBox 上的預設解析度：最近幾支 Distro 的桌面環境，在 VirtualBox 裡的表現都不是很理想，但，Linux Lite 就比較可圈可點。因為，Linux Lite 自行抓到一個比較好的顯示結果，表現出來沒有什麼問題。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52666210105/in/dateposted-public/" title="installingLinuxLite6.2onVirtualBoxEp2"><img src="https://live.staticflickr.com/65535/52666210105_08b319e2d9_c.jpg" alt="installingLinuxLite6.2onVirtualBoxEp2"></a></p>
+</li>
+<li><p>安裝過程：我在安裝時，觀察到一個狀況：安裝程式(Installer)的效能不太優秀，本以為是在 VirtualBox 才這樣，我為了進一步求證，轉而安裝在實體機器上，想不到…，結果是一樣的。關於這一點，可以點擊下列影片，這支影片是我在 VirtualBox 上所錄製的，我另外觀察到一點，就是實體機器上，安裝步驟來到「更新和其他軟體」時，其項下的「安裝 Linux 同時下載更新」是無法被核取的。 </p>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/BJrNYTwlKD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</li>
+<li><p>決定讓 Linux Lite 在實體機器上 Long Stay：那麼，明明安裝過程就是有點慢，也因此誤打誤撞地安裝在實體的機器上，我還是決定讓這支 Distro 走一趟 Long Stay 呢？ (1)第一個答案是效能，我發現安裝完成後，系統在執行上，效能都算良好，也沒有明顯的穩定度問題。 (2)這一支 Distro 是基於 Debian 與 ubuntu 所開發的，與 Linux Lite 相關的資料多少可以推斷，Linux Lite 的整合度夠好，才能夠從 2012 年持續維護與發展至今。 (3)我想要感受一下：Linux Lite is a ‘gateway operating system’. It was created to make the transition from Windows to a linux based operating system, as smooth as possible.</p>
+</li>
+</ol>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>本次安裝使用的 ISO 檔版本是 linux-lite-6.2-64bit.iso。</li>
+<li><a target="_blank" rel="noopener" href="https://www.linuxliteos.com/">Linux Lite Easy to Use Free Linux Operating System</a></li>
+<li><a target="_blank" rel="noopener" href="https://web.archive.org/web/20180927231718/http://linuxliteos.com/features.html">Free Operating System - Linux Lite</a></li>
+<li>由於我想讓 Linux Lite 在實體的機器上 Long Stay，因此，我決定使用一段時間之後，再來分享中文支援與設定使用等等相關使用心得。</li>
+<li>有關 Garuda Linux 的使用心得與想法，可以參考以下幾篇文章。 (1)<a href="https://addsalt.fr/linux/quickrecap-of-garuda-linux-kde-dr460nized-edition/">快速回顧 Garuda Linux (KDE Dr460nized Edition)</a> (2)<a href="https://addsalt.fr/linux/shifting-from-mx-linux-to-garuda-linux/">從 MX Linux 轉換到 Garuda Linux</a> (3)<a href="https://addsalt.fr/linux/20-days-after-shifting-to-garuda-linux/">轉換至 Garuda Linux 之 20 天後</a></li>
+</ol>
+
+      </div>
+      
+      
+      
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-18T08:00:00+08:00"
-              content="2022-04-18">
-          04-18
-        </time>
-      </div>
+    
+    
 
-      <div class="post-title">
-        <a class="post-title-link" href="/review/dot-day-and-google-domains/" itemprop="url">
-          <span itemprop="name">.DAY 域名與 Google Domains</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-16T08:00:00+08:00"
-              content="2022-04-16">
-          04-16
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/windows/kb5012592-windows-11-os-build-22000-613/" itemprop="url">
-          <span itemprop="name">[版本更新] 快速回顧 微軟發布 KB5012592 (Windows 11 作業系統組建 22000.613)</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-15T08:00:00+08:00"
-              content="2022-04-15">
-          04-15
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/linux/shifting-from-mx-linux-to-garuda-linux/" itemprop="url">
-          <span itemprop="name">從 MX Linux 轉換到 Garuda Linux</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-14T08:00:00+08:00"
-              content="2022-04-14">
-          04-14
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/linux/garuda-linux-kde-dr460nized-edition/" itemprop="url">
-          <span itemprop="name">來玩 Garuda Linux (KDE Dr460nized Edition)</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-13T08:00:00+08:00"
-              content="2022-04-13">
-          04-13
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/linux/endeavouros-apollo-22-1/" itemprop="url">
-          <span itemprop="name">來玩 EndeavourOS Apollo 22.1</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-09T08:00:00+08:00"
-              content="2022-04-09">
-          04-09
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/review/business-proposal-on-netflix/" itemprop="url">
-          <span itemprop="name">社內相親</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-08T08:00:00+08:00"
-              content="2022-04-08">
-          04-08
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/windows/kb5011563-windows-11-os-build-22000-593/" itemprop="url">
-          <span itemprop="name">[版本更新] 快速回顧 微軟發布 KB5011563 (Windows 11 作業系統組建 22000.593)</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-04-05T08:00:00+08:00"
-              content="2022-04-05">
-          04-05
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/linux/lmde-5/" itemprop="url">
-          <span itemprop="name">來玩 LMDE 5</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-03-12T08:00:00+08:00"
-              content="2022-03-12">
-          03-12
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/windows/kb5011493-windows-11-os-build-22000-556/" itemprop="url">
-          <span itemprop="name">[版本更新] 快速回顧 微軟發布 KB5011493 (Windows 11 作業系統組建 22000.556)</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2022-03-12T08:00:00+08:00"
-              content="2022-03-12">
-          03-12
-        </time>
-      </div>
-
-      <div class="post-title">
-        <a class="post-title-link" href="/review/iphone-se-3/" itemprop="url">
-          <span itemprop="name">iPhone SE 第 3 代</span>
-        </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-
-    </div>
-  </div>
-  
-  
-  
-  <nav class="pagination">
-    <a class="extend prev" rel="prev" title="上一頁" aria-label="上一頁" href="/archives/page/6/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/archives/">1</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/archives/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/archives/page/13/">13</a><a class="extend next" rel="next" title="下一頁" aria-label="下一頁" href="/archives/page/8/"><i class="fa fa-angle-right"></i></a>
-  </nav>
 
 </div>
   </main>
