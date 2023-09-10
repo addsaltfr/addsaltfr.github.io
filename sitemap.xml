@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://addsalt.fr/boshiamy/manjaro-xfce-21-2-2-and-boshiamy-feat-fcitx5/</loc>
+    
+    <lastmod>2023-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/boshiamy/manjaro-xfce-21-2-2-with-ibus-and-boshiamy/</loc>
+    
+    <lastmod>2023-09-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/linux/manjaro-xfce-23-0-and-boshiamy/</loc>
     
     <lastmod>2023-09-10</lastmod>
@@ -30,15 +48,6 @@
   
   <url>
     <loc>http://addsalt.fr/linux/make-ubuntu-23-04-speak-traditional-chinese/</loc>
-    
-    <lastmod>2023-09-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/boshiamy/manjaro-xfce-21-2-2-with-ibus-and-boshiamy/</loc>
     
     <lastmod>2023-09-10</lastmod>
     
@@ -290,15 +299,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/review/airtag-and-iphone/</loc>
-    
-    <lastmod>2023-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/unpack/acer-aspire-tc-1660-desktop-feat-cooler-master/</loc>
     
     <lastmod>2023-09-01</lastmod>
@@ -308,7 +308,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/unpack/apple-ipad-air-5/</loc>
+    <loc>http://addsalt.fr/review/airtag-and-iphone/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -318,6 +318,15 @@
   
   <url>
     <loc>http://addsalt.fr/unpack/anker-a2633-powerport-iii-nano-20w/</loc>
+    
+    <lastmod>2023-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/unpack/apple-ipad-air-5/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -344,15 +353,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/unpack/black-belkin-secure-holder-for-airtag/</loc>
-    
-    <lastmod>2023-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/review/business-proposal-on-netflix/</loc>
     
     <lastmod>2023-09-01</lastmod>
@@ -362,7 +362,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/review/cp-value-of-protecting-product-for-iphone/</loc>
+    <loc>http://addsalt.fr/unpack/black-belkin-secure-holder-for-airtag/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -372,6 +372,15 @@
   
   <url>
     <loc>http://addsalt.fr/review/dot-day-and-google-domains/</loc>
+    
+    <lastmod>2023-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/review/cp-value-of-protecting-product-for-iphone/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -524,15 +533,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/unpack/palladium-pampa-puddle-lite-wp/</loc>
-    
-    <lastmod>2023-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/unpack/pink-belkin-secure-holder-for-airtag/</loc>
     
     <lastmod>2023-09-01</lastmod>
@@ -542,7 +542,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/unpack/powersync-TPS344AN0018/</loc>
+    <loc>http://addsalt.fr/unpack/palladium-pampa-puddle-lite-wp/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -561,6 +561,15 @@
   
   <url>
     <loc>http://addsalt.fr/review/review-my-finances/</loc>
+    
+    <lastmod>2023-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/unpack/powersync-TPS344AN0018/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -650,15 +659,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/windows/kb4023057-update-for-windows-update-service-components/</loc>
-    
-    <lastmod>2023-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/windows/kb5010386-windows-11-os-build-22000-493/</loc>
     
     <lastmod>2023-09-01</lastmod>
@@ -668,7 +668,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/windows/kb5010414-windows-11-os-build-22000-527/</loc>
+    <loc>http://addsalt.fr/windows/kb4023057-update-for-windows-update-service-components/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -678,6 +678,15 @@
   
   <url>
     <loc>http://addsalt.fr/windows/kb5011493-windows-11-os-build-22000-556/</loc>
+    
+    <lastmod>2023-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/windows/kb5010414-windows-11-os-build-22000-527/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -767,7 +776,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/linux/linux-mint-21-2/</loc>
+    <loc>http://addsalt.fr/linux/mx-linux-mx-23/</loc>
     
     <lastmod>2023-08-29</lastmod>
     
@@ -776,7 +785,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/linux/mx-linux-mx-23/</loc>
+    <loc>http://addsalt.fr/linux/linux-mint-21-2/</loc>
     
     <lastmod>2023-08-29</lastmod>
     
@@ -1010,6 +1019,15 @@
   </url>
   
   <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/about-the-setting-of-boshiamy-keyboard-2-for-ios-and-ipados.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/archcraft-2023-01-01.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1020,15 +1038,6 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/archlabs-linux-2023-01-20.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/about-the-setting-of-boshiamy-keyboard-2-for-ios-and-ipados.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1064,15 +1073,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/endeavouros-artemis-nova-22-9.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/endeavouros-apollo-22-1.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1100,7 +1100,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/fcitx5-with-boshiamy-and-chewing-on-endeavouros-artemis-nova-22-9.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/endeavouros-artemis-nova-22-9.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1118,15 +1118,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/fcitx5-with-chewing-on-ubuntu-22-04-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1136,7 +1127,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/fedora-35-and-boshiamy-feat-fcitx5.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/fcitx5-with-boshiamy-and-chewing-on-endeavouros-artemis-nova-22-9.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1145,7 +1136,16 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/fedora-36.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/fedora-35-and-boshiamy-feat-fcitx5.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1172,6 +1172,15 @@
   </url>
   
   <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/fedora-36.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/garuda-dr460nized-gaming-linux-zen-230311.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1190,15 +1199,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/gufw-firewall-feat-manjaro.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/ibus-on-with-boshiamy-and-chewing-legacyos-2023.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1209,6 +1209,15 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/ibus-with-boshiamy-on-mx-linux-mx-21.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/gufw-firewall-feat-manjaro.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1262,7 +1271,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-lubuntu-21-10-and-boshiamy.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/legacyos-2023.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1280,7 +1289,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/legacyos-2023.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-lubuntu-21-10-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1298,7 +1307,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/linux-mint-21-1-vs-manjaro-22-1-0.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/lmde-5.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1307,7 +1316,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/lmde-5.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/linux-mint-21-1-vs-manjaro-22-1-0.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1325,7 +1334,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/manjaro-xfce-21-2-2-with-ibus-and-boshiamy.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/manjaro-xfce-21-2-2-and-boshiamy-feat-fcitx5.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1334,7 +1343,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/manjaro-xfce-21-2-2-and-boshiamy-feat-fcitx5.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/manjaro-xfce-21-2-2-with-ibus-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1352,34 +1361,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/opensuse-tumbleweed-snapshot20220905.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/openvanilla-1-6-2-and-boshiamy-unix-table.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-ios-15-5.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-ios-16.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1397,6 +1379,24 @@
   </url>
   
   <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5010386-windows-11-os-build-22000-493.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-ios-16.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb4023057-update-for-windows-update-service-components.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1406,7 +1406,16 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5010386-windows-11-os-build-22000-493.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/opensuse-tumbleweed-snapshot20220905.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-ios-15-5.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1433,15 +1442,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5012592-windows-11-os-build-22000-613.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5011563-windows-11-os-build-22000-593.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1460,7 +1460,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5013943-windows-11-os-build-22000-675.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5012592-windows-11-os-build-22000-613.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1469,7 +1469,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5014019-windows-11-os-build-22000-708.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5013943-windows-11-os-build-22000-675.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1488,6 +1488,15 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5014697-windows-11-os-build-22000-739.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/quickrecap-of-kb5014019-windows-11-os-build-22000-708.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1523,25 +1532,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/remove-ubuntu-from-bios-boot-menu.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/risios-37-1-1.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/shifting-from-mx-linux-to-garuda-linux.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1559,7 +1550,25 @@
   </url>
   
   <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/shifting-from-mx-linux-to-garuda-linux.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/things-to-do-after-installing-mx-linux-mx-21.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/remove-ubuntu-from-bios-boot-menu.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1586,15 +1595,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/ubuntu-22-04-lts-and-official-boshiamy-ibus-table.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/ubuntu-22-04-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1605,6 +1605,15 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/ubuntu-22-10.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/ubuntu-22-04-lts-and-official-boshiamy-ibus-table.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1631,15 +1640,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/upgrade-to-ubuntu-22-04-2-lts-from-ubuntu-22-04-1-lts.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/upgrade-to-manjaro-linux-22-1-0-from-manjaro-linux-22-0-5.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1650,6 +1650,15 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/using-linux-lite-6-2-for-3-days.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/upgrade-to-ubuntu-22-04-2-lts-from-ubuntu-22-04-1-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1721,7 +1730,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/windows/kb5018418-windows-11-os-build-22000-1098/</loc>
+    <loc>http://addsalt.fr/windows/kb5015882-windows-11-os-build-22000-832/</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1730,7 +1739,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/windows/kb5015882-windows-11-os-build-22000-832/</loc>
+    <loc>http://addsalt.fr/windows/kb5018418-windows-11-os-build-22000-1098/</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1883,15 +1892,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/finally-i-upgraded-my-imac-to-macos-mojave.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/fixing-time-differences-in-ubuntu-20-04-lts-and-windows-10-dual-boot.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1902,6 +1902,15 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/fixing-imageinstall-error-when-using-bootcamp-to-install-windows-10-on-my-imac.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/finally-i-upgraded-my-imac-to-macos-mojave.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1946,7 +1955,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-boshiamy-table-for-fcitx-on-debian-10-10.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-arch-linux-on-my-mac-mini.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1955,7 +1964,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-boshiamy-on-lubuntu-18-04.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-boshiamy-table-for-fcitx-on-debian-10-10.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1973,7 +1982,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-arch-linux-on-my-mac-mini.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-boshiamy-on-lubuntu-18-04.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1992,15 +2001,6 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/installing-boshiamy-table-for-ibus-on-fedora-34.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-boshiamy-table-for-fcitx-on-lubuntu-21-04.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2036,43 +2036,16 @@
   </url>
   
   <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-boshiamy-table-for-fcitx-on-lubuntu-21-04.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/installing-elementary-os-6-0-and-boshiamy.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-fcitx-5-with-boshiamy-on-fedora-34.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-elementaryos-5-1.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-feren-os-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2090,7 +2063,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2099,7 +2072,25 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-kde-neon-and-boshiamy.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-fcitx-with-boshiamy-table-on-elementaryos-5-1.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-feren-os-and-boshiamy.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-fcitx-5-with-boshiamy-on-fedora-34.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2109,6 +2100,15 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/installing-manjaro-and-boshiamy.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-ibus-table-for-boshiamy-on-ubuntu-20-04-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2127,6 +2127,15 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/installing-pop_os-21-04-and-boshiamy.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-kde-neon-and-boshiamy.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2162,15 +2171,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-virtualbox-6-1-26-on-clear-linux.html</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/posts_mtMattPage/installing-visual-studio-code-on-lubuntu-18-04-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -2180,7 +2180,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/installing-visual-studio-code-on-ubuntu-20-04-lts.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-virtualbox-6-1-26-on-clear-linux.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2207,7 +2207,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/linux-mint-on-parallels-desktop-15.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/installing-visual-studio-code-on-ubuntu-20-04-lts.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2217,6 +2217,15 @@
   
   <url>
     <loc>http://addsalt.fr/posts_mtMattPage/making-a-dual-bootable-flash-drive-on-my-imac.html</loc>
+    
+    <lastmod>2023-08-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/posts_mtMattPage/linux-mint-on-parallels-desktop-15.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2252,7 +2261,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/my-review-of-using-boshiamy-on-the-smartphone.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/nitrux-1-8-0.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2261,7 +2270,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/posts_mtMattPage/nitrux-1-8-0.html</loc>
+    <loc>http://addsalt.fr/posts_mtMattPage/my-review-of-using-boshiamy-on-the-smartphone.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -2489,34 +2498,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/airtag/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/apple/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/iphone13/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/iphonese2rdgen/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/tags/acer/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -2545,35 +2526,28 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/ipad/</loc>
+    <loc>http://addsalt.fr/tags/airtag/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/ipadair5/</loc>
+    <loc>http://addsalt.fr/tags/apple/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/applestore/</loc>
+    <loc>http://addsalt.fr/tags/iphone13/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/yahooshoppingmall/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/anker/</loc>
+    <loc>http://addsalt.fr/tags/iphonese2rdgen/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2608,14 +2582,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/archcraft/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/quickrecap/</loc>
+    <loc>http://addsalt.fr/tags/anker/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2629,14 +2596,35 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/linuxapps/</loc>
+    <loc>http://addsalt.fr/tags/quickrecap/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/pop-os/</loc>
+    <loc>http://addsalt.fr/tags/applestore/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/yahooshoppingmall/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/ipad/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/ipadair5/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2657,7 +2645,28 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/belkin/</loc>
+    <loc>http://addsalt.fr/tags/archcraft/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/arcolinux/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/linuxapps/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/pop-os/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2685,42 +2694,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/arcolinux/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/centos/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/fedora/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/redhat/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/mobliedevice/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/screenprotector/</loc>
+    <loc>http://addsalt.fr/tags/belkin/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2742,6 +2716,27 @@
   
   <url>
     <loc>http://addsalt.fr/tags/web/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/centos/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/fedora/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/redhat/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2783,6 +2778,27 @@
   </url>
   
   <url>
+    <loc>http://addsalt.fr/tags/mobliedevice/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/screenprotector/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/endeavouros/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/tags/microsoftupdatecatalog/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -2805,6 +2821,20 @@
   
   <url>
     <loc>http://addsalt.fr/tags/windowsupdate/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/fcitx5-chewing/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/%E6%96%B0%E9%85%B7%E9%9F%B3/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2853,42 +2883,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/endeavouros/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/fcitx5-chewing/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/%E6%96%B0%E9%85%B7%E9%9F%B3/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/tags/ubuntu/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/ibux/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/ferenos/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2910,6 +2905,41 @@
   
   <url>
     <loc>http://addsalt.fr/tags/fitnesstracker/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/ibux/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/ferenos/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/firewalls/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/gufw/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/manjaro/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2944,28 +2974,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/firewalls/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/gufw/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/manjaro/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/cartoon/</loc>
+    <loc>http://addsalt.fr/tags/legacyos/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3021,13 +3030,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/legacyos/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/tags/amaroklinux/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -3042,7 +3044,28 @@
   </url>
   
   <url>
+    <loc>http://addsalt.fr/tags/cartoon/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/tags/clearlinux/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/usbhdd/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/windows10/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3070,20 +3093,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/usbhdd/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/windows10/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/tags/davinciresolve17/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -3105,21 +3114,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/ubuntubudgie/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/tags/swupd/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/wintousb/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3154,6 +3149,20 @@
   </url>
   
   <url>
+    <loc>http://addsalt.fr/tags/wintousb/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/ubuntubudgie/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://addsalt.fr/tags/iphone6splus/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -3182,27 +3191,6 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/locale/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/locale-gen/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/update-locale/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsalt.fr/tags/dualboot/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -3218,13 +3206,6 @@
   
   <url>
     <loc>http://addsalt.fr/tags/multiboot/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/reading/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3273,21 +3254,35 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/videogame/</loc>
+    <loc>http://addsalt.fr/tags/locale/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/health/</loc>
+    <loc>http://addsalt.fr/tags/locale-gen/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/lutein/</loc>
+    <loc>http://addsalt.fr/tags/update-locale/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/reading/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/opensuse/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3295,6 +3290,13 @@
   
   <url>
     <loc>http://addsalt.fr/tags/fitnessTracker/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/health/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3315,14 +3317,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/opensuse/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/openvanllia/</loc>
+    <loc>http://addsalt.fr/tags/videogame/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3350,14 +3345,14 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/powercord/</loc>
+    <loc>http://addsalt.fr/tags/lutein/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/powersync/</loc>
+    <loc>http://addsalt.fr/tags/openvanllia/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3371,7 +3366,7 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/risios/</loc>
+    <loc>http://addsalt.fr/tags/solus/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3406,7 +3401,14 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/solus/</loc>
+    <loc>http://addsalt.fr/tags/powercord/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/powersync/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3441,21 +3443,14 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/4k/</loc>
+    <loc>http://addsalt.fr/tags/risios/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/smarttv/</loc>
-    <lastmod>2023-09-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsalt.fr/tags/teco/</loc>
+    <loc>http://addsalt.fr/tags/grub/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3483,14 +3478,28 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/grub/</loc>
+    <loc>http://addsalt.fr/tags/upgrade/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/tags/upgrade/</loc>
+    <loc>http://addsalt.fr/tags/4k/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/smarttv/</loc>
+    <lastmod>2023-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsalt.fr/tags/teco/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3520,14 +3529,14 @@
   </url>
   
   <url>
-    <loc>http://addsalt.fr/categories/review/</loc>
+    <loc>http://addsalt.fr/categories/unpack/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsalt.fr/categories/unpack/</loc>
+    <loc>http://addsalt.fr/categories/review/</loc>
     <lastmod>2023-09-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
