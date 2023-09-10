@@ -29,7 +29,7 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/51875600942_3477d8e4e8_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51876563511_6d19646c05_o.png">
 <meta property="article:published_time" content="2022-02-12T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-08-03T11:14:40.398Z">
+<meta property="article:modified_time" content="2023-09-10T04:10:54.121Z">
 <meta property="article:author" content="addSalt.Fr">
 <meta property="article:tag" content="archlinux">
 <meta property="article:tag" content="linux">
@@ -238,7 +238,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2023-08-03 19:14:40" itemprop="dateModified" datetime="2023-08-03T19:14:40+08:00">2023-08-03</time>
+      <time title="修改時間：2023-09-10 12:10:54" itemprop="dateModified" datetime="2023-09-10T12:10:54+08:00">2023-09-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -264,22 +264,15 @@
 <h3 id="從-fcitx-轉換到-iBus"><a href="#從-fcitx-轉換到-iBus" class="headerlink" title="從 fcitx 轉換到 iBus"></a>從 fcitx 轉換到 iBus</h3><p>sudo pacman -R fcitx5 fcitx5-im fcitx5-chinese-addons fcitx5-configtool fcitx5-table-extra libime //如果是全新安裝，基本上就可以跳過這一行指令。</p>
 <p>sudo pacman -S ibus ibus-table</p>
 <p>sudo vim /etc/enviroment 寫入以下內容：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">GTK_IM_MODULE=ibus</span><br><span class="line">QT_IM_MODULE=ibus</span><br><span class="line">XMODIFIERS=@im=ibus</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GTK_IM_MODULE=ibus</span><br><span class="line">QT_IM_MODULE=ibus</span><br><span class="line">XMODIFIERS=@im=ibus</span><br></pre></td></tr></table></figure>
 <p>至行易有限公司下載官方表格檔。</p>
 <p>cd 下載/ //沒有中文輸入法，可以善用 ls 指令或是 Tab 鍵，再用「複製貼上」。</p>
-<p>tar xvf boshiamy-ibus-1-8-x.tar.gz</p>
-<p>cd boshiamy-ibus-1-8-x/</p>
-<p>sudo cp _.db /usr/share/ibus-table/tables &amp;&amp; sudo cp_ .png /usr/share/ibus-table/icons</p>
-<p>sudo vim /etc/profile.d/ibusStart.sh 寫入以下內容：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">ibus-daemon -drxR</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">tar xvf boshiamy-ibus-1-8-x.tar.gz</span><br><span class="line">cd boshiamy-ibus-1-8-x/</span><br><span class="line">sudo cp _.db /usr/share/ibus-table/tables &amp;&amp; sudo cp_ .png /usr/share/ibus-table/icons</span><br><span class="line">sudo vim /etc/profile.d/ibusStart.sh</span><br></pre></td></tr></table></figure>
+<p>寫入以下內容。<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ibus-daemon -drxR</span><br></pre></td></tr></table></figure></p>
 <p>sudo reboot</p>
 <p>重開機後，輸入法平台就變成 iBus，再做一些設定，就可以用官方的輸入法表格檔。</p>
 <p>(下圖)進入 iBus 設定介面，有 2 種方式，一個是直接點右下角的「FOX」或「小鍵盤」圖示，一個是在 Terminal 裡下 ibus-setup 指令。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51875600942/in/dateposted-public/" title="manjaroXFCE21.2.2withiBusandBoshiamyEp1"><img src="https://live.staticflickr.com/65535/51875600942_3477d8e4e8_o.png" alt="manjaroXFCE21.2.2withiBusandBoshiamyEp1"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
 <p>(下圖)找個地方，小試一下 iBus 上的嘸蝦米。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51876563511/in/dateposted-public/" title="manjaroXFCE21.2.2withiBusandBoshiamyEp2"><img src="https://live.staticflickr.com/65535/51876563511_6d19646c05_o.png" alt="manjaroXFCE21.2.2withiBusandBoshiamyEp2"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><a target="_blank" rel="noopener" href="https://manjaro.org/">Manjaro - enjoy the simplicity</a></li>
 <li><a target="_blank" rel="noopener" href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></li>
