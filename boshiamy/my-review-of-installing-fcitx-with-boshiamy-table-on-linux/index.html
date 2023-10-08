@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha256-HtsXJanqjKTc8vVQjO4YMhiqFoXkfBsjBWcX91T1jr8=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"addsalt.fr","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.18.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="前言隨著時間的推動，Linux 上的嘸蝦米輸入法走過不少輸入法平台，其中 SCIM 與 gcin 似乎已然是過去式。近幾年，比較為人所用的主要就是 iBus 與 Fcitx。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米 (2023 年 10 月 8 日更新)">
+<meta property="og:url" content="http://addsalt.fr/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/index.html">
+<meta property="og:site_name" content="addSalt.Fr">
+<meta property="og:description" content="前言隨著時間的推動，Linux 上的嘸蝦米輸入法走過不少輸入法平台，其中 SCIM 與 gcin 似乎已然是過去式。近幾年，比較為人所用的主要就是 iBus 與 Fcitx。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53192833573_a9a89086b5_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53188783770_62e2b3ed90_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53109901317_1e07cd8010_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175894022_99e93cc12c_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52388015649_b2439ccf36_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52340328439_c1296cfc05_c.jpg">
+<meta property="article:published_time" content="2021-07-16T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-10-08T02:58:56.409Z">
+<meta property="article:author" content="addSalt.Fr">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="boshiamy">
+<meta property="article:tag" content="fcitx5">
+<meta property="article:tag" content="fcitx5-table-extra">
+<meta property="article:tag" content="嘸蝦米">
+<meta property="article:tag" content="fcitx">
+<meta property="article:tag" content="fcitx-table-boshiamy">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/53192833573_a9a89086b5_c.jpg">
+
+
+<link rel="canonical" href="http://addsalt.fr/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://addsalt.fr/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/","path":"boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/","title":"在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米 (2023 年 10 月 8 日更新)"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米 (2023 年 10 月 8 日更新) | addSalt.Fr</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">addSalt.Fr</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜尋" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%90%84%E5%80%8B-Linux-Distro-%E7%99%BC%E8%A1%8C%E7%89%88-%E7%9A%84%E5%AE%89%E8%A3%9D%E9%87%8D%E9%BB%9E"><span class="nav-number">2.</span> <span class="nav-text">各個 Linux Distro(發行版) 的安裝重點</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Debian-%E8%88%87-ubuntu-%E5%8F%8A%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88"><span class="nav-number">2.1.</span> <span class="nav-text">Debian 與 ubuntu 及衍生發行版</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E2%96%BCfcitx-4"><span class="nav-number">2.1.1.</span> <span class="nav-text">▼fcitx(4)</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E2%96%BCFcitx5-%E6%90%AD%E9%85%8D-fcitx5-table-extra-%E6%9C%8D%E7%94%A8"><span class="nav-number">2.1.2.</span> <span class="nav-text">▼Fcitx5(搭配 fcitx5-table-extra 服用)</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Arch-Linux-%E5%8F%8A%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88"><span class="nav-number">2.2.</span> <span class="nav-text">Arch Linux 及衍生發行版</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Fedora-%E5%8F%8A%E8%A1%8D%E7%94%9F%E7%99%BC%E8%A1%8C%E7%89%88"><span class="nav-number">2.3.</span> <span class="nav-text">Fedora 及衍生發行版</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#openSUSE"><span class="nav-number">2.4.</span> <span class="nav-text">openSUSE</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BB%B6%E4%BC%B8%E9%96%B1%E8%AE%80"><span class="nav-number">4.</span> <span class="nav-text">延伸閱讀</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">addSalt.Fr</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">131</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">150</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://addsalt.fr/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="addSalt.Fr">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="addSalt.Fr">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米 (2023 年 10 月 8 日更新) | addSalt.Fr">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米 (2023 年 10 月 8 日更新)
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
+
+      <time title="創建時間：2021-07-16 08:00:00" itemprop="dateCreated datePublished" datetime="2021-07-16T08:00:00+08:00">2021-07-16</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新於</span>
+      <time title="修改時間：2023-10-08 10:58:56" itemprop="dateModified" datetime="2023-10-08T10:58:56+08:00">2023-10-08</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分類於</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/boshiamy/" itemprop="url" rel="index"><span itemprop="name">boshiamy</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>隨著時間的推動，Linux 上的嘸蝦米輸入法走過不少輸入法平台，其中 SCIM 與 gcin 似乎已然是過去式。近幾年，比較為人所用的主要就是 iBus 與 Fcitx。</p>
+<p>選用 iBus 的話，拿行易有限公司官網的表格檔服用，肯定是最佳的選擇。</p>
+<p>本篇文章的主角：Fctix 這個輸入法平台，中文名稱是「小企鵝輸入法」，而談到 Fcitx 的話，我個人會用 fcitx(4) 與 Fcitx5 來區分這 2 代輸入法框架(Fcitx5 是繼 Fcitx 後的下一代輸入法框架)。</p>
+<p>就目前看來，fcitx(4) 在絕大部分的 Linux 發行版上的套件管理程式 Repository 收納完整度較高，fcitx(4) 主程式也多半會在系統預設安裝的套件裡，因此，安裝嘸蝦米輸入法的重點，就在於把 <code>fcitx-table-boshiamy</code> 安裝進來。</p>
+<p>至於，Fcitx5 的部分，我目前的觀察說明如下。</p>
+<ol>
+<li>在 Arch Linux 及其衍生發行版的 Repository 收納完整度較高，而且官方的說明文件好找也夠清楚，所以，當然可以直接透過套件管理程式進行安裝 <code>fcitx5-table-extra</code> 的動作。</li>
+<li>Fedora 的 Repository 有同樣的收納完整度，只是說明文件並不在搜尋引擎的優先順序中。</li>
+<li>其他的發行版，截至目前為止的 Repository 收納度完整度仍有不足的部分(至少就是沒看到 <code>fcitx5-table-extra</code>)，僅管如此，還是能夠用另外的方式服用。</li>
+</ol>
+<hr>
+<h3 id="各個-Linux-Distro-發行版-的安裝重點"><a href="#各個-Linux-Distro-發行版-的安裝重點" class="headerlink" title="各個 Linux Distro(發行版) 的安裝重點"></a>各個 Linux Distro(發行版) 的安裝重點</h3><h4 id="Debian-與-ubuntu-及衍生發行版"><a href="#Debian-與-ubuntu-及衍生發行版" class="headerlink" title="Debian 與 ubuntu 及衍生發行版"></a>Debian 與 ubuntu 及衍生發行版</h4><p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53192833573" title="usingFcitx5withBoshiamyTableonDebian11Ep (20)"><img src="https://live.staticflickr.com/65535/53192833573_a9a89086b5_c.jpg" width="800" height="600" alt="usingFcitx5withBoshiamyTableonDebian11Ep (20)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br>Tip 1：如果選用 fcitx(4)，那麼下完 sudo apt install fcitx-table-boshiamy 這道指令就幾乎搞定一半。<br>Tip 2：如果選用 Fcitx5，就必須跑一趟 pkgs.org 把 fcitx5-table-extra 載回來自行處理與服用。<br>Tip 3：我在 Debian 上會先在 Terminal 切入 root 權限。</p>
+<h5 id="▼fcitx-4"><a href="#▼fcitx-4" class="headerlink" title="▼fcitx(4)"></a>▼fcitx(4)</h5><p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53188783770/in/dateposted-public/" title="installingfcitx4andboshiamyonubuntu2204Ep8"><img src="https://live.staticflickr.com/65535/53188783770_62e2b3ed90_c.jpg" width="800" height="500" alt="installingfcitx4andboshiamyonubuntu2204Ep8"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<ol>
+<li><a href="https://addsalt.fr/boshiamy/ubuntu-23-04-and-boshiamy/">ubuntu 23.04 與嘸蝦米</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/boshiamy/installing-fcitx-4-with-boshiamy-table-on-ubuntu-22-04-lts/">在 ubuntu 22.04 LTS 上輕鬆安裝嘸蝦米</a></li>
+<li><a href="https://addsalt.fr/linux/mx-linux-mx-23/">來玩 MX Linux MX-23</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/elementary-os-7-1/">來玩 elementory OS 7.1</a></li>
+<li><a href="https://addsalt.fr/boshiamy/zorin-os-16-3-core-and-boshiamy/">Zorin OS 16.3 Core 與嘸蝦米</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/lmde-5/">來玩 LMDE 5</a></li>
+</ol>
+<h5 id="▼Fcitx5-搭配-fcitx5-table-extra-服用"><a href="#▼Fcitx5-搭配-fcitx5-table-extra-服用" class="headerlink" title="▼Fcitx5(搭配 fcitx5-table-extra 服用)"></a>▼Fcitx5(搭配 fcitx5-table-extra 服用)</h5><p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53109901317/in/dateposted-public/" title="boshiamy-ICON-on-linuxmint-21.2-cinnamon-64bit"><img src="https://live.staticflickr.com/65535/53109901317_1e07cd8010_c.jpg" width="800" height="450" alt="boshiamy-ICON-on-linuxmint-21.2-cinnamon-64bit"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<ol>
+<li><a href="https://addsalt.fr/linux/debian-12-and-boshiamy">Debian 12 與嘸蝦米</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/">在 ubuntu 22.04.1 LTS 上用 Fcitx5 搭配嘸蝦米 (feat. fcitx5-table-extra)</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/boshiamy/linux-mint-21-1-and-boshiamy-feat-fcitx5-table-extra/">Linux Mint 21.1 與嘸蝦米 (feat. fcitx5-table-extra)</a></li>
+</ol>
+<hr>
+<h4 id="Arch-Linux-及衍生發行版"><a href="#Arch-Linux-及衍生發行版" class="headerlink" title="Arch Linux 及衍生發行版"></a>Arch Linux 及衍生發行版</h4><p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175894022/in/album-72177720311076900/" title="manjaroXfce23.0AndBoshiamyEp (18)"><img src="https://live.staticflickr.com/65535/53175894022_99e93cc12c_c.jpg" width="800" height="500" alt="manjaroXfce23.0AndBoshiamyEp (18)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br>Tip：是我目前使用的 Distro 中 ，收錄 Fcitx 套件的完整度非常高的一支，而我個人是比較習慣安裝 Fcitx5。</p>
+<ol>
+<li><a href="https://addsalt.fr/linux/installing-arch-linux-and-boshiamy/">安裝 Arch Linux 與嘸蝦米</a></li>
+<li><a href="https://addsalt.fr/linux/manjaro-xfce-23-0-and-boshiamy/">Manjaro XFCE 23.0 與嘸蝦米</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/endeavouros-apollo-22-1/">來玩 EndeavourOS Apollo 22.1</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/garuda-linux-kde-dr460nized-edition/">來玩 Garuda Linux (KDE Dr460nized Edition)</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/arcolinuxl-and-boshiamy">ArcoLinuxL 與嘸蝦米</a></li>
+</ol>
+<hr>
+<h4 id="Fedora-及衍生發行版"><a href="#Fedora-及衍生發行版" class="headerlink" title="Fedora 及衍生發行版"></a>Fedora 及衍生發行版</h4><p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/52388015649/in/photostream/" title="fedoraWorkstation36onVirtualBoxEp (14)"><img src="https://live.staticflickr.com/65535/52388015649_b2439ccf36_c.jpg" width="800" height="500" alt="fedoraWorkstation36onVirtualBoxEp (14)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br>Tip：在 Terminal 下 sudo yum install fcitx5* 或 sudo dnf install fcitx5* 指令來服用。</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/fedora-38-and-boshiamy/">Fedora 38 與嘸蝦米</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/risios-37-1-1/">來玩 risiOS 37.1.1</a></li>
+</ol>
+<hr>
+<h4 id="openSUSE"><a href="#openSUSE" class="headerlink" title="openSUSE"></a>openSUSE</h4><p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52340328439/in/dateposted-public/" title="openSUSELeap15.4onVirtualBox (7)"><img src="https://live.staticflickr.com/65535/52340328439_c1296cfc05_c.jpg" width="800" height="600" alt="openSUSELeap15.4onVirtualBox (7)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br>Tip：我比較喜歡，也非常建議使用 YaST 圖形介面模式去安裝套件。</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/opensuse-leap-15-4/">來玩 openSUSE Leap 15.4</a></li>
+<li><a target="_blank" rel="noopener" href="https://mtmatt.one/linux/opensuse-tumbleweed-snapshot20220905/">來玩 openSUSE Tumbleweed Snapshot20220905</a></li>
+</ol>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>我試玩幾套不同的 Linux Distro 之後，可以說，幾個大的套件管理系統，原則上都有支援，安裝使用上非常、非常輕鬆，而且安裝完，也一併讓系統的預設輸入法平台切換到 fcitx，不太需要再額外做設定，就可以用，後續比較要注意的應該是授權使用的問題(詳可見：<a target="_blank" rel="noopener" href="https://topic.tipo.gov.tw/copyright-tw/cp-407-852921-5ae4e-301.html">智慧財產局著作權主題網-認識著作權-資料檢索-解釋資料檢索-電子郵件990322b</a>)。</li>
+<li>暫且先不論合法授權的問題的話，我想，透過 fcitx 在 Linux 上面所呈現的，正好是我曾經設想過的畫面：作業系統(也包含 macOS 與 Windows)直接內建嘸蝦米，我要做的事就是去新增嘸蝦米輸入法就好。那麼，是不是更能夠把行易有限公司提到的理想延伸到更遠的地方去：讓更多人體會到嘸蝦米「創造一個易學、快速又快樂的中文輸入環境」。</li>
+</ol>
+<hr>
+<h3 id="延伸閱讀"><a href="#延伸閱讀" class="headerlink" title="延伸閱讀"></a>延伸閱讀</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-tw/%E8%BC%B8%E5%85%A5%E6%B3%95%E5%B9%B3%E5%8F%B0">輸入法平台 - 維基百科，自由的百科全書</a></li>
+<li><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-tw/SCIM">SCIM - 維基百科，自由的百科全書</a></li>
+<li><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-tw/Gcin">gcin - 維基百科，自由的百科全書</a></li>
+<li><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-tw/IBus">iBus - 維基百科，自由的百科全書</a></li>
+<li><a target="_blank" rel="noopener" href="https://zh.wikipedia.org/zh-tw/Fcitx">Fcitx - 維基百科，自由的百科全書</a></li>
+<li><a target="_blank" rel="noopener" href="https://fcitx-im.org/wiki/Fcitx_5">Fcitx 5 - Fcitx</a></li>
+<li><a target="_blank" rel="noopener" href="https://fcitx-im.org/wiki/History">History - Fcitx</a></li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/linux/" rel="tag"># linux</a>
+              <a href="/tags/boshiamy/" rel="tag"># boshiamy</a>
+              <a href="/tags/fcitx5/" rel="tag"># fcitx5</a>
+              <a href="/tags/fcitx5-table-extra/" rel="tag"># fcitx5-table-extra</a>
+              <a href="/tags/%E5%98%B8%E8%9D%A6%E7%B1%B3/" rel="tag"># 嘸蝦米</a>
+              <a href="/tags/fcitx/" rel="tag"># fcitx</a>
+              <a href="/tags/fcitx-table-boshiamy/" rel="tag"># fcitx-table-boshiamy</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/windows/the-bug-of-boshiamy-tsf-x64-on-microsoftedge/" rel="prev" title="嘸蝦米 TSF x64 標準版遇到 Microsoft Edge 會跑出來的臭蟲">
+                  <i class="fa fa-angle-left"></i> 嘸蝦米 TSF x64 標準版遇到 Microsoft Edge 會跑出來的臭蟲
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/apple/installing-clear-linux-into-my-mac-mini-late-2014/" rel="next" title="把 Clear Linux 安裝到我的 Mac mini (Late 2014)">
+                  把 Clear Linux 安裝到我的 Mac mini (Late 2014) <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2023</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">addSalt.Fr</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 強力驅動
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="back-to-top" role="button" aria-label="回到頂端">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
