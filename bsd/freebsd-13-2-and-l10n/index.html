@@ -21,7 +21,7 @@
 
     <meta name="description" content="前言這幾天，心血來潮找小惡魔玩。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="安裝 FreeBSD 13.2 (含中文化與安裝中文輸入法 feat. Fcitx5)">
+<meta property="og:title" content="FreeBSD 13.2 安裝與中文化(含安裝嘸蝦米、新酷音輸入法 feat. Fcitx5)">
 <meta property="og:url" content="http://addsalt.fr/bsd/freebsd-13-2-and-l10n/index.html">
 <meta property="og:site_name" content="addSalt.Fr">
 <meta property="og:description" content="前言這幾天，心血來潮找小惡魔玩。">
@@ -38,7 +38,7 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/53274666554_effc089d34_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53274318066_5e07c6e47a_c.jpg">
 <meta property="article:published_time" content="2023-10-21T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-10-31T10:29:51.430Z">
+<meta property="article:modified_time" content="2023-11-16T02:21:29.058Z">
 <meta property="article:author" content="addSalt.Fr">
 <meta property="article:tag" content="boshiamy">
 <meta property="article:tag" content="fcitx5">
@@ -53,10 +53,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://addsalt.fr/bsd/freebsd-13-2-and-l10n/","path":"bsd/freebsd-13-2-and-l10n/","title":"安裝 FreeBSD 13.2 (含中文化與安裝中文輸入法 feat. Fcitx5)"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://addsalt.fr/bsd/freebsd-13-2-and-l10n/","path":"bsd/freebsd-13-2-and-l10n/","title":"FreeBSD 13.2 安裝與中文化(含安裝嘸蝦米、新酷音輸入法 feat. Fcitx5)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>安裝 FreeBSD 13.2 (含中文化與安裝中文輸入法 feat. Fcitx5) | addSalt.Fr</title>
+<title>FreeBSD 13.2 安裝與中文化(含安裝嘸蝦米、新酷音輸入法 feat. Fcitx5) | addSalt.Fr</title>
   
 
 
@@ -172,18 +172,18 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">137</span>
+          <span class="site-state-item-count">140</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-count">9</span>
         <span class="site-state-item-name">分類</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">157</span>
+        <span class="site-state-item-count">162</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -223,12 +223,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="安裝 FreeBSD 13.2 (含中文化與安裝中文輸入法 feat. Fcitx5) | addSalt.Fr">
+      <meta itemprop="name" content="FreeBSD 13.2 安裝與中文化(含安裝嘸蝦米、新酷音輸入法 feat. Fcitx5) | addSalt.Fr">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          安裝 FreeBSD 13.2 (含中文化與安裝中文輸入法 feat. Fcitx5)
+          FreeBSD 13.2 安裝與中文化(含安裝嘸蝦米、新酷音輸入法 feat. Fcitx5)
         </h1>
 
         <div class="post-meta-container">
@@ -246,7 +246,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新於</span>
-      <time title="修改時間：2023-10-31 18:29:51" itemprop="dateModified" datetime="2023-10-31T18:29:51+08:00">2023-10-31</time>
+      <time title="修改時間：2023-11-16 10:21:29" itemprop="dateModified" datetime="2023-11-16T10:21:29+08:00">2023-11-16</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -276,7 +276,7 @@
 <li>安裝畫面來到「Distribution Select」這個介面時，記得選擇將「ports」與「src」安裝進來。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53276189743/in/dateposted-public/" title="FreeBSD13.2onVirtualBoxEp1"><img src="https://live.staticflickr.com/65535/53276189743_ae7961da26_c.jpg" width="800" height="600" alt="FreeBSD13.2onVirtualBoxEp1"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></li>
 <li>由於我是打算拿來當桌面系統使用，所以硬碟規劃的部分，就讓系統的預設去跑。</li>
 <li>除了設定 root 密碼之外，我會新增至少一個使用者，由於後續會用到 X Window System，所以，除了 wheel 這個 Group 以外，我還會將使用者加入到 video 的 Group，如果忘記在這個步驟加入 wheel 或 video，後續可以用指令 <code>pw groupmod group(群組名稱) -m username(使用者帳號名稱)</code> 處理。</li>
-<li>在處理 X Window System 之前，我事先安裝 <code>doas</code> 與 <code>neofetch</code> 這 2 支套件，doas 在安裝完之後，記得把設定檔的部分搞定，最快的方式，就是拷貝 doas.conf.sample 來服用。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pkg install doas neofetch</span><br><span class="line">cp /usr/local/etc/doas.donf.sample /usr/local/etc/doas.donf</span><br></pre></td></tr></table></figure>
+<li>在處理 X Window System 之前，我事先安裝 <code>doas</code> 與 <code>neofetch</code> 這 2 支套件，doas 在安裝完之後，記得把設定檔的部分搞定，最快的方式，就是拷貝 doas.conf.sample 來服用。<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">pkg install doas neofetch</span><br><span class="line">cp /usr/local/etc/doas.conf.sample /usr/local/etc/doas.conf</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <hr>
@@ -310,7 +310,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">setenv LANG zh_TW.UTF-8</span><br><span class="line">setenv LANGUAGE zh_TW.UTF-8</span><br><span class="line">setenv LC_CTYPE zh_TW.UTF-8 </span><br><span class="line">setenv LC_ALL zh_TW.UTF-8</span><br><span class="line">setenv MM_CHARSET zh_TW.UTF-8</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>再處理 <code>/etc/csh.cshrc</code>。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ee /etc/csh.cshrc</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">doas ee /etc/csh.cshrc</span><br></pre></td></tr></table></figure>
 <p>寫入以下內容。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">setenv QT4_IM_MODULE fcitx</span><br><span class="line">setenv GTK_IM_MODULE fcitx</span><br><span class="line">setenv QT_IM_MODULE fcitx</span><br><span class="line">setenv GTK2_IM_MODULE fcitx</span><br><span class="line">setenv GTK3_IM_MODULE fcitx</span><br><span class="line">setenv XMODIFIERS @im=fcitx</span><br><span class="line">setenv LANG zh_TW.UTF-8</span><br><span class="line">setenv MM_CHARSET zh_TW.UTF-8</span><br><span class="line">setenv LC_CTYPE zh_TW.UTF-8</span><br><span class="line">setenv LC_ALL zh_TW.UTF-8</span><br></pre></td></tr></table></figure>
 </li>
