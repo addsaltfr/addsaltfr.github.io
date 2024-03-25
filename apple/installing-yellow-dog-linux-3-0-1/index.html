@@ -35,10 +35,10 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/53610045441_054948b090_o.gif">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53610500000_da52dbc638_o.gif">
 <meta property="article:published_time" content="2005-06-18T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-03-25T13:34:20.981Z">
+<meta property="article:modified_time" content="2024-03-25T13:35:34.003Z">
 <meta property="article:author" content="addsalt">
-<meta property="article:tag" content="apple">
 <meta property="article:tag" content="linux">
+<meta property="article:tag" content="apple">
 <meta property="article:tag" content="mac">
 <meta property="article:tag" content="powermac">
 <meta property="article:tag" content="yellowdoglinux">
@@ -288,7 +288,8 @@
 <p>接下來，決定自己要安裝的YDL版本，以我來說，我只有下載過2.3與3.0.1這兩個版本。  </p>
 <p>兩者比較的話，對於首次安裝YDL的人，推薦3.0.1。  </p>
 <p>原因是3.0.1在安裝過程就像Fedora Core的安裝過程一樣，雖然3.0.1對多國語言的支援沒有Fedora Core 3這麼好，但是安裝過程，可以選擇繁體中文說明與顯示，很方便，比較無痛。下載的部分，請到Yellow Dog Linux（官網）找，有很多Mirror站提供下載，<a target="_blank" rel="noopener" href="http://www.yellowdoglinux.com/resources/downloads.shtml">點此(↗)</a>直接去看看。  </p>
-<p>下載完，把iso檔燒錄完，就完成整個準備工作。<br>※由於檔案很大，建議使用Speed Download等續傳軟體。</p>
+<p>下載完，把iso檔燒錄完，就完成整個準備工作。</p>
+<p>※由於檔案很大，建議使用Speed Download等續傳軟體。</p>
 <hr>
 <h3 id="YDL安裝分享-敲門篇"><a href="#YDL安裝分享-敲門篇" class="headerlink" title="YDL安裝分享-敲門篇"></a>YDL安裝分享-敲門篇</h3><p><img src="https://live.staticflickr.com/65535/53610381959_db9543775b_o.gif" alt=""><br>YDL 2.3的系統光碟一張，3.0.1則有三張，基本上這二個版本的安裝在一開始大同小異，這邊，要舉的例子是YDL 3.0.1的安裝過程，2.3的部分未來有時間，我會再把相關資料貼上來。</p>
 <ol>
@@ -327,8 +328,11 @@
 </li>
 <li><p>滑鼠設定：大致上，使用蘋果原廠單鍵鼠（Apple Desktop Bus Mouse II）的人，請直接按下一步，其他使用USB擴充卡等再接上滑鼠的人，YDL也多半抓得到。  </p>
 </li>
-<li><p>安裝類型：此時，YDL要我們選擇安裝後，這一部電腦的用途，共有四個選項：個人桌面、工作站、伺服器以及自訂安裝，由於我是要使用伺服器，所以就直接選擇該項目。※要注意的是其他的套件在後續的步驟會再請我們選擇，所以在這裡，主要就是選擇該系統未來運作時的用途。  </p>
+<li><p>安裝類型：此時，YDL要我們選擇安裝後，這一部電腦的用途，共有四個選項：個人桌面、工作站、伺服器以及自訂安裝，由於我是要使用伺服器，所以就直接選擇該項目。</p>
 </li>
+</ol>
+<p>※要注意的是其他的套件在後續的步驟會再請我們選擇，所以在這裡，主要就是選擇該系統未來運作時的用途。  </p>
+<ol>
 <li><p>選擇磁碟分割方式：共有三個選項：自動分割硬碟、使用 Disk Druid 分割硬碟與Manually partition with pdisk (experts only)，建議選取「使用 Disk Druid 分割硬碟」進入下一步：磁碟設定。  </p>
 </li>
 <li><p>磁碟設定：設定分割區這個部分很重要，我多花點筆墨闡述一下。我的情形是二顆硬碟，第一顆原則上不用動到它，第二顆早先是分割於Mac OS所使用的硬碟，在此，就必需將裡面的分割區一一刪除。在我的硬碟列表中，YDL列出sda、sdb二個硬碟，sda不動，sdb內還分為/dev/sdb1～/dev/sdb5以及剩餘空間，基本上除了/dev/sdb1的類型為Apple這一塊無法被刪除，即使想刪也不會在這邊被刪掉外，其餘的，請都給它刪掉吧！刪掉後，就是一堆剩餘空間。緊接著，用新增的方式分配這些整理出來的剩餘空間，在YDL 2.3當中，我記得要劃出10MB的BootLoader、256MB（建議值）的Linux Swap，其餘的可以分為ext2…等初使用硬碟分配方式，在YDL 3.0.1，初使用或者對LInux還不甚了解的人，建議劃分為256MB（建議值）的Swap與以及檔案系統掛載點為\”/\”的ext3二個部分就可以，順序上先劃Swap，其次ext3，而我的分配方式是512MB的Swap，其餘的都給ext3（用「填滿分割區至可獲得的最大值」→個人覺得這句話的翻譯超爛）。  </p>
@@ -363,8 +367,8 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/apple/" rel="tag"># apple</a>
               <a href="/tags/linux/" rel="tag"># linux</a>
+              <a href="/tags/apple/" rel="tag"># apple</a>
               <a href="/tags/mac/" rel="tag"># mac</a>
               <a href="/tags/powermac/" rel="tag"># powermac</a>
               <a href="/tags/yellowdoglinux/" rel="tag"># yellowdoglinux</a>
