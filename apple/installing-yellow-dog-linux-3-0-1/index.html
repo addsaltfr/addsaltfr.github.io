@@ -22,7 +22,7 @@
 
     <meta name="description" content="YDL安裝分享-序雖然，11號機已經轉換工作，Mac OS 8+AppleTalk+Dave就可以跟目前的家網串在一起，省錢的前提下，使用YDL依然是最佳的選擇。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="安裝 Yellow Dog Linux(YDL)(remake 版)">
+<meta property="og:title" content="安裝 Yellow Dog Linux(YDL) 3.0.1 (remake 版)">
 <meta property="og:url" content="http://addsa.lt/apple/installing-yellow-dog-linux-3-0-1/index.html">
 <meta property="og:site_name" content="addSaLt">
 <meta property="og:description" content="YDL安裝分享-序雖然，11號機已經轉換工作，Mac OS 8+AppleTalk+Dave就可以跟目前的家網串在一起，省錢的前提下，使用YDL依然是最佳的選擇。">
@@ -35,10 +35,10 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/53610045441_054948b090_o.gif">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53610500000_da52dbc638_o.gif">
 <meta property="article:published_time" content="2005-06-18T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-03-25T13:35:34.003Z">
+<meta property="article:modified_time" content="2024-03-25T13:43:55.736Z">
 <meta property="article:author" content="addsalt">
-<meta property="article:tag" content="linux">
 <meta property="article:tag" content="apple">
+<meta property="article:tag" content="linux">
 <meta property="article:tag" content="mac">
 <meta property="article:tag" content="powermac">
 <meta property="article:tag" content="yellowdoglinux">
@@ -50,10 +50,10 @@
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://addsa.lt/apple/installing-yellow-dog-linux-3-0-1/","path":"apple/installing-yellow-dog-linux-3-0-1/","title":"安裝 Yellow Dog Linux(YDL)(remake 版)"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://addsa.lt/apple/installing-yellow-dog-linux-3-0-1/","path":"apple/installing-yellow-dog-linux-3-0-1/","title":"安裝 Yellow Dog Linux(YDL) 3.0.1 (remake 版)"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>安裝 Yellow Dog Linux(YDL)(remake 版) | addSaLt</title>
+<title>安裝 Yellow Dog Linux(YDL) 3.0.1 (remake 版) | addSaLt</title>
   
 
 
@@ -220,12 +220,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="安裝 Yellow Dog Linux(YDL)(remake 版) | addSaLt">
+      <meta itemprop="name" content="安裝 Yellow Dog Linux(YDL) 3.0.1 (remake 版) | addSaLt">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          安裝 Yellow Dog Linux(YDL)(remake 版)
+          安裝 Yellow Dog Linux(YDL) 3.0.1 (remake 版)
         </h1>
 
         <div class="post-meta-container">
@@ -315,9 +315,9 @@
 <h3 id="YDL安裝分享-開門篇"><a href="#YDL安裝分享-開門篇" class="headerlink" title="YDL安裝分享-開門篇"></a>YDL安裝分享-開門篇</h3><p><img src="https://live.staticflickr.com/65535/53610045441_054948b090_o.gif" alt=""></p>
 <p>一直沒有把時間空出來，將YDL的安裝分享後續的部分貼出，真是的。按照之前的步驟完成相關的安裝、設定，很多人在開機時就一定會多出一個BootX的畫面，或許，已經有一些人摸索出關鍵在那裡了。如果還不是很清楚的，不妨參考下最步驟試看看。  </p>
 <p>請先將YDL 3.0.1安裝光碟Disc One放入，然後，請選取適當的Kernel，建議選擇vmlinux-2.4.22-2fBOOT這一項。</p>
-<p>再來，按下\”Options…\”這個按鈕，按下後會出現對話方塊。<br><img src="https://live.staticflickr.com/65535/53610500000_da52dbc638_o.gif" alt=""></p>
-<p>在這裡，Use specified RAM Disk這一項在一開始應該是未勾選的狀態，請勾選之。至於下面那一行：\”OS 8:System Folder:ramdisk.image.gz\”，原則上是可以不用管它，記得在YDL2.3那個版本，還需要自己去找尋ramdisk.image.gz的路徑，但是從YDL 3.0.1開始，BootX自己就先選好，應該不需要再去動到它，除非把ramdisk.image.gz放到System Folder以外的地方去，不然應該到這裡還是OK的。  </p>
-<p>選完，按下Linux，稍等數秒，就會進入白字黑底的世界，離開這個黑與白的世界之前，YDL會出現找尋顯卡等訊息，接下來沒有意外的話，就是會看到一個黑色的\”<strong>╳</strong>\”擺在螢幕中間。</p>
+<p>再來，按下 “Options…” 這個按鈕，按下後會出現對話方塊。<br><img src="https://live.staticflickr.com/65535/53610500000_da52dbc638_o.gif" alt=""></p>
+<p>在這裡，Use specified RAM Disk這一項在一開始應該是未勾選的狀態，請勾選之。至於下面那一行：”OS 8:System Folder:ramdisk.image.gz”，原則上是可以不用管它，記得在YDL2.3那個版本，還需要自己去找尋ramdisk.image.gz的路徑，但是從YDL 3.0.1開始，BootX自己就先選好，應該不需要再去動到它，除非把ramdisk.image.gz放到System Folder以外的地方去，不然應該到這裡還是OK的。  </p>
+<p>選完，按下Linux，稍等數秒，就會進入白字黑底的世界，離開這個黑與白的世界之前，YDL會出現找尋顯卡等訊息，接下來沒有意外的話，就是會看到一個黑色的”<strong>╳</strong>“擺在螢幕中間。</p>
 <hr>
 <h3 id="YDL安裝分享-完結篇"><a href="#YDL安裝分享-完結篇" class="headerlink" title="YDL安裝分享-完結篇"></a>YDL安裝分享-完結篇</h3><p>趁著還有一點時間，我想快點把這一篇完成，先讓文字的部分出來，圖片的部分，由於無法再用Apple內建的抓圖方式，所以只能用數位相機拍出來，螢幕不是平面或是LCD，加上我的攝影技巧有點遜，暫時不貼出，請大家見諒。  </p>
 <p>如果大家跟著前面幾篇的分享實做，很順利開門，看到黃狗背對著你，那麼，你已經進入圖形化的安裝畫面，稍等個幾秒，Welcome to Yellow Dog Linux幾個字樣就活生生地出現在左上角，請按右下角的Next，進入下一個畫面，接下來的部分多半不會很難，我大致說明一下。  </p>
@@ -335,7 +335,7 @@
 <ol>
 <li><p>選擇磁碟分割方式：共有三個選項：自動分割硬碟、使用 Disk Druid 分割硬碟與Manually partition with pdisk (experts only)，建議選取「使用 Disk Druid 分割硬碟」進入下一步：磁碟設定。  </p>
 </li>
-<li><p>磁碟設定：設定分割區這個部分很重要，我多花點筆墨闡述一下。我的情形是二顆硬碟，第一顆原則上不用動到它，第二顆早先是分割於Mac OS所使用的硬碟，在此，就必需將裡面的分割區一一刪除。在我的硬碟列表中，YDL列出sda、sdb二個硬碟，sda不動，sdb內還分為/dev/sdb1～/dev/sdb5以及剩餘空間，基本上除了/dev/sdb1的類型為Apple這一塊無法被刪除，即使想刪也不會在這邊被刪掉外，其餘的，請都給它刪掉吧！刪掉後，就是一堆剩餘空間。緊接著，用新增的方式分配這些整理出來的剩餘空間，在YDL 2.3當中，我記得要劃出10MB的BootLoader、256MB（建議值）的Linux Swap，其餘的可以分為ext2…等初使用硬碟分配方式，在YDL 3.0.1，初使用或者對LInux還不甚了解的人，建議劃分為256MB（建議值）的Swap與以及檔案系統掛載點為\”/\”的ext3二個部分就可以，順序上先劃Swap，其次ext3，而我的分配方式是512MB的Swap，其餘的都給ext3（用「填滿分割區至可獲得的最大值」→個人覺得這句話的翻譯超爛）。  </p>
+<li><p>磁碟設定：設定分割區這個部分很重要，我多花點筆墨闡述一下。我的情形是二顆硬碟，第一顆原則上不用動到它，第二顆早先是分割於Mac OS所使用的硬碟，在此，就必需將裡面的分割區一一刪除。在我的硬碟列表中，YDL列出sda、sdb二個硬碟，sda不動，sdb內還分為/dev/sdb1～/dev/sdb5以及剩餘空間，基本上除了/dev/sdb1的類型為Apple這一塊無法被刪除，即使想刪也不會在這邊被刪掉外，其餘的，請都給它刪掉吧！刪掉後，就是一堆剩餘空間。緊接著，用新增的方式分配這些整理出來的剩餘空間，在YDL 2.3當中，我記得要劃出10MB的BootLoader、256MB（建議值）的Linux Swap，其餘的可以分為ext2…等初使用硬碟分配方式，在YDL 3.0.1，初使用或者對LInux還不甚了解的人，建議劃分為256MB（建議值）的Swap與以及檔案系統掛載點為”/“的ext3二個部分就可以，順序上先劃Swap，其次ext3，而我的分配方式是512MB的Swap，其餘的都給ext3（用「填滿分割區至可獲得的最大值」→個人覺得這句話的翻譯超爛）。  </p>
 </li>
 <li><p>開機管理程式設定：這裡，即使用繁體中文的安裝說明語言，它還是一段英文字，不仔細看就給它跳過去的初使用者，在安裝完就會出狀況，YDL 2.3也有類似的訊息，但是2.3是在安裝最後才出現。到底，它是要做什麼呢？大家都還記得BootX吧！OldWorld的機器，得藉由它進入Linux，而這裡，就是告訴我們，待會兒安裝完，必須設定的系統載入點。以我的情形而言，在上一個步驟中，以ext3的分割區/dev/sdb3就是安裝完必須設定的載點。這一個步驟非常重要，對於初使用者而言，也是最容易忽略的地方。  </p>
 </li>
@@ -367,8 +367,8 @@
 
     <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/linux/" rel="tag"># linux</a>
               <a href="/tags/apple/" rel="tag"># apple</a>
+              <a href="/tags/linux/" rel="tag"># linux</a>
               <a href="/tags/mac/" rel="tag"># mac</a>
               <a href="/tags/powermac/" rel="tag"># powermac</a>
               <a href="/tags/yellowdoglinux/" rel="tag"># yellowdoglinux</a>
