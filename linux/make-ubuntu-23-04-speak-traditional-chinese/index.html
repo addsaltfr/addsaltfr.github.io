@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"addsa.lt","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="前言從 Ubuntu Desktop 23.04 release roundup | Ubuntu 可以得知，ubuntu 23.04 迎來了一個顯而易見的更新：New Installer(新的安裝程式，如下圖)。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="讓 ubuntu 23.04「講」中文">
+<meta property="og:url" content="http://addsa.lt/linux/make-ubuntu-23-04-speak-traditional-chinese/index.html">
+<meta property="og:site_name" content="addSaLt">
+<meta property="og:description" content="前言從 Ubuntu Desktop 23.04 release roundup | Ubuntu 可以得知，ubuntu 23.04 迎來了一個顯而易見的更新：New Installer(新的安裝程式，如下圖)。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200074_09e12b7dbc_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200069_a0e81e88bc_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175996131_74916e9cfa_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200044_7e5d71218f_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176434850_ed23592c61_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175996076_3c4e9df14b_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175408212_1c2413cf81_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176492083_8c651d49c2_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176492078_fa48f24de0_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175408182_9aa12e646c_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176434820_e29142fa4e_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176492053_7e0ba25909_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175996001_1eb55e2c6a_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175996021_53919eac27_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176434770_febfcfddaf_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176199944_3686476584_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176199959_8600b6aafb_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175996011_dac056b7eb_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175408117_c70d96601b_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176492278_9c92210278_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200224_02b2140e9d_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176492268_bae169dc80_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200204_eca83686f8_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176492223_a570bf4cda_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175408312_d68c14737b_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200209_1bfce65c63_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200189_f8cea9be47_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200164_6872cbb0c7_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200169_003df5615a_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175996201_17a7b3e44c_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200129_db0afc162f_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176492163_5efff0cd77_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175408277_2d5369e2f3_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176434920_bbd8a81236_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176200104_990e0955fc_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176202616_1802822bf9_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176640425_7815ec6307_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176434905_3dcecb1427_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175996126_aaee402864_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53176492118_627ee3b7ab_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53175996116_3369df41ec_c.jpg">
+<meta property="article:published_time" content="2023-09-10T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-12-24T09:19:26.147Z">
+<meta property="article:author" content="addsalt">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="ubuntu">
+<meta property="article:tag" content="locale">
+<meta property="article:tag" content="locale-gen">
+<meta property="article:tag" content="update-locale">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/53176200074_09e12b7dbc_c.jpg">
+
+
+<link rel="canonical" href="http://addsa.lt/linux/make-ubuntu-23-04-speak-traditional-chinese/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://addsa.lt/linux/make-ubuntu-23-04-speak-traditional-chinese/","path":"linux/make-ubuntu-23-04-speak-traditional-chinese/","title":"讓 ubuntu 23.04「講」中文"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>讓 ubuntu 23.04「講」中文 | addSaLt</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">addSaLt</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜尋" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%80%A5%E5%B0%B1%E7%AB%A0%E5%9C%96%E5%BD%A2%E4%BB%8B%E9%9D%A2%E8%A8%AD%E5%AE%9A%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">急就章圖形介面設定法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%8C%E6%95%B4%E5%85%A8%E9%9D%A2%E8%A8%AD%E5%AE%9A%E6%B3%95"><span class="nav-number">3.</span> <span class="nav-text">完整全面設定法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">4.</span> <span class="nav-text">後記</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">addsalt</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">203</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">210</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://addsa.lt/linux/make-ubuntu-23-04-speak-traditional-chinese/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="addsalt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="addSaLt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="讓 ubuntu 23.04「講」中文 | addSaLt">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          讓 ubuntu 23.04「講」中文
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
+
+      <time title="創建時間：2023-09-10 08:00:00" itemprop="dateCreated datePublished" datetime="2023-09-10T08:00:00+08:00">2023-09-10</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="文章字數">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">文章字數：</span>
+      <span>1k</span>
+    </span>
+    <span class="post-meta-item" title="所需閱讀時間">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+      <span>2 分鐘</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>從 <a target="_blank" rel="noopener" href="https://discourse.ubuntu.com/t/lunar-lobster-release-notes/31910">Ubuntu Desktop 23.04 release roundup | Ubuntu</a> 可以得知，ubuntu 23.04 迎來了一個顯而易見的更新：New Installer(新的安裝程式，如下圖)。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200074/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (01)"><img src="https://live.staticflickr.com/65535/53176200074_09e12b7dbc_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (01)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p>應該是剛起步的關係，ubuntu 23.04 的 New Installer 並沒有支援「中文（繁體）」，只能看到「中文（简体）」(如下圖)。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200069/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (02)"><img src="https://live.staticflickr.com/65535/53176200069_a0e81e88bc_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (02)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<p>我相信，對於習慣「中文（繁體）」介面的人而言，這樣並不是很方便，而這一篇紀錄，就是我使用「English」介面安裝後，後續轉換中「中文（繁體）」所走過的設定歷程。</p>
+<hr>
+<h3 id="急就章圖形介面設定法"><a href="#急就章圖形介面設定法" class="headerlink" title="急就章圖形介面設定法"></a>急就章圖形介面設定法</h3><p>這個方法，基本上全程可用「圖形介面」來服用，設定之後會發現，系統所顯示的中文其實是「中文（香港）」，儘管如此，依然可以接著安裝 fcitx(4) 與 fcitx-table-boshiamy 來完成嘸蝦米輸入法的設定。<br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175996131/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (03)"><img src="https://live.staticflickr.com/65535/53175996131_74916e9cfa_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (03)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200044/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (04)"><img src="https://live.staticflickr.com/65535/53176200044_7e5d71218f_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (04)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176434850/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (05)"><img src="https://live.staticflickr.com/65535/53176434850_ed23592c61_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (05)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175996076/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (06)"><img src="https://live.staticflickr.com/65535/53175996076_3c4e9df14b_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (06)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175408212/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (07)"><img src="https://live.staticflickr.com/65535/53175408212_1c2413cf81_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (07)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176492083/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (08)"><img src="https://live.staticflickr.com/65535/53176492083_8c651d49c2_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (08)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176492078/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (09)"><img src="https://live.staticflickr.com/65535/53176492078_fa48f24de0_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (09)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175408182/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (10)"><img src="https://live.staticflickr.com/65535/53175408182_9aa12e646c_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (10)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176434820/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (11)"><img src="https://live.staticflickr.com/65535/53176434820_e29142fa4e_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (11)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176492053/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (12)"><img src="https://live.staticflickr.com/65535/53176492053_7e0ba25909_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (12)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175996001/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (13)"><img src="https://live.staticflickr.com/65535/53175996001_1eb55e2c6a_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (13)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175996021/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (14)"><img src="https://live.staticflickr.com/65535/53175996021_53919eac27_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (14)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176434770/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (15)"><img src="https://live.staticflickr.com/65535/53176434770_febfcfddaf_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (15)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176199944/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (16)"><img src="https://live.staticflickr.com/65535/53176199944_3686476584_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (16)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176199959/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (17)"><img src="https://live.staticflickr.com/65535/53176199959_8600b6aafb_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (17)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175996011/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (18)"><img src="https://live.staticflickr.com/65535/53175996011_dac056b7eb_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (18)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175408117/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (19)"><img src="https://live.staticflickr.com/65535/53175408117_c70d96601b_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (19)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176492278/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (20)"><img src="https://live.staticflickr.com/65535/53176492278_9c92210278_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (20)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<hr>
+<h3 id="完整全面設定法"><a href="#完整全面設定法" class="headerlink" title="完整全面設定法"></a>完整全面設定法</h3><p>以下的這些截圖，所呈現的就是完整的設定流程，一開始需要用到 Terminal 去下指令，後續就從圖形介面去處理就可以。</p>
+<ol>
+<li><p>編輯 locale.gen</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sudo cat /etc/locale.gen</span><br><span class="line">sudo nano /etc/locale.gen</span><br><span class="line">//找到「en_US.UTF-8 UTF-8」這一列，在最前面把「#」號加回去</span><br><span class="line">//找到「zh_TW.UTF-8 UTF-8」這一列，把最前面的「#」號刪除</span><br><span class="line">//[Ctrl+X]</span><br><span class="line">//[Y]</span><br><span class="line">//[Enter]</span><br></pre></td></tr></table></figure>
+<p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200224/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (21)"><img src="https://live.staticflickr.com/65535/53176200224_02b2140e9d_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (21)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176492268/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (22)"><img src="https://live.staticflickr.com/65535/53176492268_bae169dc80_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (22)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200204/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (23)"><img src="https://live.staticflickr.com/65535/53176200204_eca83686f8_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (23)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176492223/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (24)"><img src="https://live.staticflickr.com/65535/53176492223_a570bf4cda_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (24)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175408312/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (25)"><img src="https://live.staticflickr.com/65535/53175408312_d68c14737b_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (25)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200209/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (26)"><img src="https://live.staticflickr.com/65535/53176200209_1bfce65c63_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (26)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200189/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (27)"><img src="https://live.staticflickr.com/65535/53176200189_f8cea9be47_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (27)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200164/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (28)"><img src="https://live.staticflickr.com/65535/53176200164_6872cbb0c7_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (28)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200169/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (29)"><img src="https://live.staticflickr.com/65535/53176200169_003df5615a_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (29)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+</li>
+<li><p>繼續下指令。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">clear //這個指令無關設定，純綷是我想清理一下 Terminal 的畫面</span><br><span class="line">sudo locale-gen zh_TW </span><br><span class="line">sudo locale-gen zh_TW.UTF-8 </span><br><span class="line">sudo update-locale LANG=&quot;zh_TW.UTF-8&quot; LANGUAGE=&quot;zh_TW&quot;</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure>
+<p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175996201/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (30)"><img src="https://live.staticflickr.com/65535/53175996201_17a7b3e44c_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (30)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200129/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (31)"><img src="https://live.staticflickr.com/65535/53176200129_db0afc162f_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (31)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176492163/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (32)"><img src="https://live.staticflickr.com/65535/53176492163_5efff0cd77_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (32)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175408277/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (33)"><img src="https://live.staticflickr.com/65535/53175408277_2d5369e2f3_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (33)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176434920/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (34)"><img src="https://live.staticflickr.com/65535/53176434920_bbd8a81236_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (34)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176200104/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (35)"><img src="https://live.staticflickr.com/65535/53176200104_990e0955fc_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (35)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176202616/in/photostream/" title="makeUbuntu23.04SpeakTraditionalChineseEp (36)"><img src="https://live.staticflickr.com/65535/53176202616_1802822bf9_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (36)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176640425/in/photostream/" title="makeUbuntu23.04SpeakTraditionalChineseEp (37)"><img src="https://live.staticflickr.com/65535/53176640425_7815ec6307_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (37)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176434905/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (38)"><img src="https://live.staticflickr.com/65535/53176434905_3dcecb1427_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (38)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175996126/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (39)"><img src="https://live.staticflickr.com/65535/53175996126_aaee402864_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (39)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script><br><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53176492118/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (40)"><img src="https://live.staticflickr.com/65535/53176492118_627ee3b7ab_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (40)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/53175996116/in/album-72177720311078061/" title="makeUbuntu23.04SpeakTraditionalChineseEp (41)"><img src="https://live.staticflickr.com/65535/53175996116_3369df41ec_c.jpg" width="800" height="500" alt="makeUbuntu23.04SpeakTraditionalChineseEp (41)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+</li>
+</ol>
+<hr>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li>我分別試過用「English」及「中文（简体）」的安裝，以上說明是在「English」的 New Installer 安裝後的設定流程。</li>
+<li>假若是使用「中文（简体）」的 New Installer 安裝，那麼，設定的流程原則上是一樣的，但「中文（简体）」的安裝過程，會把 Fcitx5 安裝進來，也就是說，如果要再安裝與設定中文輸入法框架，就要特別注意這一點。以我而言，假設是經過「中文（简体）」的安裝，那麼，我會接著把 fcitx5-table-extra 給安裝進來，完成嘸蝦米輸入法的設定。</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/linux/" rel="tag"># linux</a>
+              <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
+              <a href="/tags/locale/" rel="tag"># locale</a>
+              <a href="/tags/locale-gen/" rel="tag"># locale-gen</a>
+              <a href="/tags/update-locale/" rel="tag"># update-locale</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/boshiamy/manjaro-xfce-23-0-and-boshiamy/" rel="prev" title="Manjaro XFCE 23.0 與嘸蝦米">
+                  <i class="fa fa-angle-left"></i> Manjaro XFCE 23.0 與嘸蝦米
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/linux/install-chinese-input-method-on-linux-lite-6-6-feat-fcitx-5/" rel="next" title="在 Linux Lite 6.6 上安裝中文輸入法(含嘸蝦米輸入法) feat. Fcitx5">
+                  在 Linux Lite 6.6 上安裝中文輸入法(含嘸蝦米輸入法) feat. Fcitx5 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">addsalt</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="總字數">239k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="所需總閱讀時間">7:14</span>
+  </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 強力驅動
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="回到頂端">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>

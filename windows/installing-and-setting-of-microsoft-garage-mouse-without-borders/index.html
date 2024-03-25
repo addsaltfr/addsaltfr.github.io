@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 6.3.0">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"addsa.lt","root":"/","images":"/images","scheme":"Mist","darkmode":true,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜尋...","empty":"我們無法找到任何有關 ${query} 的搜索結果","hits_time":"${hits} 找到 ${time} 個結果","hits":"找到 ${hits} 個結果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="前言我最近有個困擾，…就是我收了不少部電腦，還沒有重新整理前，總共有 4 部電腦上頭是運行 Windows，投入使用時，桌上好幾個鍵盤、滑鼠，會讓我的腦子打架。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安裝與設定 Microsoft Garage Mouse Without Borders (4 部電腦共享 1 組鍵盤、滑鼠)">
+<meta property="og:url" content="http://addsa.lt/windows/installing-and-setting-of-microsoft-garage-mouse-without-borders/index.html">
+<meta property="og:site_name" content="addSaLt">
+<meta property="og:description" content="前言我最近有個困擾，…就是我收了不少部電腦，還沒有重新整理前，總共有 4 部電腦上頭是運行 Windows，投入使用時，桌上好幾個鍵盤、滑鼠，會讓我的腦子打架。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51871589176_8be44243cd_b.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51871589141_12ffa13b83_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51871670178_bf5b046723_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51871589141_12ffa13b83_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51871906554_e6f258367a_o.png">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51871589196_9ce05b528c_o.png">
+<meta property="article:published_time" content="2022-02-09T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-08-30T07:48:50.452Z">
+<meta property="article:author" content="addsalt">
+<meta property="article:tag" content="windows">
+<meta property="article:tag" content="windows10">
+<meta property="article:tag" content="windows11">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/51871589176_8be44243cd_b.jpg">
+
+
+<link rel="canonical" href="http://addsa.lt/windows/installing-and-setting-of-microsoft-garage-mouse-without-borders/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-TW","comments":true,"permalink":"http://addsa.lt/windows/installing-and-setting-of-microsoft-garage-mouse-without-borders/","path":"windows/installing-and-setting-of-microsoft-garage-mouse-without-borders/","title":"安裝與設定 Microsoft Garage Mouse Without Borders (4 部電腦共享 1 組鍵盤、滑鼠)"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>安裝與設定 Microsoft Garage Mouse Without Borders (4 部電腦共享 1 組鍵盤、滑鼠) | addSaLt</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">addSaLt</p>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜尋" role="button">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>關於</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a></li><li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a></li><li class="menu-item menu-item-sitemap"><a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>網站地圖</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</header>
+        
+  
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E8%88%87%E8%A8%AD%E5%AE%9A%E6%B5%81%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">安裝與設定流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%E6%A6%82%E6%B3%81"><span class="nav-number">3.</span> <span class="nav-text">使用概況</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">4.</span> <span class="nav-text">後記</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">addsalt</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">203</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-name">分類</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">210</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </aside>
+
+
+    </div>
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="http://addsa.lt/windows/installing-and-setting-of-microsoft-garage-mouse-without-borders/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="addsalt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="addSaLt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="安裝與設定 Microsoft Garage Mouse Without Borders (4 部電腦共享 1 組鍵盤、滑鼠) | addSaLt">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          安裝與設定 Microsoft Garage Mouse Without Borders (4 部電腦共享 1 組鍵盤、滑鼠)
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">發表於</span>
+
+      <time title="創建時間：2022-02-09 08:00:00" itemprop="dateCreated datePublished" datetime="2022-02-09T08:00:00+08:00">2022-02-09</time>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="文章字數">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">文章字數：</span>
+      <span>1.2k</span>
+    </span>
+    <span class="post-meta-item" title="所需閱讀時間">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">所需閱讀時間 &asymp;</span>
+      <span>2 分鐘</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody"><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我最近有個困擾，…就是我收了不少部電腦，還沒有重新整理前，總共有 4 部電腦上頭是運行 Windows，投入使用時，桌上好幾個鍵盤、滑鼠，會讓我的腦子打架。</p>
+<p>以前，我曾經購買過 <a target="_blank" rel="noopener" href="https://www.upmostgroup.com/tw/product/info/102/433">KVM211U 帶線式 2-Port 電腦切換器-登昌恆興業股份有限公司</a> 這樣的產品，算是滿好用的，只可惜現在要用的話，我的想法是可能還得再買一個 HDMI 轉 D-Sub 的轉接頭，試試能不能讓螢幕也順利切換。</p>
+<p>今天，我找到一個方案，就是 <a target="_blank" rel="noopener" href="https://www.microsoft.com/en-us/garage/wall-of-fame/mouse-without-borders/">Microsoft Garage Mouse Without Borders</a>，也把整個設定流程紀錄下來。</p>
+<h3 id="安裝與設定流程"><a href="#安裝與設定流程" class="headerlink" title="安裝與設定流程"></a>安裝與設定流程</h3><p>這個軟體，最高可以讓 4 部電腦共享 1 組鍵盤、滑鼠，並且必須在同一個區域網路裡。</p>
+<p>(↓)我今天是在 2 部電腦上測試，基本上，要共享鍵盤、滑鼠的電腦，都要安裝 Mouse Without Borders 這支軟體。(可點擊瀏覽下列的 Flickr 相簿) <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/albums/72177720296561545" title="MicrosoftGarageMouseWithoutBorders"><img src="https://live.staticflickr.com/65535/51871589176_8be44243cd_b.jpg" alt="MicrosoftGarageMouseWithoutBorders"></a></p>
+<p>(↓)我在第一部電腦安裝後，先點「Skip」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51871589141/in/dateposted-public/" title="settingOfMicrosoftGarageMouseWithoutBordersEp06"><img src="https://live.staticflickr.com/65535/51871589141_12ffa13b83_o.png" alt="settingOfMicrosoftGarageMouseWithoutBordersEp06"></a></p>
+<p>(↓)接著會跳出下面這個畫面，主要是「Security Key」(至少 16 碼)的設定，我改成「juteweBlog123456」(非下圖所示的「Security Key」)，設定好就可以先關閉。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51871670178/in/dateposted-public/" title="settingOfMicrosoftGarageMouseWithoutBordersEp07"><img src="https://live.staticflickr.com/65535/51871670178_bf5b046723_o.png" alt="settingOfMicrosoftGarageMouseWithoutBordersEp07"></a></p>
+<p>(↓)下一步，就是在另外一部電腦安裝，我今天安裝的第 2 部電腦是筆電，來到下列這個畫面時，要點「Yes」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51871589141/in/dateposted-public/" title="settingOfMicrosoftGarageMouseWithoutBordersEp06"><img src="https://live.staticflickr.com/65535/51871589141_12ffa13b83_o.png" alt="settingOfMicrosoftGarageMouseWithoutBordersEp06"></a></p>
+<p>(↓)安裝完，記得把剛才在第 1 部電腦設定的「Security Key」與「電腦名稱」下列的對話框裡。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51871906554/in/dateposted-public/" title="settingOfMicrosoftGarageMouseWithoutBordersEp08"><img src="https://live.staticflickr.com/65535/51871906554_e6f258367a_o.png" alt="settingOfMicrosoftGarageMouseWithoutBordersEp08"></a></p>
+<p>(↓)沒有問題的話，就會在第 2 部電腦看到下列畫面。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/51871589196/in/dateposted-public/" title="settingOfMicrosoftGarageMouseWithoutBordersEp09"><img src="https://live.staticflickr.com/65535/51871589196_9ce05b528c_o.png" alt="settingOfMicrosoftGarageMouseWithoutBordersEp09"></a></p>
+<h3 id="使用概況"><a href="#使用概況" class="headerlink" title="使用概況"></a>使用概況</h3><ol>
+<li>鼠標必須從「本機(Localhost)」的左邊出場，接著會在「另外一部電腦(Connected)」的右邊入場。要從「另外一部電腦(Connected)」走回本機，要走右邊的原路回去，鼠標接著會從「本機(Localhost)」的左邊回家。</li>
+<li>除了鍵盤、滑鼠共用外，圖片檔案也可以從直接從「本機(Localhost)」拖拉放到「另外一部電腦(Connected)」，而且，我相信反之亦然，這個功能真的非常方便。</li>
+</ol>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://chinese.engadget.com/chinese-2011-09-13-microsofts-mouse-without-borders-the-kvm-that-killed-the-kvm.html">讓滑鼠破「窗」而出的免費 Microsoft KVM 程式（影片）</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.microsoft.com/en-us/garage/wall-of-fame/mouse-without-borders/">Mouse Without Borders - Microsoft Garage</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.microsoft.com/en-us/garage/profiles/mouse-without-borders/">Microsoft Garage: Mouse Without Borders</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.microsoft.com/en-us/download/details.aspx?id=35460">Download Microsoft Garage Mouse without Borders from Official Microsoft Download Center</a></li>
+<li>我使用圖片檔案的拖拉放來做測試，實際上我也試過其他檔案，其中包括 2G 以上的 ISO 檔，也沒有問題，只是要多等一下，而且畫面上沒有呈現拷貝時程或進度條，讓我誤以為這個程式並不支援，如果這支程式後續更新，能夠針對較耗時移動的檔案拷貝或移動，加上進度條顯示，就會更完美。</li>
+<li>這個軟體老早就有，我只能說相見恨晚呀！</li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/windows/" rel="tag"># windows</a>
+              <a href="/tags/windows10/" rel="tag"># windows10</a>
+              <a href="/tags/windows11/" rel="tag"># windows11</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/reviews/seven-habits-that-constantly-drain-your-energy-and-how-to-fixit/" rel="prev" title="讀後感想之「7 Habits That Constantly Drain Your Energy (And How To FixIt)」">
+                  <i class="fa fa-angle-left"></i> 讀後感想之「7 Habits That Constantly Drain Your Energy (And How To FixIt)」
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/boshiamy/making-boshiamy-be-the-default-chinese-input-method-on-windows-10/" rel="next" title="在 Windows 10 將嘸蝦米設定為預設中文輸入法">
+                  在 Windows 10 將嘸蝦米設定為預設中文輸入法 <i class="fa fa-angle-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">addsalt</span>
+  </div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="總字數">239k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="所需總閱讀時間">7:14</span>
+  </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" rel="noopener" target="_blank">NexT.Mist</a> 強力驅動
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="回到頂端">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/next-theme-pjax/0.6.0/pjax.min.js" integrity="sha256-vxLn1tSKWD4dqbMRyv940UYw4sXgMtYcK6reefzZrao=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script><script src="/js/pjax.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+
+
+  
+
+
+
+
+
+</body>
+</html>
