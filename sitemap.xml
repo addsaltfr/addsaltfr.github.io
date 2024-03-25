@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://addsa.lt/apple/how-to-get-old-versions-of-macos/</loc>
+    
+    <lastmod>2024-03-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://addsa.lt/apple/installing-yellow-dog-linux-3-0-1/</loc>
     
     <lastmod>2024-03-25</lastmod>
@@ -174,15 +183,6 @@
   
   <url>
     <loc>http://addsa.lt/apple/boshiamy-and-mac/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/apple/how-to-get-old-versions-of-macos/</loc>
     
     <lastmod>2024-03-17</lastmod>
     
@@ -1856,7 +1856,7 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/index.html</loc>
+    <loc>http://addsa.lt/categories/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1865,7 +1865,7 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/categories/index.html</loc>
+    <loc>http://addsa.lt/tags/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1898,20 +1898,6 @@
   
   <url>
     <loc>http://addsa.lt/tags/shizuku/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/fedora/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/linux/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1960,13 +1946,6 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/ios/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsa.lt/tags/archlinux/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -1975,6 +1954,34 @@
   
   <url>
     <loc>http://addsa.lt/tags/garudalinux/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/linux/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/fedora/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/ios/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/windows11/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2009,7 +2016,7 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/windows11/</loc>
+    <loc>http://addsa.lt/tags/anker/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2023,21 +2030,14 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/iphone13/</loc>
+    <loc>http://addsa.lt/tags/applestore/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/iphonese2rdgen/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/anker/</loc>
+    <loc>http://addsa.lt/tags/yahooshoppingmall/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2058,14 +2058,14 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/applestore/</loc>
+    <loc>http://addsa.lt/tags/iphone13/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/yahooshoppingmall/</loc>
+    <loc>http://addsa.lt/tags/iphonese2rdgen/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2107,20 +2107,6 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/linuxapps/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/pop-os/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsa.lt/tags/biometrics/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2135,21 +2121,14 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/belkin/</loc>
+    <loc>http://addsa.lt/tags/linuxapps/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/ibus/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/lubuntu/</loc>
+    <loc>http://addsa.lt/tags/pop-os/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2178,6 +2157,27 @@
   
   <url>
     <loc>http://addsa.lt/tags/soapopera/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/belkin/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/ibus/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/lubuntu/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2226,14 +2226,14 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/domains/</loc>
+    <loc>http://addsa.lt/tags/google/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/google/</loc>
+    <loc>http://addsa.lt/tags/domains/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2310,14 +2310,14 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/adjusTableLaptopStand/</loc>
+    <loc>http://addsa.lt/tags/fcitx-table-boshiamy/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/fcitx-table-boshiamy/</loc>
+    <loc>http://addsa.lt/tags/adjusTableLaptopStand/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2513,13 +2513,6 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/github/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsa.lt/tags/firewalls/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2535,6 +2528,13 @@
   
   <url>
     <loc>http://addsa.lt/tags/manjaro/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/github/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2570,6 +2570,13 @@
   
   <url>
     <loc>http://addsa.lt/tags/thunar/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/legacyos/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2639,7 +2646,7 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/legacyos/</loc>
+    <loc>http://addsa.lt/tags/mxlinux/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2681,13 +2688,6 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/mxlinux/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsa.lt/tags/amaroklinux/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2723,6 +2723,13 @@
   </url>
   
   <url>
+    <loc>http://addsa.lt/tags/usbhdd/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://addsa.lt/tags/appleComputer/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2738,13 +2745,6 @@
   
   <url>
     <loc>http://addsa.lt/tags/osxyosemite/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/usbhdd/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2849,20 +2849,6 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/powermac/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/yellowdoglinux/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsa.lt/tags/ipadmini5/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2878,6 +2864,20 @@
   
   <url>
     <loc>http://addsa.lt/tags/iphonese3rdgen/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/powermac/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/yellowdoglinux/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2926,6 +2926,13 @@
   </url>
   
   <url>
+    <loc>http://addsa.lt/tags/lmde/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://addsa.lt/tags/locale/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -2962,13 +2969,6 @@
   
   <url>
     <loc>http://addsa.lt/tags/multiboot/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/lmde/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3136,6 +3136,20 @@
   </url>
   
   <url>
+    <loc>http://addsa.lt/tags/intelCoreMac/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/openvanilla/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://addsa.lt/tags/boots/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -3158,20 +3172,6 @@
   
   <url>
     <loc>http://addsa.lt/tags/palm/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/intelCoreMac/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://addsa.lt/tags/openvanilla/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3248,13 +3248,6 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/tags/solus/</loc>
-    <lastmod>2024-03-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://addsa.lt/tags/pixel/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -3270,6 +3263,13 @@
   
   <url>
     <loc>http://addsa.lt/tags/xperia/</loc>
+    <lastmod>2024-03-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://addsa.lt/tags/solus/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3376,14 +3376,14 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/categories/linux/</loc>
+    <loc>http://addsa.lt/categories/boshiamy/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsa.lt/categories/boshiamy/</loc>
+    <loc>http://addsa.lt/categories/linux/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -3397,14 +3397,14 @@
   </url>
   
   <url>
-    <loc>http://addsa.lt/categories/apple/</loc>
+    <loc>http://addsa.lt/categories/reviews/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://addsa.lt/categories/reviews/</loc>
+    <loc>http://addsa.lt/categories/apple/</loc>
     <lastmod>2024-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
